@@ -1,3 +1,10 @@
-# 定の栈
+# Personal blog
 
-独属于某个变态的后花园
+```sh
+git clone https://github.com/AdingApkgg/blog.git
+cd blog && npm i -g hexo-cli && npm install
+hexo cl && hexo server
+
+```
+
+More info: [Hexo](https://hexo.io/)
