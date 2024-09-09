@@ -32,6 +32,7 @@ menu:
     友人帐: /link/ || fas fa-link
     朋友圈: /fcircle/ || fas fa-user-group
     留言板: /comments/ || fas fa-comment-dots
+    赞助墙: /donate/ || fas fa-hand-holding-dollar
     RSS订阅: /atom.xml || fas fa-rss
     虫洞: https://foreverblog.cn/go.html || fas fa-bore-hole
     个站商店虫洞: https://storeweb.cn/s/2032 || fas fa-dice
