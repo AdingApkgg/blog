@@ -22,7 +22,7 @@ highlight_shrink:
 
 {% galleryGroup '封面专区' '本站用作文章封面的图片，不保证分辨率' '/gallery/cover/' /img/cover/cover007.webp %}
 
-{% galleryGroup 'ikun专区' '是属于坤坤真爱粉的开团神图！' '/gallery/ikun/' /img/ikun/ikun_126.webp %}
+{% galleryGroup 'ikun专区' '是属于坤坤真爱粉的开团神图！' '/gallery/ikun/' /img/ikun/ikun126.webp %}
 
 {% galleryGroup '坤坤头像' '是属于坤坤真爱粉的专属加成头像！' '/gallery/avatar-ikun/' /img/avatar-ikun/avatar-ikun_10.webp %}
 
