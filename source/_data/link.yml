@@ -294,10 +294,10 @@
       link: https://www.hieroglyphs.top/
       avatar: https://source.hieroglyphs.top/blog/img/avatar.png
       descr: 一生俯首拜阳明
-    - name: 王卓Sco
-      link: https://blog.wzsco.cn/
-      avatar: https://bu.dusays.com/2023/12/19/658179febbfb5.png
-      descr: 宁静致远，热爱生活。
+    - name: 伍十七
+      link: https://blog.everfu.cn
+      descr: 我是一名正在上大一的前端爱好者,专注于构建优秀的应用程序。
+      avatar: https://ui.everfu.cn/c625e37b3cf9054d92a52ec04ce8abf0.png/avatar
     - name: 清风
       link: https://limh.cc/
       avatar: https://l.limh.cc/avatar.webp
@@ -567,3 +567,8 @@
       link: https://almango.cn/
       avatar: https://almango.cn/img/favicon.png
       descr: 精益求精，至臻至善
+    - name: 青稚の空间
+      link: https://blog.linux-qitong.top/
+      avatar: https://blog.linux-qitong.top/img/avatar.jpg
+      descr: 越努力，越幸运.
+      siteshot: https://blog.linux-qitong.top/img/qingzhi.webp
