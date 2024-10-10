@@ -1387,7 +1387,7 @@ instantpage: true
 # Pangu - Insert a space between Chinese character and English character
 # https://github.com/vinta/pangu.js
 pangu:
-  enable: true
+  enable: false
   # Specify the field to use pangu (site or post)
   field: site
 
