@@ -24,7 +24,7 @@ highlight_shrink:
 
 {% galleryGroup 'ikun专区' '是属于坤坤真爱粉的开团神图！' '/gallery/ikun/' /img/ikun/ikun126.webp %}
 
-{% galleryGroup '坤坤头像' '是属于坤坤真爱粉的专属加成头像！' '/gallery/avatar-ikun/' /img/avatar-ikun/avatar-ikun_10.webp %}
+{% galleryGroup '坤坤头像' '是属于坤坤真爱粉的专属加成头像！' '/gallery/avatar-ikun/' /img/avatar-ikun/avatar-ikun_010.webp %}
 
 {% galleryGroup '原神专区' '关于原神的一些图片，分辨率一般' '/gallery/yuanshen/' /img/yuanshen/cg003.webp %}
 
