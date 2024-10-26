@@ -570,7 +570,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/AdingApkgg/blog/tree/main/source/
+  url: https://github.com/AdingApkgg/blog/edit/main/source/
 
 # Related Articles
 related_post:
