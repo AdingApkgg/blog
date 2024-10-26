@@ -2,7 +2,7 @@
 title: 关于站长与本站
 date: 2023-02-04 18:00:00
 type: "about"
-updated: 2024-09-09 00:00:00
+updated: 2024-10-26 00:00:00
 comments:
 description:
 keywords:
@@ -17,8 +17,6 @@ top_img:
 ![](/img/moe/moe_60.webp)
 
 <div class="aplayer no-destroy" data-id="22635185" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-order="random" data-volume="0.5" data-mutex="true" data-listMaxHeight="36vh"> </div>
-
-![Moe-Counter](https://count.getloli.com/get/@Moe-Counter?theme=rule34)
 
 ## 关于我
 
@@ -89,7 +87,7 @@ top_img:
 </script>
 
 - **本博客始建于 2023 年 01 月 06 日**
-- <strong>距今已艰难运行了 <span id="htmer_time"></span></strong>
+- <strong>距今已艰难运行了&nbsp;<span id="htmer_time"></span></strong>
 - **本站使用 [GitHub Pages](https://pages.github.com) 作为源码托管平台**
 - **主线路托管于免费的 [Vercel](https://vercel.com) 并配置自定义域名 `saop.cc` 进行中国大陆境内加速访问**
 - **使用 [Hexo](https://hexo.io/zh-cn/) 博客框架与 [Butterfly](https://butterfly.js.org/) 主题作为技术支持**
@@ -102,7 +100,7 @@ top_img:
   link_list:
   - name: Butterfly
     link: https://butterfly.js.org/
-    avatar: https://butterfly.js.org/img/favicon.png
+    avatar: https://butterfly.js.org/img/butterfly-icon.png
     descr: A Simple and Card UI Design theme for Hexo
   - name: Fomalhaut🥝
     link: https://www.fomal.cc/
@@ -110,7 +108,7 @@ top_img:
     descr: Future is now 🍭🍭🍭
   - name: 空想笔记
     link: https://blog.fufu.ink/
-    avatar: https://img.fufu.ink/Tp5mUp.png
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=3584155135&s=640
     descr: この世界に偶然なんてない、あるのは必然だけ
 
 {% endflink %}
