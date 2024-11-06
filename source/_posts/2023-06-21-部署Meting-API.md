@@ -168,7 +168,7 @@ CDN:
 
 最后自然是 Hexo 三连啦！
 
-```shell
+```sh
 hexo cl; hexo g; hexo s
 ```
 
