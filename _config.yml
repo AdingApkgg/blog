@@ -283,3 +283,5 @@ hexo_submit_urls_to_search_engine:
   replace: 0 # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
   find_what: https://gh.saop.cc
   replace_with: https://blog.saop.cc
+
+all_minifier: true
