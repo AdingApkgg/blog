@@ -285,3 +285,9 @@ hexo_submit_urls_to_search_engine:
   replace_with: https://blog.saop.cc
 
 all_minifier: true
+
+css_minifier:
+  enable: false
+  silent: false
+  exclude:
+    - "*.min.css"

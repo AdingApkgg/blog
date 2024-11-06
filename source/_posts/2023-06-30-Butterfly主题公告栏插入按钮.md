@@ -132,7 +132,7 @@ aside:
 
 最后就是 Hexo 三连查看效果啦！
 
-```shell
+```sh
 hexo cl; hexo g; hexo s
 ```
 
