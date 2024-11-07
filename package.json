@@ -33,6 +33,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+    "hexo-site": "file:",
     "hexo-submit-urls-to-search-engine": "^2.1.0",
     "hexo-swpp": "^3.3.7",
     "hexo-tag-dplayer": "^0.3.3",
