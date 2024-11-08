@@ -607,7 +607,7 @@ footer:
     since: 2023
   custom_text:
   # Copyright of theme and framework
-  copyright: true
+  copyright: false
 
 # --------------------------------------
 # Aside Settings
