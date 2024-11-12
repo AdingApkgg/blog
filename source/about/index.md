@@ -3,7 +3,7 @@ title: 关于站长与本站
 date: 2023-02-04 18:00:00
 type: "about"
 updated: 2024-11-08 00:00:00
-comments:
+comments: false
 description:
 keywords:
 mathjax:

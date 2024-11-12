@@ -3,7 +3,7 @@ title: 旅行记录
 date: 2023-07-28 02:30:00
 type: "travel"
 updated: 2023-08-20 00:20:00
-comments:
+comments: false
 description:
 keywords:
 top_img:
