@@ -2,7 +2,7 @@
 title: 夏目友人帐
 date: 2023-02-04 14:37:08
 type: "link"
-updated: 2024-07-05 04:38:00
+updated: 2024-11-12 00:00:00
 comments:
 random: false
 description: 互换索引，点滴成河，汇聚成海
@@ -14,6 +14,22 @@ aside:
 aplayer:
 highlight_shrink:
 ---
+
+<div id="friend-circle-lite-root"></div>
+<script>
+    if (typeof UserConfig === 'undefined') {
+        var UserConfig = {
+            // 填写你的fc Lite地址
+            private_api_url: 'https://fc.saop.cc/',
+            // 点击加载更多时，一次最多加载几篇文章，默认20
+            page_turning_number: 30,
+            // 头像加载失败时，默认头像地址
+            error_img: 'https://dn-qiniu-avatar.qbox.me/avatar/',
+        }
+    }
+</script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
+<script src="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
 
 ## 欢迎交换友链！
 
