@@ -15,22 +15,6 @@ aplayer:
 highlight_shrink:
 ---
 
-<div id="friend-circle-lite-root"></div>
-<script>
-    if (typeof UserConfig === 'undefined') {
-        var UserConfig = {
-            // 填写你的fc Lite地址
-            private_api_url: 'https://fc.saop.cc/',
-            // 点击加载更多时，一次最多加载几篇文章，默认20
-            page_turning_number: 30,
-            // 头像加载失败时，默认头像地址
-            error_img: 'https://dn-qiniu-avatar.qbox.me/avatar/',
-        }
-    }
-</script>
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
-<script src="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
-
 ## 欢迎交换友链！
 
 ### 我的友链
@@ -111,7 +95,9 @@ a(href='https://saop.cc' rel="external nofollow") 定の栈
 > - 需启用 HTTPS，无 HTTPS 看情况酌情收录
 > - 不包含**政治内容**，不违反**联合国法案**
 
-<div class="addBtn"><button onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>快速申请 (默认样式)</button> <button onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>快速申请 (Butterfly)</button></div>
+<div class="addBtn"><button onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>申请通用友链</button> <button onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>申请 Butterfly 友链</button></div>
+
+<div id="friend-circle-lite-root"></div>
 
 <style>
 /* 添加友链按钮 */
@@ -126,11 +112,12 @@ a(href='https://saop.cc' rel="external nofollow") 定の栈
   transition: .2s;
   display: flex;
   margin: 5px auto;
-  color: var(--global-bg);
+  color: var(--font-color);
   padding: 15px;
-  border-radius: 40px;
-  background: var(--search-result-title);
+  border-radius: 8px;
+  background: var(--theme-color);
   align-items: center;
+  border: solid 5px rgba(200, 200, 200, .3);
 }
 
 button {
@@ -154,11 +141,14 @@ button {
 }
 
 .addBtn button:hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--hover-color);
   color: #000;
-  box-shadow: rgba(51, 51, 51, 0.1) 0px 0px 50px 5px;
+  box-shadow: var(--hover-color) 0 0 2px 3px;
+  border: solid 5px rgba(200, 200, 200, .5);
 }
 </style>
+
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
 
 <script>
 var leonus = {
@@ -220,4 +210,17 @@ var leonus = {
       });
   },
 };
+
+if (typeof UserConfig === 'undefined') {
+  var UserConfig = {
+    // 填写你的fc Lite地址
+    private_api_url: 'https://fc.saop.cc/',
+    // 点击加载更多时，一次最多加载几篇文章，默认20
+    page_turning_number: 30,
+    // 头像加载失败时，默认头像地址
+    error_img: 'https://dn-qiniu-avatar.qbox.me/avatar/',
+  }
+}
 </script>
+
+<script src="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
