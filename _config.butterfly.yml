@@ -34,7 +34,6 @@ menu:
     电影: /movie/ || fas fa-film
   社交||fas fa-paperclip || hide:
     友人帐: /link/ || fas fa-link
-    朋友圈: /fcircle/ || fas fa-user-group
     留言板: /comments/ || fas fa-comment-dots
     赞助墙: /donate/ || fas fa-hand-holding-dollar
     RSS订阅: /atom.xml || fas fa-rss

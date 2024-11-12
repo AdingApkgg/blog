@@ -1,6 +1,21 @@
 const YML = require("yamljs");
 const fs = require("fs");
 
+const blacklist = [
+  "Node.js",
+  "GitHub",
+  "Netlify",
+  "Vercel",
+  "Cloudflare",
+  "npm",
+  "VScode",
+  "腾讯云",
+  "多吉云",
+  "How To Cook",
+  "996.ICU",
+  "萌国ICP备案",
+]; // 由于某种原因，不想订阅的列表
+
 let friends = [],
   data_f = YML.parse(
     fs

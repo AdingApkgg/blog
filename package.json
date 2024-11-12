@@ -38,6 +38,7 @@
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-butterfly": "^5.2.2",
     "hexo-wordcount": "^6.0.1",
-    "swpp-backends": "^2.3.12"
+    "swpp-backends": "^2.3.12",
+    "yamljs": "^0.3.0"
   }
 }
