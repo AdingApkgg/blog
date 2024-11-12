@@ -652,14 +652,14 @@ aside:
   card_categories:
     enable: true
     # If set 0 will show all
-    limit: 6
+    limit: 3
     # Choose: none / true / false
     expand: none
     sort_order:
   card_tags:
     enable: true
     # If set 0 will show all
-    limit: 24
+    limit: 20
     color: true
     # Order of tags, random/name/length
     orderby: random
@@ -675,7 +675,7 @@ aside:
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
     # If set 0 will show all
-    limit: 6
+    limit: 3
     sort_order:
   card_post_series:
     enable: true
@@ -687,7 +687,7 @@ aside:
     order: -1
   card_webinfo:
     enable: true
-    post_count: true
+    post_count: false
     last_push_date: true
     sort_order:
     # Time difference between publish date and now
