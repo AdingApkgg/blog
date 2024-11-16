@@ -25,7 +25,7 @@ let friends = [],
   );
 
 data_f.forEach((entry, index) => {
-  let lastIndex = 2;
+  let lastIndex = 3;
   if (index < lastIndex) {
     const filteredLinkList = entry.link_list.filter(
       (linkItem) => !blacklist.includes(linkItem.name)
