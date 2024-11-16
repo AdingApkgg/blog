@@ -291,3 +291,12 @@ css_minifier:
   silent: false
   exclude:
     - "*.min.css"
+
+image_minifier:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  silent: false
