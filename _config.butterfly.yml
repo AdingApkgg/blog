@@ -1400,13 +1400,6 @@ snackbar:
 # https://instant.page/
 instantpage: true
 
-# Pangu - Insert a space between Chinese character and English character
-# https://github.com/vinta/pangu.js
-pangu:
-  enable: false
-  # Specify the field to use pangu (site or post)
-  field: site
-
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
@@ -1522,7 +1515,6 @@ CDN:
     # meting_js: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/Meting.min.js
     meting_js: https://npm.elemecdn.com/butterfly-extsrc/dist/Meting.min.js
     # meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js
-    pangu: https://npm.elemecdn.com/pangu/dist/browser/pangu.min.js
     prismjs_autoloader: https://npm.elemecdn.com/prismjs/plugins/autoloader/prism-autoloader.min.js
     prismjs_js: https://npm.elemecdn.com/prismjs/prism.js
     prismjs_lineNumber_js: https://npm.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
