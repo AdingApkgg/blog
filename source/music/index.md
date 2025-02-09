@@ -20,23 +20,23 @@ comments: false
 
 <!-- tab 单曲 / song -->
 
-<div class="aplayer no-destroy" data-id="28680865" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28680865" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26093489" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26093489" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26093490" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26093490" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="003r58aL19Snmq" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="003r58aL19Snmq" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="000NWlYn3vwCas" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="000NWlYn3vwCas" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26220609" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26220609" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="399410562" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="399410562" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="399411549" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="399411549" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="28872430" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28872430" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 <!-- endtab -->
 
@@ -44,7 +44,7 @@ comments: false
 
 {% hideToggle 刀剑神域主题曲集 %}
 
-<div class="aplayer no-destroy" data-id="97132902" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="97132902" server="netease" type="playlist" fixed="false" autoplay="true" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=97132902)
 
@@ -52,7 +52,7 @@ comments: false
 
 {% hideToggle 『精选』刀剑神域BGM（开挂丶战斗） %}
 
-<div class="aplayer no-destroy" data-id="2021829654" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2021829654" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2021829654)
 
@@ -60,7 +60,7 @@ comments: false
 
 {% hideToggle 刀劍神域1~3季OP&ED&剧场版&插入曲 %}
 
-<div class="aplayer no-destroy" data-id="456914548" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="456914548" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=456914548)
 
@@ -68,7 +68,7 @@ comments: false
 
 {% hideToggle 〖刀剑神域-SAO歌曲集1~3季+剧场版+外传】 %}
 
-<div class="aplayer no-destroy" data-id="621820442" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="621820442" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=621820442)
 
@@ -76,7 +76,7 @@ comments: false
 
 {% hideToggle 刀剑神域 音乐集 %}
 
-<div class="aplayer no-destroy" data-id="68066180" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="68066180" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=68066180)
 
@@ -88,7 +88,7 @@ comments: false
 
 {% hideToggle Crossing field (交叉领域) %}
 
-<div class="aplayer no-destroy" data-id="002U1a1A15HIyr" data-server="tencent" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="002U1a1A15HIyr" server="tencent" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://i.y.qq.com/n2/m/share/details/album.html?albummid=002U1a1A15HIyr)
 
@@ -96,7 +96,7 @@ comments: false
 
 {% hideToggle ユメセカイ (梦想世界) %}
 
-<div class="aplayer no-destroy" data-id="00401eue1XVdzH" data-server="tencent" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="00401eue1XVdzH" server="tencent" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://i.y.qq.com/n2/m/share/details/album.html?albummid=00401eue1XVdzH)
 
@@ -104,7 +104,7 @@ comments: false
 
 {% hideToggle INNOCENCE %}
 
-<div class="aplayer no-destroy" data-id="2808292" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2808292" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=2808292)
 
@@ -112,7 +112,7 @@ comments: false
 
 {% hideToggle Overfly (アニメ盤) %}
 
-<div class="aplayer no-destroy" data-id="2641022" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2641022" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=2641022)
 
@@ -120,7 +120,7 @@ comments: false
 
 {% hideToggle 虹の音 (虹之音) %}
 
-<div class="aplayer no-destroy" data-id="000Le44i2zrfnZ" data-server="tencent" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="000Le44i2zrfnZ" server="tencent" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://i.y.qq.com/n2/m/share/details/album.html?albummid=000Le44i2zrfnZ)
 
@@ -128,7 +128,7 @@ comments: false
 
 {% hideToggle 劇場版 ソードアート・オンライン -プログレッシブ- 冥き夕闇のスケルツォ Original Soundtrack %}
 
-<div class="aplayer no-destroy" data-id="157467934" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="157467934" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=157467934)
 
@@ -140,7 +140,7 @@ comments: false
 
 {% hideToggle LiSA（织部里沙，リサ） %}
 
-<div class="aplayer no-destroy" data-id="16995" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16995" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16995)
 
@@ -148,7 +148,7 @@ comments: false
 
 {% hideToggle 藍井エイル（蓝井艾露，Aoi Eir） %}
 
-<div class="aplayer no-destroy" data-id="16151" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16151" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16151)
 
@@ -156,7 +156,7 @@ comments: false
 
 {% hideToggle 戸松遥（户松遥） %}
 
-<div class="aplayer no-destroy" data-id="17905" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="17905" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=17905)
 
@@ -164,7 +164,7 @@ comments: false
 
 {% hideToggle 春奈るな（春奈露娜，Haruna Luna） %}
 
-<div class="aplayer no-destroy" data-id="16569" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16569" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16569)
 
@@ -172,7 +172,7 @@ comments: false
 
 {% hideToggle ReoNa（Reopeko，ReoNa*） %}
 
-<div class="aplayer no-destroy" data-id="14057051" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="14057051" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=14057051)
 
@@ -180,7 +180,7 @@ comments: false
 
 {% hideToggle ASCA（アスカ） %}
 
-<div class="aplayer no-destroy" data-id="12561265" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="12561265" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=12561265)
 
@@ -188,7 +188,7 @@ comments: false
 
 {% hideToggle 神田沙也加（SAYAKA） %}
 
-<div class="aplayer no-destroy" data-id="16759" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16759" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16759)
 
@@ -196,7 +196,7 @@ comments: false
 
 {% hideToggle 梶浦由記（梶浦由记，Yuki Kajiura） %}
 
-<div class="aplayer no-destroy" data-id="16692" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16692" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16692)
 
@@ -204,7 +204,7 @@ comments: false
 
 {% hideToggle 楠木ともり（楠木灯） %}
 
-<div class="aplayer no-destroy" data-id="13808133" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="13808133" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=13808133)
 
@@ -225,31 +225,31 @@ In solitude, where we are least alone.
 
 ### 动画音乐
 
-<div class="aplayer no-destroy" data-id="641644" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="641644" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="565712" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="565712" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="565721" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="565721" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="565717" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="565717" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="641647" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="641647" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26112301" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26112301" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26112302" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26112302" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 ### 游戏音乐
 
-<div class="aplayer no-destroy" data-id="718551" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="718551" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="0039NuYb4Zvafb" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="0039NuYb4Zvafb" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="784428" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="784428" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="477982" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="477982" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="477913" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="477913" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 <!-- endtab -->
 
@@ -257,7 +257,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 《缘之空》 原声集 %}
 
-<div class="aplayer no-destroy" data-id="2419848244" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2419848244" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2419848244)
 
@@ -265,7 +265,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空背景音乐 %}
 
-<div class="aplayer no-destroy" data-id="8932390" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="8932390" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=8932390)
 
@@ -273,7 +273,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 三輪学 缘之空 纯音乐 %}
 
-<div class="aplayer no-destroy" data-id="439597386" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="439597386" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=439597386)
 
@@ -281,7 +281,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空【游戏原声】 %}
 
-<div class="aplayer no-destroy" data-id="376709910" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="376709910" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=376709910)
 
@@ -289,7 +289,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空OP、ED、插曲 %}
 
-<div class="aplayer no-destroy" data-id="6887298169" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="6887298169" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=6887298169)
 
@@ -297,7 +297,7 @@ In solitude, where we are least alone.
 
 {% hideToggle [全网最全]缘之空 游戏＋动漫原声带OST %}
 
-<div class="aplayer no-destroy" data-id="447315466" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="447315466" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=447315466)
 
@@ -305,7 +305,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空钢琴全集 %}
 
-<div class="aplayer no-destroy" data-id="39734114" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="39734114" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=39734114)
 
@@ -313,7 +313,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 「精选」缘之空里戳人泪点的节奏 %}
 
-<div class="aplayer no-destroy" data-id="2204410632" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2204410632" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2204410632)
 
@@ -321,7 +321,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空音乐合集 %}
 
-<div class="aplayer no-destroy" data-id="2336055072" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2336055072" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2336055072)
 
@@ -329,7 +329,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 缘之空 OST精选13曲 %}
 
-<div class="aplayer no-destroy" data-id="26087836" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26087836" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=26087836)
 
@@ -343,7 +343,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ヨスガノソラ Maxi-single %}
 
-<div class="aplayer no-destroy" data-id="61529" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="61529" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=61529)
 
@@ -351,7 +351,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ヨスガノソラ IMAGE CD %}
 
-<div class="aplayer no-destroy" data-id="2389228" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2389228" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=2389228)
 
@@ -359,7 +359,7 @@ In solitude, where we are least alone.
 
 {% hideToggle "ヨスガノソラ" サウンドトラック %}
 
-<div class="aplayer no-destroy" data-id="45871" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="45871" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=45871)
 
@@ -367,7 +367,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ハルカナソラ 初回特典キャラクターソングCD %}
 
-<div class="aplayer no-destroy" data-id="53115" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="53115" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=53115)
 
@@ -377,7 +377,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 比翼の羽根 %}
 
-<div class="aplayer no-destroy" data-id="70302" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="70302" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=70302)
 
@@ -385,7 +385,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 比翼の羽根 %}
 
-<div class="aplayer no-destroy" data-id="70302" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="70302" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=70302)
 
@@ -393,7 +393,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ツナグキズナ %}
 
-<div class="aplayer no-destroy" data-id="85153" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="85153" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=85153)
 
@@ -401,7 +401,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ピンキージョーンズ %}
 
-<div class="aplayer no-destroy" data-id="77503" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="77503" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=77503)
 
@@ -411,7 +411,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 『ヨスガノソラ』オリジナルサウンドトラック-Arrange- %}
 
-<div class="aplayer no-destroy" data-id="493359" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="493359" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=493359)
 
@@ -419,7 +419,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 『ヨスガノソラ』オリジナルサウンドトラック-New- %}
 
-<div class="aplayer no-destroy" data-id="45858" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="45858" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=45858)
 
@@ -427,7 +427,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ヨスガノソラ オリジナルサウンドトラック/オープニング主題歌&番組挿入歌アルバム %}
 
-<div class="aplayer no-destroy" data-id="34888097" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="34888097" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=34888097)
 
@@ -441,7 +441,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 三輪学（Manack） %}
 
-<div class="aplayer no-destroy" data-id="14866" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="14866" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=14866)
 
@@ -449,7 +449,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 市川淳（いちかわ じゅん，Jun Ichikawa） %}
 
-<div class="aplayer no-destroy" data-id="14382" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="14382" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=14382)
 
@@ -457,7 +457,7 @@ In solitude, where we are least alone.
 
 {% hideToggle Rita（理多，りた） %}
 
-<div class="aplayer no-destroy" data-id="17613" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="17613" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=17613)
 
@@ -465,7 +465,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 折仓俊则（おりくら としのり，橋咲透） %}
 
-<div class="aplayer no-destroy" data-id="1008054" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1008054" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=1008054)
 
@@ -473,7 +473,7 @@ In solitude, where we are least alone.
 
 {% hideToggle コツキミヤ（Miya Kotsuki） %}
 
-<div class="aplayer no-destroy" data-id="16766" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16766" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16766)
 
@@ -483,7 +483,7 @@ In solitude, where we are least alone.
 
 {% hideToggle eufonius（ユーフォニアス） %}
 
-<div class="aplayer no-destroy" data-id="19271" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="19271" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=19271)
 
@@ -491,7 +491,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 菊地創（きくちはじめ） %}
 
-<div class="aplayer no-destroy" data-id="14533" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="14533" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=14533)
 
@@ -499,7 +499,7 @@ In solitude, where we are least alone.
 
 {% hideToggle riya（りや） %}
 
-<div class="aplayer no-destroy" data-id="17598" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="17598" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=17598)
 
@@ -507,7 +507,7 @@ In solitude, where we are least alone.
 
 {% hideToggle Team.ねこかん[猫]（チームねこかん） %}
 
-<div class="aplayer no-destroy" data-id="159283" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="159283" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=159283)
 
@@ -515,7 +515,7 @@ In solitude, where we are least alone.
 
 {% hideToggle nyanyannya %}
 
-<div class="aplayer no-destroy" data-id="12323207" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="12323207" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=12323207)
 
@@ -523,7 +523,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 天乙准花（あまおと じゅんか，JUNCA） %}
 
-<div class="aplayer no-destroy" data-id="16137" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16137" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16137)
 
@@ -531,7 +531,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ももいろクローバーZ（桃色幸运草Z，Momoiro Clover Z） %}
 
-<div class="aplayer no-destroy" data-id="161094" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="161094" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=161094)
 
@@ -539,7 +539,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 前山田健一（まえやまだ けんいち，Maeyamada Kenichi，ヒャダイン） %}
 
-<div class="aplayer no-destroy" data-id="14865" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="14865" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=14865)
 
@@ -547,7 +547,7 @@ In solitude, where we are least alone.
 
 {% hideToggle NARASAKI（奈良崎伸毅） %}
 
-<div class="aplayer no-destroy" data-id="15065" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="15065" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=15065)
 
@@ -569,173 +569,173 @@ In solitude, where we are least alone.
 
 #### 游戏音乐
 
-<div class="aplayer no-destroy" data-id="28853176" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28853176" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="28853177" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28853177" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="421160083" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="421160083" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="27591799" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="27591799" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="4941781" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941781" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="4941782" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941782" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26083358" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26083358" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26083362" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26083362" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="26083357" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="26083357" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 #### 动画音乐
 
-<div class="aplayer no-destroy" data-id="1336077702" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1336077702" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="658433" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="658433" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="752247" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="752247" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="752186" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="752186" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="658399" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="658399" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="448119" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="448119" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="600197" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="600197" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="667360" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="667360" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29088412" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29088412" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="602038" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="602038" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="662405" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="662405" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="557073" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="557073" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29823235" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29823235" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="31649382" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="31649382" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="658079" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="658079" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="4941521" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941521" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29567211" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29567211" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="33418858" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="33418858" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29736027" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29736027" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1322354975" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1322354975" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1416400728" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1416400728" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="33418857" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="33418857" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="514543467" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="514543467" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1338149091" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1338149091" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1429420739" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1429420739" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="542691160" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="542691160" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1351236623" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1351236623" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 ### Fate/hollow ataraxia
 
-<div class="aplayer no-destroy" data-id="4941779" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941779" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="4941778" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941778" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="4941780" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="4941780" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1863026291" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1863026291" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1863026292" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1863026292" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29794280" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29794280" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 ### Fate/Zero
 
-<div class="aplayer no-destroy" data-id="608404" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="608404" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1322356618" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1322356618" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="560108" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="560108" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1369452093" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1369452093" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="756340" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="756340" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 ### Fate/Apocrypha
 
-<div class="aplayer no-destroy" data-id="490602360" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="490602360" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="509728685" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="509728685" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="500684165" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="500684165" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="518076110" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="518076110" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 ### Fate/kaleid liner 魔法少女 ☆ 伊莉雅
 
-<div class="aplayer no-destroy" data-id="2015696921" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2015696921" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="28075285" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28075285" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="27506208" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="27506208" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="003aUaCp2tk6al" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="003aUaCp2tk6al" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="28850740" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28850740" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="28870272" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="28870272" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="33728002" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="33728002" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="33728703" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="33728703" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="33728704" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="33728704" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="422132770" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="422132770" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="423997810" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="423997810" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="434981379" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="434981379" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="2015697778" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2015697778" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="2015697779" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2015697779" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1371318554" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1371318554" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1371318553" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1371318553" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1874640146" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1874640146" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="27890792" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="27890792" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="002Reyl64Du2KH" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="002Reyl64Du2KH" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="003VI5Nb2EBCeb" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="003VI5Nb2EBCeb" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="000vXmuE1R5UGK" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="000vXmuE1R5UGK" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="27890796" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="27890796" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29760085" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29760085" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29760086" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29760086" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="003YxLup3TkUkv" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="003YxLup3TkUkv" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="29828011" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="29828011" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="002WxhlH3LyBEl" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="002WxhlH3LyBEl" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="001fBM5F46jlkB" data-server="tencent" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="001fBM5F46jlkB" server="tencent" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 <!-- endtab -->
 
@@ -743,7 +743,7 @@ In solitude, where we are least alone.
 
 {% hideToggle Fate全系列主题曲动画合集 %}
 
-<div class="aplayer no-destroy" data-id="690394176" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="690394176" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=690394176)
 
@@ -751,7 +751,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 「动漫高燃」Fate各个版本燃曲 %}
 
-<div class="aplayer no-destroy" data-id="749643580" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="749643580" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=749643580)
 
@@ -759,7 +759,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 『fate/stay night』OP、ED、BGM %}
 
-<div class="aplayer no-destroy" data-id="388819493" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="388819493" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=388819493)
 
@@ -767,7 +767,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 【Fate HF Heaven's Feel 春之歌】 原声 %}
 
-<div class="aplayer no-destroy" data-id="2111053720" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2111053720" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2111053720)
 
@@ -775,7 +775,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 【Fate】全系列音乐集 %}
 
-<div class="aplayer no-destroy" data-id="82430854" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="82430854" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=82430854)
 
@@ -783,7 +783,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 【FGO】Fate/Grand Order 合辑 %}
 
-<div class="aplayer no-destroy" data-id="486587793" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="486587793" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=486587793)
 
@@ -791,7 +791,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 【Fate/Grand Order】英灵宝具BGM合集 %}
 
-<div class="aplayer no-destroy" data-id="557047073" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="557047073" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=557047073)
 
@@ -799,7 +799,7 @@ In solitude, where we are least alone.
 
 {% hideToggle TV动画《Fate/stay night》OST %}
 
-<div class="aplayer no-destroy" data-id="307883659" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="307883659" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=307883659)
 
@@ -807,7 +807,7 @@ In solitude, where we are least alone.
 
 {% hideToggle Fate/Grand Order %}
 
-<div class="aplayer no-destroy" data-id="159707306" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="159707306" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=159707306)
 
@@ -815,7 +815,7 @@ In solitude, where we are least alone.
 
 {% hideToggle Fate/stay night HF/UBW 音乐集 %}
 
-<div class="aplayer no-destroy" data-id="60221330" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="60221330" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=60221330)
 
@@ -823,7 +823,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 【宝具解放合集】Fate/Noble Phantasm %}
 
-<div class="aplayer no-destroy" data-id="516631480" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="516631480" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=516631480)
 
@@ -854,15 +854,15 @@ In solitude, where we are least alone.
 
 <!-- tab 单曲 / song -->
 
-<div class="aplayer no-destroy" data-id="1484844664" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1484844664" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="2015696915" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2015696915" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1918690989" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1918690989" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1918690977" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1918690977" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
-<div class="aplayer no-destroy" data-id="1911041996" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1911041996" server="netease" type="song" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 <!-- endtab -->
 
@@ -870,7 +870,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 魔女之旅『完整歌单』 %}
 
-<div class="aplayer no-destroy" data-id="5379901523" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="5379901523" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=5379901523)
 
@@ -878,7 +878,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 魔女之旅OP/ED（伊蕾娜） %}
 
-<div class="aplayer no-destroy" data-id="2416241687" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2416241687" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=2416241687)
 
@@ -886,7 +886,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 魔女之旅 原声集 %}
 
-<div class="aplayer no-destroy" data-id="7331642076" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="7331642076" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=7331642076)
 
@@ -894,7 +894,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 魔女之旅 %}
 
-<div class="aplayer no-destroy" data-id="3068541503" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="3068541503" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=3068541503)
 
@@ -902,7 +902,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 魔女之旅ost %}
 
-<div class="aplayer no-destroy" data-id="5452639802" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="5452639802" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=5452639802)
 
@@ -914,7 +914,7 @@ In solitude, where we are least alone.
 
 {% hideToggle リテラチュア %}
 
-<div class="aplayer no-destroy" data-id="140099589" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="140099589" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=140099589)
 
@@ -922,7 +922,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 灰色のサーガ %}
 
-<div class="aplayer no-destroy" data-id="138691445" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="138691445" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=138691445)
 
@@ -930,7 +930,7 @@ In solitude, where we are least alone.
 
 {% hideToggle TVアニメ『魔女の旅々』Original Soundtrack %}
 
-<div class="aplayer no-destroy" data-id="142893042" data-server="netease" data-type="album" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="142893042" server="netease" type="album" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/album?id=142893042)
 
@@ -942,7 +942,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 上田麗奈（上田丽奈） %}
 
-<div class="aplayer no-destroy" data-id="1024317" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1024317" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=1024317)
 
@@ -950,7 +950,7 @@ In solitude, where we are least alone.
 
 {% hideToggle ChouCho（ちょうちょ） %}
 
-<div class="aplayer no-destroy" data-id="16138" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="16138" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=16138)
 
@@ -958,7 +958,7 @@ In solitude, where we are least alone.
 
 {% hideToggle RIRIKO %}
 
-<div class="aplayer no-destroy" data-id="12628550" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="12628550" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=12628550)
 
@@ -966,7 +966,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 伊藤賢（NAGI☆，伊藤贤，Ken Ito，赤髪） %}
 
-<div class="aplayer no-destroy" data-id="12250314" data-server="netease" data-type="artist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="12250314" server="netease" type="artist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/artist?id=12250314)
 
@@ -984,7 +984,7 @@ In solitude, where we are least alone.
 
 <!-- tab 个人珍藏 -->
 
-<div class="aplayer no-destroy" data-id="8464409595" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="8464409595" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=8464409595)
 
@@ -994,7 +994,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 日系&ACG｜百遍循环遇知音 %}
 
-<div class="aplayer no-destroy" data-id="430657150" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="430657150" server="netease" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://music.163.com/#/playlist?id=430657150)
 
@@ -1006,7 +1006,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 百听不厌！300首古风党必听良曲 %}
 
-<div class="aplayer no-destroy" data-id="2055984773" data-server="tencent" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="2055984773" server="tencent" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://i.y.qq.com/n2/m/share/details/taoge.html?id=2055984773&hosteuin=)
 
@@ -1018,7 +1018,7 @@ In solitude, where we are least alone.
 
 {% hideToggle 致幻电音：前奏沦陷的极致遐想 %}
 
-<div class="aplayer no-destroy" data-id="1152182852" data-server="tencent" data-type="playlist" data-fixed="false" data-autoplay="false" data-order="random" data-volume="0.3" data-mutex="true"> </div>
+<meting-js class= "no-destroy" id="1152182852" server="tencent" type="playlist" fixed="false" autoplay="false" order="random" volume="0.3" mutex="true"></meting-js>
 
 [源地址](https://i.y.qq.com/n2/m/share/details/taoge.html?id=1152182852&hosteuin=)
 

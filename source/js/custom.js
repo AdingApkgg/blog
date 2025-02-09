@@ -844,38 +844,26 @@ if (
   document.getElementById("fps").style = "display:none!important";
 }
 
-// Aplayer默认关闭歌词
-function removelrc() {
-  // 检测是否存在歌词按钮
-  const lrcIcon = document.querySelector(".aplayer-icon-lrc");
-  if (!lrcIcon) {
-    return;
-  }
-
-  // 触发以后立刻移除监听
-  observer.disconnect();
-
-  // 稍作延时保证触发函数时存在按钮
-  setTimeout(() => {
-    // 以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
-    lrcIcon.click();
-  }, 1);
-}
-
-const observer = new MutationObserver((mutationsList, observer) => {
-  for (let mutation of mutationsList) {
-    if (mutation.type === "childList") {
-      removelrc();
-    }
+// APlayer 默认关闭歌词
+// 创建一个 MutationObserver 实例，用于监听 DOM 的变化
+var observer = new MutationObserver(function (mutations) {
+  // 查找页面中 class 为 "aplayer-icon-lrc" 的元素
+  var lrcButton = document.querySelector(".aplayer-icon-lrc");
+  // 如果找到了 lrcButton
+  if (lrcButton) {
+    // 延迟1毫秒执行点击操作
+    setTimeout(function () {
+      lrcButton.click();
+    }, 1);
+    // 断开 MutationObserver 实例，停止监听 DOM 的变化
+    observer.disconnect();
   }
 });
+// 监听整个文档及其子节点的变化
+observer.observe(document, { childList: true, subtree: true });
 
-const observerConfig = {
-  childList: true, // 观察子节点的变化
-  subtree: true, // 观察所有后代节点的变化
-};
-
-observer.observe(document, observerConfig); // 开始观察document节点的变化
+// var meting_api =
+//   "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r";
 
 // 如果当前页有评论就执行函数
 if (document.getElementById("post-comment")) owoBig();

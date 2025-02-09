@@ -1,9 +1,9 @@
 ---
-title: Butterfly 主题 Aplayer 播放器美化调整
-description: "Butterfly主题Aplayer播放器的美化与调整过程记录，顺便debug\U0001F606"
+title: Butterfly 主题 HTML5 音乐播放器 APlayer 美化调整
+description: "Butterfly 主题 HTML5 播放器 Aplayer 的美化与调整过程记录，顺便 debug"
 categories: 技术
 tags:
-  - Aplayer
+  - APlayer
   - Butterfly
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
@@ -13,7 +13,7 @@ wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看�
 abbrlink: 8dc9
 top_img: false
 date: 2023-04-08 00:00:00
-updated: 2023-08-08 02:40:00
+updated: 2025-02-10 06:14:20
 cover:
 type:
 comments:
@@ -37,23 +37,25 @@ password:
 
 ## 前言
 
-Butterfly 主题的 Aplayer 播放器的使用与美化过程记录，顺便记下 debug 的过程，避免忘记 😆
+Butterfly 主题 HTML5 音乐播放器 APlayer 的使用与美化过程记录，顺便记下 debug 的过程，避免忘记 😆
 
-本文主旨：着重 Aplayer 的美化与调整，安装部分将会一笔带过，请移步至 Butterfly 主题的官方文档[安装 Aplayer 播放器](https://butterfly.js.org/posts/4073eda/#%E9%9F%B3%E6%A8%82)
+本文着重 APlayer 的美化与调整，安装部分将会一笔带过，请移步至 Butterfly 主题的官方文档
 
-## Butterfly 添加全局吸底 Aplayer
+> https://butterfly.js.org/posts/4073eda/#%E9%9F%B3%E6%A8%82
+
+## Butterfly 添加全局吸底 APlayer
 
 ### 卸载 hexo-tag-aplayer 插件
 
-在`Hexo`站点根目录执行以下卸载`hexo-tag-aplayer`命令，使用 CDN 的方式引入
+在 `Hexo` 站点根目录执行以下卸载 `hexo-tag-aplayer` 命令，使用 CDN 的方式引入
 
 ```sh
 npm un hexo-tag-aplayer
 ```
 
-### CDN 引入 Aplayer 播放器
+### CDN 引入 APlayer 播放器
 
-打开 Butterfly 主题配置文件`_config.butterfly.yml`，进行以下修改...
+打开 Butterfly 主题配置文件 `_config.butterfly.yml`，进行以下修改..
 
 ```yaml
 # Inject the css and script (aplayer/meting)
@@ -66,7 +68,7 @@ aplayerInject:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   bottom:
-    - <div class="aplayer no-destroy" data-id="8932390" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true" data-listMaxHeight="36vh"> </div>
+    - <meting-js class="no-destroy" id="8932390" server="netease" type="playlist" fixed="true" autoplay="true" order="random" volume="0.3" list-folded="false" list-max-height="36vh"> </meting-js>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -78,18 +80,18 @@ CDN:
     meting_js: https://npm.elemecdn.com/meting/dist/Meting.min.js
 ```
 
-然后不出意外的话，应该就添加上了全局吸底的 Aplayer 了。
+然后不出意外的话，应该就添加上了全局吸底的 APlayer 了。
 
 ## 美化与调整
 
 ### 昼夜美化适配
 
-可根据自身的审美需求自行更改`CSS`代码从而达到想要的效果，
+可根据自身的审美需求自行更改 `CSS` 代码从而达到想要的效果，
 
-在`[Blogroot]\themes\butterfly\source\css\custom.css`中添加如下内容：
+在 `[Blogroot]\themes\butterfly\source\css\custom.css` 中添加如下内容：
 
 ```css
-/* Aplayer日间模式调整 */
+/* APlayer 日间模式调整 */
 /* 背景色 */
 .aplayer {
   background: rgba(255, 255, 255, 0.6) !important;
@@ -152,7 +154,7 @@ CDN:
       0 -1px 0 !important;
 }
 
-/* Aplayer黑暗模式 */
+/* APlayer 黑暗模式 */
 [data-theme="dark"] .aplayer {
   background: rgba(22, 22, 22, 0.6) !important;
   color: rgb(255, 255, 255);
@@ -196,103 +198,45 @@ CDN:
 }
 ```
 
-> 转载改进自[杉星雪の小屋](https://snowtafir.top/)：https://snowtafir.top/posts/2022hb2d.html
+> 改进自 https://snowtafir.top/posts/2022hb2d.html
 
 ### 歌词默认隐藏
 
-添加进`.js`文件，在需要用到的页面加载此文件即可
-
-{% tabs 歌词默认隐藏, 1 %}
-
-<!-- tab 新版（推荐） -->
+添加进 `.js` 文件，在需要用到的页面加载此文件即可
 
 ```javascript
-// Aplayer默认关闭歌词
-function removelrc() {
-  // 检测是否存在歌词按钮
-  const lrcIcon = document.querySelector(".aplayer-icon-lrc");
-  if (!lrcIcon) {
-    return;
-  }
-
-  // 触发以后立刻移除监听
-  observer.disconnect();
-
-  // 稍作延时保证触发函数时存在按钮
-  setTimeout(() => {
-    // 以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
-    lrcIcon.click();
-  }, 1);
-
-  console.log("success");
-}
-
-const observer = new MutationObserver((mutationsList, observer) => {
-  for (let mutation of mutationsList) {
-    if (mutation.type === "childList") {
-      removelrc();
-    }
+// APlayer 默认关闭歌词
+// 创建一个 MutationObserver 实例，用于监听 DOM 的变化
+var observer = new MutationObserver(function (mutations) {
+  // 查找页面中 class 为 "aplayer-icon-lrc" 的元素
+  var lrcButton = document.querySelector(".aplayer-icon-lrc");
+  // 如果找到了 lrcButton
+  if (lrcButton) {
+    // 延迟1毫秒执行点击操作
+    setTimeout(function () {
+      lrcButton.click();
+    }, 1);
+    // 断开 MutationObserver 实例，停止监听 DOM 的变化
+    observer.disconnect();
   }
 });
-
-const observerConfig = {
-  childList: true, // 观察子节点的变化
-  subtree: true, // 观察所有后代节点的变化
-};
-
-observer.observe(document, observerConfig); // 开始观察document节点的变化
 ```
 
-<!-- endtab -->
-
-<!-- tab 旧版（兼容） -->
-
-```javascript
-// Aplayer默认关闭歌词
-function removelrc() {
-  //检测是否存在歌词按钮
-  if (!document.querySelector(".aplayer-icon-lrc")) return;
-  else {
-    //触发以后立刻移除监听
-    document.removeEventListener("DOMNodeInserted", removelrc);
-    //稍作延时保证触发函数时存在按钮
-    setTimeout(function () {
-      //以触发按钮的方式隐藏歌词，防止在点击显示歌词按钮时需要点击两次才能出现的问题
-      document.querySelector(".aplayer-icon-lrc").click();
-    }, 1);
-    console.log("success");
-    return;
-  }
-}
-
-document.addEventListener("DOMNodeInserted", removelrc);
-```
-
-> 转载自 GitHub[kcn3388](https://github.com/kcn3388)：https://github.com/metowolf/MetingJS/issues/23#issuecomment-826667754
-
-<!-- endtab -->
-
-{% endtabs %}
+> 转载自 https://github.com/metowolf/MetingJS/issues/23#issuecomment-1827189312
 
 ### 全局吸底伸缩
 
-在`[Blogroot]\themes\butterfly\source\css\custom.css`中添加如下内容：
-
-{% tabs 全局吸底伸缩, 1 %}
-
-<!-- tab 改进版（推荐） -->
-
 > 手机默认隐藏，电脑默认不隐藏
 
-个人感觉电脑隐藏起来有点违和了，所以在`店长`的基础上改进了下...
+在 `[Blogroot]\themes\butterfly\source\css\custom.css` 中添加如下内容：
 
 ```css
-/* Width的值可根据喜好调整（屏幕的宽度） */
+/* Width 的值可根据喜好调整（屏幕的宽度） */
 @media (max-width: 960px) {
-  /* Aplayer音乐标签伸缩 */
+  /* APlayer 音乐标签伸缩 */
   .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
     left: -66px !important;
-    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+    /* 默认情况下缩进左侧 66px，只留一点箭头部分 */
   }
 
   .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
@@ -302,26 +246,6 @@ document.addEventListener("DOMNodeInserted", removelrc);
 }
 ```
 
-<!-- endtab -->
+个人感觉宽屏隐藏起来有点违和了，所以在 `店长` 的基础上改进了下...
 
-<!-- tab 原版（店长） -->
-
-> 手机电脑默认都隐藏
-
-```css
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-  left: -66px !important;
-  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
-}
-
-.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-  left: 0 !important;
-  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
-}
-```
-
-> 转载自[Akilar の糖果屋](https://akilar.top/)：https://akilar.top/posts/ebf20e02/
-
-<!-- endtab -->
-
-{% endtabs %}
+> 改进自 https://akilar.top/posts/ebf20e02/
