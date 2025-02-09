@@ -16,7 +16,7 @@ top_img:
 
 ![](/img/moe/moe_60.webp)
 
-<div class="aplayer no-destroy" data-id="22635185" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-order="random" data-volume="0.5" data-mutex="true" data-listMaxHeight="36vh"> </div>
+<meting-js class="no-destroy" id="22635185" server="netease" type="song" autoplay="true" order="random" volume="0.5"></meting-js>
 
 ## 关于我
 

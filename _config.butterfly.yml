@@ -1452,7 +1452,7 @@ inject:
     - <script async type="text/javascript" src="https://unpkg.com/sweetalert2/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
     - <script async src="/js/custom.js"></script>
-    - <div class="aplayer no-destroy" data-id="8464409595" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-volume="0.3" data-mutex="true" data-listMaxHeight="36vh"> </div>
+    - <meting-js class="no-destroy" id="8464409595" server="netease" type="playlist" fixed="true" autoplay="true" order="random" volume="0.3" list-folded="false" list-max-height="36vh"></meting-js>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
@@ -1513,8 +1513,8 @@ CDN:
     # meting_js: https://blog.zhheo.com/plugin/aplayer/Meting2.min.js
     # meting_js: https://registry.npmmirror.com/js-asuna/latest/files/js/Meting.min.js
     # meting_js: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/Meting.min.js
-    meting_js: https://npm.elemecdn.com/butterfly-extsrc/dist/Meting.min.js
-    # meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js
+    # meting_js: https://npm.elemecdn.com/butterfly-extsrc/dist/Meting.min.js
+    meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js
     prismjs_autoloader: https://npm.elemecdn.com/prismjs/plugins/autoloader/prism-autoloader.min.js
     prismjs_js: https://npm.elemecdn.com/prismjs/prism.js
     prismjs_lineNumber_js: https://npm.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
