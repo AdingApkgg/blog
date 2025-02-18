@@ -1449,7 +1449,7 @@ inject:
     # - <script src="xxxx"></script>
     - <script async src="https://registry.npmmirror.com/vue/2.7.16/files/dist/vue.min.js"></script> # 引入VUE v2
     - <script async src="https://registry.npmmirror.com/element-ui/latest/files/lib/index.js"></script> # 引入ElementUI
-    - <script async type="text/javascript" src="https://unpkg.com/sweetalert2/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
+    - <script async type="text/javascript" src="https://registry.npmmirror.com/sweetalert2/latest/files/dist/sweetalert2.all.min.js"></script> # 节日弹窗依赖
     - <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
     - <script async src="/js/custom.js"></script>
     - <meting-js class="no-destroy" id="8464409595" server="netease" type="playlist" fixed="true" autoplay="true" order="random" volume="0.3" list-folded="false" list-max-height="36vh"></meting-js>
@@ -1473,25 +1473,25 @@ CDN:
 
   option:
     # abcjs_basic_js: https://unpkg.com/abcjs/dist/abcjs-basic-min.js
-    activate_power_mode: https://npm.elemecdn.com/butterfly-extsrc/dist/activate-power-mode.min.js
+    activate_power_mode: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/activate-power-mode.min.js
     # algolia_js: /js/search/algolia.js
     # algolia_search: https://registry.npmmirror.com/algoliasearch/latest/files/dist/algoliasearch-lite.umd.js
-    aplayer_css: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
-    aplayer_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    aplayer_css: https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.css
+    aplayer_js: https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.js
     # artalk_css: https://npm.elemecdn.com/artalk/dist/Artalk.css
     # artalk_js: https://npm.elemecdn.com/artalk/dist/Artalk.js
-    blueimp_md5: https://npm.elemecdn.com/blueimp-md5/js/md5.min.js
+    blueimp_md5: https://registry.npmmirror.com/blueimp-md5/latest/files/js/md5.min.js
     busuanzi: https://registry.npmmirror.com/js-asuna/latest/files/js/bsz.pure.mini.js
-    canvas_fluttering_ribbon: https://npm.elemecdn.com/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js
-    canvas_nest: https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-nest.min.js
-    canvas_ribbon: https://npm.elemecdn.com/butterfly-extsrc/dist/canvas-ribbon.min.js
-    click_heart: https://npm.elemecdn.com/butterfly-extsrc/dist/click-heart.min.js
-    clickShowText: https://npm.elemecdn.com/butterfly-extsrc@latest/dist/click-show-text.min.js
+    canvas_fluttering_ribbon: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-fluttering-ribbon.min.js
+    canvas_nest: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-nest.min.js
+    canvas_ribbon: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-ribbon.min.js
+    click_heart: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/click-heart.min.js
+    clickShowText: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/click-show-text.min.js
     # disqusjs: https://npm.elemecdn.com/disqusjs@1/dist/disqus.js
     # disqusjs_css: https://npm.elemecdn.com/disqusjs@1/dist/disqusjs.css
     # docsearch_css: https://cdn.jsdelivr.net/npm/@docsearch/css
     # docsearch_js: https://cdn.jsdelivr.net/npm/@docsearch/js
-    egjs_infinitegrid: https://unpkg.com/@egjs/infinitegrid/dist/infinitegrid.min.js
+    egjs_infinitegrid: https://cdn.bootcdn.net/ajax/libs/egjs-infinitegrid/4.12.0/infinitegrid.min.js
     fancybox: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.umd.js
     fancybox_css: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.css
     fireworks: https://npm.elemecdn.com/butterfly-extsrc/dist/fireworks.min.js
@@ -1527,9 +1527,9 @@ CDN:
     twikoo: https://registry.npmmirror.com/twikoo/latest/files/dist/twikoo.all.min.js
     # twikoo: https://cdn.staticfile.net/twikoo/1.6.26/twikoo.all.min.js
     # twikoo: https://npm.elemecdn.com/twikoo@1.6.16/dist/twikoo.all.min.js
-    typed: https://npm.elemecdn.com/typed.js/lib/typed.min.js
+    typed: https://registry.npmmirror.com/typed.js/2.0.12/files/lib/typed.min.js
     utils: /js/utils.js
-    # valine: https://npm.elemecdn.com/valine/dist/Valine.min.js
+    # valine: https://registry.npmmirror.com/valine/latest/files/dist/Valine.min.js
     waline_css: https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.css
     waline_js: https://registry.npmmirror.com/@waline/client/latest/files/dist/waline.js
-    pace_js: https://cdn.staticfile.net/pace/1.2.4/pace.min.js
+    pace_js: https://registry.npmmirror.com/pace-js/latest/files/pace.min.js
