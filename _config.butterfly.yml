@@ -1491,7 +1491,7 @@ CDN:
     # disqusjs_css: https://npm.elemecdn.com/disqusjs@1/dist/disqusjs.css
     # docsearch_css: https://cdn.jsdelivr.net/npm/@docsearch/css
     # docsearch_js: https://cdn.jsdelivr.net/npm/@docsearch/js
-    egjs_infinitegrid: https://cdn.bootcdn.net/ajax/libs/egjs-infinitegrid/4.12.0/infinitegrid.min.js
+    egjs_infinitegrid: https://registry.npmmirror.com/@egjs/infinitegrid/latest/files/dist/infinitegrid.min.js
     fancybox: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.umd.js
     fancybox_css: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.css
     fireworks: https://npm.elemecdn.com/butterfly-extsrc/dist/fireworks.min.js
@@ -1499,7 +1499,7 @@ CDN:
     # gitalk: https://npm.elemecdn.com/gitalk@latest/dist/gitalk.min.js
     # gitalk_css: https://npm.elemecdn.com/gitalk/dist/gitalk.css
     # giscus: https://unpkg.com/giscus?module
-    instantpage: https://cdn.staticfile.net/instant.page/5.2.0/instantpage.min.js
+    instantpage: https://registry.npmmirror.com/instant.page/latest/files/instantpage.js
     # instantsearch: https://registry.npmmirror.com/instantsearch.js/latest/files/dist/instantsearch.production.min.js
     # katex: https://npm.elemecdn.com/katex@latest/dist/katex.min.css
     # katex_copytex: https://npm.elemecdn.com/katex@latest/dist/contrib/copy-tex.min.js
