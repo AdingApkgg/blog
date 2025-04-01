@@ -215,6 +215,10 @@
       link: https://simonsu.cn/
       avatar: https://simonsu.cn/favicon.ico
       descr: 这是一个记录生活、工作点滴的个人博客。这里没有华丽的文字，没有像花一样美的图片，只有平静生活中所感、所见、所爱的记忆。
+    - name: zhyyao
+      link: https://zhyyao.me
+      avatar: https://zhyyao.me/home/icon.png
+      descr: 记录和分享学习经验，永远保持一颗学徒之心。
 
 - class_name: 朋友们
   class_desc: 一些似朋友又不是朋友的朋友~~
