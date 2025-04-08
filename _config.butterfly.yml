@@ -21,7 +21,6 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  首页: / || fas fa-house
   文章||fas fa-book:
     归档: /archives/ || fas fa-box-archive
     标签: /tags/ || fas fa-tags
@@ -43,14 +42,6 @@ menu:
     个站商店虫洞: https://storeweb.cn/s/2032 || fas fa-dice
     开往: https://www.travellings.cn/go.html || fas fa-shuffle
     关于: /about/ || fas fa-heart
-  分流||fas fa-code-branch || hide:
-    主线路: https://blog.saop.cc/ || fas fa-code-commit
-    Vercel: https://vc.saop.cc/ || fas fa-server
-    Netlify: https://nf.saop.cc/ || fas fa-server
-    Cloudflare: https://cf.saop.cc/ || fas fa-server
-    Fleek: https://fe.saop.cc/ || fas fa-server
-    GitHub: https://gh.saop.cc/ || fab fa-github-alt
-    源代码: https://github.com/AdingApkgg/AdingApkgg.github.io || fas fa-code
 
 # --------------------------------------
 # Code Blocks Settings
