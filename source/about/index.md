@@ -2,7 +2,7 @@
 title: 关于站长与本站
 date: 2023-02-04 18:00:00
 type: "about"
-updated: 2024-11-08 00:00:00
+updated: 2025-04-17 12:55:40
 comments: false
 description:
 keywords:
@@ -20,11 +20,11 @@ top_img:
 
 ## 关于我
 
-- **你好陌生人，我是 Asuna**
-- **生于 21 世纪初的年轻武装直升机**
-- **爱好：遐想，计算机，自意识 AI，潜行 MMO，漫文化，睡觉，{% hideInline 合法萝莉, 点此显示 %}**
+- **你好陌生人，我是 [Asuna](https://swordartonline.fandom.com/zh/wiki/%E7%BB%93%E5%9F%8E%E6%98%8E%E6%97%A5%E5%A5%88)**
+- **生于 21 世纪初的年轻 [武装直升机](https://zh.wikipedia.org/wiki/%E6%AD%A6%E8%A3%85%E7%9B%B4%E5%8D%87%E6%9C%BA)**
+- **喜欢遐想、计算机、AI、潜行 MMO、漫文化、睡觉、{% hideInline 合法萝莉 点此显示 %}**
 - **喜欢~~可爱又羞涩的~~{% hideInline 女孩子！, 点此显示 %}**
-- **宗教观：是个[不可知论](https://zh.wikipedia.org/zh-hans/%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA%E8%80%85)者捏，否认人格化`神`的存在**
+- **是个 [不可知论](https://zh.wikipedia.org/zh-hans/%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA%E8%80%85) 者捏~ 否认人格化 `神` 的存在**
 
 ### 最近在沉迷什么
 
@@ -34,8 +34,7 @@ top_img:
 
 ### 性格&人格
 
-**性格类型**：[调停者 (INFP-A)](https://www.16personalities.com/ch/infp-人格?utm_source=results-assertive-mediator&utm_medium=email&utm_campaign=ch&utm_content=type-personality-0)
-**个性特征**：内向型 – 74%, 直觉型 – 63%, 感受型 – 52%, 展望型 – 61%, 坚决 – 54%
+[调停者（INFP-A）](https://www.16personalities.com/ch/infp-人格?utm_source=results-assertive-mediator&utm_medium=email&utm_campaign=ch&utm_content=type-personality-0) > 内向：74%、直觉：63%、感受：52%、展望：61%、坚决：54%
 
 ![](/img/16personalities.webp)
 
@@ -88,7 +87,6 @@ top_img:
 
 - **本博客始建于 2023 年 01 月 06 日**
 - <strong>距今已艰难运行了&nbsp;<span id="htmer_time"></span></strong>
-- **本站使用 [GitHub Pages](https://pages.github.com) 作为源码托管平台**
-- **主线路托管于 [Netlify](https://www.netlify.com/) 与 [Vercel](https://vercel.com) 并配置域名 `saop.cc` 以支持大陆境内访问**
-- **使用 [Hexo](https://hexo.io/zh-cn/) 博客框架与 [Butterfly](https://butterfly.js.org/) 主题作为技术支持**
-- **除了域名以外，其他任何东西都没花一分钱，白嫖党的快乐！**
+- **本站使用 [GitHub](https://github.com/) 作为源码托管平台**
+- **主线路托管于 [Cloudflare](https://www.cloudflare.com/) 并配置域名 `saop.cc` 以支持大陆访问**
+- **由 [Hexo](https://hexo.io/zh-cn/) 框架与 [Butterfly](https://butterfly.js.org/) 主题强力驱动！**
