@@ -22,7 +22,7 @@ top_img:
 
 - **你好陌生人，我是 [Asuna](https://swordartonline.fandom.com/zh/wiki/%E7%BB%93%E5%9F%8E%E6%98%8E%E6%97%A5%E5%A5%88)**
 - **生于 21 世纪初的年轻 [武装直升机](https://zh.wikipedia.org/wiki/%E6%AD%A6%E8%A3%85%E7%9B%B4%E5%8D%87%E6%9C%BA)**
-- **喜欢遐想、计算机、AI、潜行 MMO、漫文化、睡觉、{% hideInline 合法萝莉 点此显示 %}**
+- **喜欢遐想、计算机、AI、潜行 MMO、漫文化、睡觉、{% hideInline 合法萝莉, 点此显示 %}**
 - **喜欢~~可爱又羞涩的~~{% hideInline 女孩子！, 点此显示 %}**
 - **是个 [不可知论](https://zh.wikipedia.org/zh-hans/%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA%E8%80%85) 者捏~ 否认人格化 `神` 的存在**
 
