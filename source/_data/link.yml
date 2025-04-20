@@ -223,6 +223,14 @@
       link: https://paul.ren/
       avatar: https://secure.gravatar.com/avatar/d22eb460ecab37fcd7205e6a3c55c228
       descr: Still single, still waiting...
+    - name: Haruki's blog
+      link: https://blog.plr.moe/
+      avatar: https://blog.plr.moe/avatar.svg
+      descr: Wish upon stars, get meteorites.
+    - name: KUN's Blog
+      link: https://soft.moe/
+      avatar: https://soft.moe/kun.webp
+      descr: KUN's moe blog, KUN IS THE CUTEST!
 
 - class_name: 朋友们
   class_desc: 一些似朋友又不是朋友的朋友~~
@@ -505,3 +513,7 @@
       link: https://www.ginc.site/
       avatar: https://cdn.jsdelivr.net/gh/lyboy-wp/jscdn/img/favicon.ico
       descr: 今夕何夕，三千繁华，见此良人，皆虚梦一场
+    - name: 極限風味
+      link: https://ex-tasty.com/
+      avatar: https://ex-tasty.com/cake.webp
+      descr: 以極限的風味挑起豐富你球網路文化世界的重任，，，

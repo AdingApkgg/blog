@@ -201,6 +201,16 @@
       "https://secure.gravatar.com/avatar/d22eb460ecab37fcd7205e6a3c55c228"
     ],
     [
+      "Haruki's blog",
+      "https://blog.plr.moe/",
+      "https://blog.plr.moe/avatar.svg"
+    ],
+    [
+      "KUN's Blog",
+      "https://soft.moe/",
+      "https://soft.moe/kun.webp"
+    ],
+    [
       "定の栈",
       "https://saop.cc",
       "https://saop.cc/avatar.webp"
@@ -529,6 +539,11 @@
       "今夕何夕兮",
       "https://www.ginc.site/",
       "https://cdn.jsdelivr.net/gh/lyboy-wp/jscdn/img/favicon.ico"
+    ],
+    [
+      "極限風味",
+      "https://ex-tasty.com/",
+      "https://ex-tasty.com/cake.webp"
     ]
   ]
 }
