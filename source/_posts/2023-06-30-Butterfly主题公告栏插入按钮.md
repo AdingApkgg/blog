@@ -3,7 +3,7 @@ title: Butterfly主题公告栏插入a标签按钮
 description: 在Hexo的Butterfly主题aside公告栏里插入a标签按钮
 categories: 技术
 tags:
-  - Butterfly
+  - 主题
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

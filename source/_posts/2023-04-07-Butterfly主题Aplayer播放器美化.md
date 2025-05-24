@@ -3,8 +3,7 @@ title: Butterfly 主题 HTML5 音乐播放器 APlayer 美化调整
 description: "Butterfly 主题 HTML5 播放器 Aplayer 的美化与调整过程记录，顺便 debug"
 categories: 技术
 tags:
-  - APlayer
-  - Butterfly
+  - 主题
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

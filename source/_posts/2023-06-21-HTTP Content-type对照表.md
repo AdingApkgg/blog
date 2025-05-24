@@ -3,8 +3,7 @@ title: HTTP Content-type对照表
 description: HTTP Content-type对照表
 categories: 技术
 tags:
-  - HTTP
-  - 媒体类型
+  - 文档
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

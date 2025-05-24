@@ -3,8 +3,8 @@ title: 基于 Butterfly 主题的轮播插件美化
 description: 基于 Butterfly 主题的 SwiperBar 轮播插件，文章置顶滚动栏美化微调记录
 categories: 技术
 tags:
-  - Butterfly
-  - 博客插件
+  - 主题
+  - 插件
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

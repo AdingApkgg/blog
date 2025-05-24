@@ -4,7 +4,7 @@ description: 你好，世界！
 cover: "/img/202305182239875.webp"
 categories: 空值
 tags:
-  - Hexo
+  - 框架
 abbrlink: hello-world
 date: 2023-01-06 08:00:00
 updated: 2023-01-06 08:00:00

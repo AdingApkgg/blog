@@ -3,9 +3,9 @@ title: hexo-generator-feed插件中文文档
 description: Hexo博客RSS订阅文件生成的插件中文文档
 categories: 转载
 tags:
-  - RSS
-  - Hexo插件
-  - 中文文档
+  - 框架
+  - 插件
+  - 文档
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray
