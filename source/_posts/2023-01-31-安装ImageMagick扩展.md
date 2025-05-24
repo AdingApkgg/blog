@@ -1,10 +1,9 @@
 ---
-title: 安装ImageMagick扩展
+title: 安装 ImageMagick 扩展
 description: 安装ImageMagick扩展以供WP使用
 categories: 转载
 tags:
-  - WordPress
-  - IIS
+  - 框架
 copyright: false
 abstract: '有东西被加密了, 请输入密码查看.'
 message: '您好, 这里需要密码.'

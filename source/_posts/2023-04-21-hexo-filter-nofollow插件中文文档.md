@@ -3,9 +3,9 @@ title: hexo-filter-nofollow插件中文文档
 description: "为网站使用到的所有外链添加nofollow属性, 可以有效地加强网站SEO和防止权重流失"
 categories: 转载
 tags:
-  - SEO
-  - Hexo插件
-  - 中文文档
+  - 框架
+  - 插件
+  - 文档
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

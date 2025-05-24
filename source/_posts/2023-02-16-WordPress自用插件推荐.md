@@ -5,9 +5,8 @@ cover: >-
   /img/202302160748549.webp
 categories: 技术
 tags:
-  - WordPress
-  - 博客插件
-  - 博客主题
+  - 框架
+  - 插件
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

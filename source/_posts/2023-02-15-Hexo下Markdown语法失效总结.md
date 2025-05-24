@@ -1,11 +1,9 @@
 ---
-title: Hexo下Markdown语法失效总结
-description: Hexo框架下的Markdown语法失效问题总结
+title: Hexo 下 Markdown 语法失效总结
+description: Hexo 框架下的 Markdown 语法失效问题总结
 categories: 转载
 tags:
-  - Hexo
-  - Markdown
-  - 语法失效
+  - 框架
 copyright: false
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."

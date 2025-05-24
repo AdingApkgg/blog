@@ -3,7 +3,6 @@ title: 显示器屏幕亮度调节工具推荐
 description: 使用Monitorian工具调节显示器屏幕亮度
 categories: 日常
 tags:
-  - 软件推荐
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray

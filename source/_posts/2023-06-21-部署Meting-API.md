@@ -3,8 +3,6 @@ title: 部署Meting-API
 description: 无服务器部署属于自己的Meting-API服务
 categories: 技术
 tags:
-  - Meting
-  - API
 abstract: "有东西被加密了, 请输入密码查看."
 message: "您好, 这里需要密码."
 theme: xray
