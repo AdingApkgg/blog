@@ -13,6 +13,7 @@ nav:
   # Navigation bar logo image
   logo:
   display_title: true
+  display_post_title: true
   # Whether to fix navigation bar
   fixed: false
 
@@ -597,9 +598,11 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text:
   # Copyright of theme and framework
-  copyright: false
+  copyright:
+    enable: true
+    version: true
+  custom_text:
 
 # --------------------------------------
 # Aside Settings
@@ -738,6 +741,9 @@ rightside_item_order:
   hide:
   # Default: toc,chat,comment
   show:
+
+# Animation for the bottom right config button
+rightside_config_animation: true
 
 # --------------------------------------
 # Global Settings
@@ -1057,6 +1063,12 @@ umami_analytics:
     # Umami Cloud (API key) / self-hosted Umami (token)
     token:
 
+# https://www.googletagmanager.com/
+google_tag_manager:
+  tag_id:
+  # optional
+  domain:
+
 # --------------------------------------
 # Advertisement
 # --------------------------------------
@@ -1143,7 +1155,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://cdn.staticfile.net/pace/1.2.4/themes/blue/pace-theme-flash.min.css
+  pace_css_url: https://registry.npmmirror.com/pace-js/latest/files/themes/blue/pace-theme-flash.css
 
 # Page Transition
 enter_transitions: true
@@ -1395,6 +1407,8 @@ instantpage: true
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
+  # Use browser's native lazyload instead of vanilla-lazyload
+  native: false
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder: /img/loading.gif
@@ -1423,6 +1437,10 @@ Open_Graph_meta:
     # google_plus:
     # fb_admins:
     # fb_app_id:
+
+# Structured Data
+# https://developers.google.com/search/docs/guides/intro-structured-data
+structured_data: true
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1476,6 +1494,7 @@ CDN:
     canvas_fluttering_ribbon: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-fluttering-ribbon.min.js
     canvas_nest: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-nest.min.js
     canvas_ribbon: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/canvas-ribbon.min.js
+    # chartjs:
     click_heart: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/click-heart.min.js
     clickShowText: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/click-show-text.min.js
     # disqusjs: https://npm.elemecdn.com/disqusjs@1/dist/disqus.js
