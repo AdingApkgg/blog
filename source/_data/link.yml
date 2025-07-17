@@ -352,10 +352,11 @@
       link: https://www.xiaozonglin.cn/
       avatar: https://www.xiaozonglin.cn/usr/uploads/2023/03/4114618746.png
       descr: 听！林林在无病呻吟。
-    - name: Lyx
-      link: https://luoyuanxiang.top/
-      avatar: https://luoyuanxiang.top/img/favicon.ico
-      descr: 后端技术博客，积跬步以至千里，致敬每个爱学习的你。
+    - name: 老罗の小站
+      link: https://luoyuanxiang.top
+      avatar: https://cdn.luoyuanxiang.top/logo/logo.webp
+      siteshot: https://cdn.luoyuanxiang.top/home.webp
+      descr: 收录技术、生活与思考的零散片段
     - name: 风起社区
       link: https://www.fqxk.com.cn
       avatar: https://www.qiaoxiao.top/static/avater/avater.jpg
