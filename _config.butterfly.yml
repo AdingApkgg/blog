@@ -1505,7 +1505,7 @@ CDN:
     fancybox: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.umd.js
     fancybox_css: https://registry.npmmirror.com/@fancyapps/ui/latest/files/dist/fancybox/fancybox.css
     fireworks: https://npm.elemecdn.com/butterfly-extsrc/dist/fireworks.min.js
-    fontawesome: https://registry.npmmirror.com/@fortawesome/fontawesome-free/6.7.2/files/css/all.min.css
+    fontawesome: https://registry.npmmirror.com/@fortawesome/fontawesome-free/latest/files/css/all.min.css
     # gitalk: https://npm.elemecdn.com/gitalk@latest/dist/gitalk.min.js
     # gitalk_css: https://npm.elemecdn.com/gitalk/dist/gitalk.css
     # giscus: https://unpkg.com/giscus?module
