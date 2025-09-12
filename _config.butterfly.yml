@@ -827,6 +827,11 @@ search:
     top_n_per_article: 3
     # Unescape html strings to the readable one.
     unescape: true
+    # Enable pagination for search results
+    pagination:
+      enable: true
+      # Number of search results per page
+      hitsPerPage: 8
     CDN:
 
   # Docsearch
@@ -1054,6 +1059,7 @@ umami_analytics:
   enable: false
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL:
+  script_name: script.js
   website_id:
   option:
   UV_PV:
@@ -1440,7 +1446,11 @@ Open_Graph_meta:
 
 # Structured Data
 # https://developers.google.com/search/docs/guides/intro-structured-data
-structured_data: true
+structured_data:
+  enable: true
+  # Alternate name for the site, used in structured data
+  # Format: ['name1', 'name2']
+  alternate_name: ['SAOP', '闪光博客']
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1510,7 +1520,6 @@ CDN:
     # gitalk_css: https://npm.elemecdn.com/gitalk/dist/gitalk.css
     # giscus: https://unpkg.com/giscus?module
     instantpage: https://registry.npmmirror.com/instant.page/latest/files/instantpage.js
-    # instantsearch: https://registry.npmmirror.com/instantsearch.js/latest/files/dist/instantsearch.production.min.js
     # katex: https://npm.elemecdn.com/katex@latest/dist/katex.min.css
     # katex_copytex: https://npm.elemecdn.com/katex@latest/dist/contrib/copy-tex.min.js
     lazyload: https://npm.elemecdn.com/vanilla-lazyload/dist/lazyload.iife.min.js
