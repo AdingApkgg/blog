@@ -95,7 +95,7 @@ a(href='https://saop.cc' rel="external nofollow") 定の栈
 > - 需启用 HTTPS，无 HTTPS 看情况酌情收录
 > - 不包含**政治内容**，不违反**联合国法案**
 
-<div class="addBtn"><button onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>申请通用友链</button> <button onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>申请 Butterfly 友链</button></div>
+<div class="addBtn"><button onclick="leonus.linkCom()"><i class="fas fa-circle-plus"></i>申请通用友链</button> <button onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fas fa-circle-plus"></i>申请 Butterfly 友链</button></div>
 
 <div id="friend-circle-lite-root"></div>
 
@@ -127,12 +127,6 @@ button {
   background: 0 0;
   cursor: pointer;
   touch-action: manipulation;
-}
-
-.fa-solid,
-.fas {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
 }
 
 .addBtn i {

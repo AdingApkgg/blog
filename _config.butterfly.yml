@@ -625,7 +625,7 @@ aside:
     description: LINK START!
     button:
       enable: true
-      icon: fa fa-home
+      icon: fa fa-house
       text: 前往主页
       link: //saop.cc
   card_announcement:

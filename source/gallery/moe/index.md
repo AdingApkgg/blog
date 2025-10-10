@@ -14,7 +14,7 @@ aplayer:
 highlight_shrink:
 ---
 
-{% btn '/gallery',返回图库大厅,fa fa-arrow-circle-left,block pink %}
+{% btn '/gallery',返回图库大厅,fa fa-circle-arrow-left,block pink %}
 {% note info %}站长只是搬运工，大部分图片来自互联网，如有侵权请联系删除，站长不会以此获取任何利益！{% endnote %}
 {% gallery %}
 ![gif_p1](/img/moe/gif_moe_1.gif)
