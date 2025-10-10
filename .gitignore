@@ -9,4 +9,5 @@ _multiconfig.yml
 .history/
 .vscode/
 package-lock.json
+Project.json
 yarn.lock
