@@ -1,8 +1,8 @@
 ---
 title: maimai DX b50
-date: 2025-10-19 01:30:00
+date: 2025-10-19 02:00:00
 type: "mai"
-updated: 2025-10-19 01:30:00
+updated: 2025-10-19 02:00:00
 comments: false
 description: 舞萌 maimai DX b50 rt 分数查询
 keywords: "maimai dx, b50, b35, b15, rt, 分数, 舞萌"
