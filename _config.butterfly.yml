@@ -32,6 +32,7 @@ menu:
     音乐: /music/ || fas fa-music
     视频: /video/ || fas fa-video
     电影: /movie/ || fas fa-film
+    舞萌: /mai/ || fas fa-life-ring
     云盘: https://cloud.saop.cc/ || fas fa-cloud
     网盘: https://drive.saop.cc/ || fas fa-hard-drive
   社交||fas fa-paperclip || hide:
@@ -1389,6 +1390,7 @@ pjax:
   exclude:
     # - /xxxxxx/
     - /movie/
+    - /mai/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
