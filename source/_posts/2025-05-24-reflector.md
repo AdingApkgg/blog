@@ -11,10 +11,8 @@ tags:
 abbrlink: 59587
 top_img: false
 keywords: 'reflector, 命令, 指令, 配置, Linux, Arch'
-noticeOutdate: false
 date: 2025-05-24 19:00:00
 updated: 2025-05-24 19:00:00
-cover:
 ---
 
 [Reflector](https://xyne.dev/projects/reflector/) 是一个 Python 脚本；它可以从 [Arch Linux Mirror Status](https://archlinux.org/mirrors/status/) 页面获取最新的镜像列表，然后筛选出最新的镜像并按速度排序，最后将结果写入到 `/etc/pacman.d/mirrorlist` 文件。
