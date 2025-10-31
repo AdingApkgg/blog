@@ -9,11 +9,11 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "8.0.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
-    "hexo": "^8.0.0",
+    "hexo": "^8.1.1",
     "hexo-abbrlink": "^2.2.1",
     "hexo-all-minifier": "^0.5.7",
     "hexo-blog-encrypt": "^3.1.9",
@@ -37,7 +37,7 @@
     "hexo-swpp": "^3.3.7",
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-butterfly": "^5.5.1",
-    "hexo-util": "^3.3.0",
+    "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
     "swpp-backends": "^2.3.12",
     "yamljs": "^0.3.0"
