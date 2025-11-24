@@ -126,9 +126,9 @@ deploy:
   - type: git
     repository: https://github.com/AdingApkgg/AdingApkgg.github.io
     branch: main
-  - type: cjh_google_url_submitter
-  - type: cjh_bing_url_submitter
-  - type: cjh_baidu_url_submitter
+  # - type: cjh_google_url_submitter
+  # - type: cjh_bing_url_submitter
+  # - type: cjh_baidu_url_submitter
 
 # 本地搜索
 search:
