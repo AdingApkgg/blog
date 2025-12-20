@@ -35,7 +35,7 @@
     "hexo-server": "^3.0.0",
     "hexo-swpp": "^3.3.7",
     "hexo-tag-dplayer": "^0.3.3",
-    "hexo-theme-butterfly": "^5.5.2",
+    "hexo-theme-butterfly": "^5.5.3",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
     "swpp-backends": "^2.3.12",

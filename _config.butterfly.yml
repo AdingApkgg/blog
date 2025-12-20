@@ -118,7 +118,8 @@ category_per_img:
 footer_img: transparent
 
 # Website Background
-# Can set it to color or image url
+# Can set it to color, image URL or an array containing colors and/or image URLs
+# If an array is provided, a random background will be selected from the array on each load
 background: https://registry.npmmirror.com/js-asuna/latest/files/pic/Asuna/Asuna16x9.webp
 
 cover:
@@ -1082,7 +1083,7 @@ google_tag_manager:
 
 # Google Adsense
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-6697180171908958
