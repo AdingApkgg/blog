@@ -231,6 +231,10 @@
       link: https://soft.moe/
       avatar: https://soft.moe/kun.webp
       descr: KUN's moe blog, KUN IS THE CUTEST!
+    - name: 烧饼博客
+      link: https://u.sb/
+      avatar: https://s.u.sb/favicon.ico
+      descr: 专注于服务器运维、专业域名投资分析
 
 - class_name: 朋友们
   class_desc: 一些似朋友又不是朋友的朋友~~
