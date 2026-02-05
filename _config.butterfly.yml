@@ -659,6 +659,7 @@ aside:
     # If set 0 will show all
     limit: 20
     color: true
+    custom_colors:
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -1346,6 +1347,10 @@ mermaid:
   theme:
     light: default
     dark: dark
+  # Enable "Open in New Tab" button to view diagram in a separate window
+  open_in_new_tab: true
+  # Enable zoom and pan interactions on diagrams
+  zoom_pan: true
 
 # chartjs
 # see https://www.chartjs.org/docs/latest/
