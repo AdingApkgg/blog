@@ -10,12 +10,12 @@ defineConfig({
       const cdnHosts = [
         'registry.npmmirror.com',
         'npm.elemecdn.com',
+        'unpkg.com',
         'fastly.jsdelivr.net',
         'cdn.jsdelivr.net',
         'cdn.staticfile.net',
         'cdn.staticfile.org',
         's1.hdslb.com',
-        'unpkg.com',
       ]
       return cdnHosts.includes(url.hostname)
     },
@@ -41,12 +41,12 @@ defineConfig({
         const cdnHosts = [
           'registry.npmmirror.com',
           'npm.elemecdn.com',
+          'unpkg.com',
           'fastly.jsdelivr.net',
           'cdn.jsdelivr.net',
           'cdn.staticfile.net',
           'cdn.staticfile.org',
           's1.hdslb.com',
-          'unpkg.com',
         ]
         // @ts-ignore - INFINITE_CACHE 是 swpp 在 SW 上下文中注入的全局变量
         if (cdnHosts.includes(hostname)) return INFINITE_CACHE
@@ -75,12 +75,12 @@ defineConfig({
         const cdnHosts = [
           'registry.npmmirror.com',
           'npm.elemecdn.com',
+          'unpkg.com',
           'fastly.jsdelivr.net',
           'cdn.jsdelivr.net',
           'cdn.staticfile.net',
           'cdn.staticfile.org',
           's1.hdslb.com',
-          'unpkg.com',
         ]
         if (cdnHosts.includes(hostname)) return Symbol()
         if (hostname === 'blog.saop.cc') {
