@@ -1317,7 +1317,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox: fancybox
+lightbox: medium_zoom
 
 # --------------------------------------
 # Tag Plugins settings
@@ -1531,22 +1531,22 @@ CDN:
     instantpage: https://registry.npmmirror.com/instant.page/latest/files/instantpage.js
     # katex: https://npm.elemecdn.com/katex@latest/dist/katex.min.css
     # katex_copytex: https://npm.elemecdn.com/katex@latest/dist/contrib/copy-tex.min.js
-    lazyload: https://npm.elemecdn.com/vanilla-lazyload/dist/lazyload.iife.min.js
+    lazyload: https://registry.npmmirror.com/vanilla-lazyload/latest/files/dist/lazyload.iife.min.js
     local_search: /js/search/local-search.js
     main: /js/main.js
     main_css: /css/index.css
     # mathjax: https://npm.elemecdn.com/mathjax/es5/tex-mml-chtml.js
-    medium_zoom: https://npm.elemecdn.com/medium-zoom/dist/medium-zoom.min.js
-    mermaid: https://npm.elemecdn.com/mermaid/dist/mermaid.min.js
+    medium_zoom: https://registry.npmmirror.com/medium-zoom/latest/files/dist/medium-zoom.min.js
+    mermaid: https://registry.npmmirror.com/mermaid/latest/files/dist/mermaid.min.js
     # meting_js: https://blog.zhheo.com/plugin/aplayer/Meting2.min.js
     # meting_js: https://registry.npmmirror.com/js-asuna/latest/files/js/Meting.min.js
     # meting_js: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/Meting.min.js
     # meting_js: https://npm.elemecdn.com/butterfly-extsrc/dist/Meting.min.js
     meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js
-    prismjs_autoloader: https://npm.elemecdn.com/prismjs/plugins/autoloader/prism-autoloader.min.js
-    prismjs_js: https://npm.elemecdn.com/prismjs/prism.js
-    prismjs_lineNumber_js: https://npm.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-    pjax: https://npm.elemecdn.com/pjax/pjax.min.js
+    prismjs_autoloader: https://registry.npmmirror.com/prismjs/latest/files/plugins/autoloader/prism-autoloader.min.js
+    prismjs_js: https://registry.npmmirror.com/prismjs/latest/files/prism.js
+    prismjs_lineNumber_js: https://registry.npmmirror.com/prismjs/latest/files/plugins/line-numbers/prism-line-numbers.min.js
+    pjax: https://registry.npmmirror.com/pjax/latest/files/pjax.min.js
     sharejs: https://npm.elemecdn.com/social-share.js/dist/js/social-share.min.js
     sharejs_css: https://npm.elemecdn.com/social-share.js/dist/css/share.min.css
     snackbar: https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.js
