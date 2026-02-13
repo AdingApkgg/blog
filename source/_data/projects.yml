@@ -1,0 +1,39 @@
+- name: Mikiacg
+  link: https://www.mikiacg.vip/
+  img: /img/projects/mikiacg.avif
+  desc: ACGN 资源内容分享平台
+
+- name: 蚕豆海岛私服官网
+  link: https://30hb.cn/
+  img: /img/projects/bbps.avif
+  desc: 非官方的海岛奇兵私服，体验无限资源和独特玩法
+
+- name: 不蒜子.rs
+  link: https://bsz.saop.cc/
+  img: /img/projects/bsz.avif
+  desc: 不蒜子计数器的 Rust 高性能重写实现，带后台管理
+
+- name: 在线动漫聚合搜索
+  link: https://as.saop.cc/
+  img: /img/projects/as.avif
+  desc: 在线动漫聚合搜索工具，快速检索番剧资源
+
+- name: Galgame 聚合搜索
+  link: https://www.searchgal.top/
+  img: /img/projects/gs.avif
+  desc: 一键搜索多个 Galgame 资源站，附带最先进的游戏信息查询功能
+
+- name: ACGN Flow
+  link: https://af.saop.cc/
+  img: /img/projects/af.avif
+  desc: 流式媒体内容分享平台，提供丰富的动画、漫画、游戏、轻小说相关内容。
+
+- name: 图吧工具箱下载站
+  link: https://tb.saop.cc/
+  img: /img/projects/tb.avif
+  desc: 提供多条下载直链以替代官网，给用户最好的体验
+
+- name: Huanvae Chat
+  link: https://huanvae.cn/
+  img: /img/projects/huanvae.avif
+  desc: AI聊天、群组协作、视频会议，支持实时消息、文件共享、视频通话
