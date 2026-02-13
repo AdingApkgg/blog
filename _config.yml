@@ -261,8 +261,7 @@ swpp:
   gen_dom: true
   gen_diff: './diff.json'
   track_link: true
-  auto_exec: true
-  npm_url: 'https://registry.npmmirror.com'
+  auto_exec: false
 
 # 配置谷歌、必应、百度链接主动推送
 hexo_submit_urls_to_search_engine:
