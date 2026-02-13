@@ -1,24 +1,25 @@
 ---
 title: WordPress自用插件和主题推荐
 description: 关于WordPress自用的一些插件和主题推荐
-cover: >-
-  /img/202302160748549.webp
-categories: 技术
-tags:
-  - 框架
-  - 插件
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+cover: /img/202302160748549.webp
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试."
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
-abbrlink: "22"
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+abbrlink: '22'
 top_img: false
+categories:
+  - WordPress
+tags:
+  - WordPress插件
+  - 主题推荐
+  - Hexo迁移
+keywords: WordPress, WordPress插件, 主题推荐, Hexo迁移
 date: 2023-02-16 08:00:00
 updated: 2023-02-16 08:00:00
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

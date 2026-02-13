@@ -1,13 +1,18 @@
 ---
 title: Podman Compose 常用命令速查
 description: Podman Compose 的常用命令速查表
-categories: 技术
 abbrlink: 61957
 top_img: false
-tags:
-  - 命令
 copyright_author: Grok
-copyright_author_href: 'https://grok.com/share/bGVnYWN5_17bf1797-dd78-42f9-931b-f69a19a895df'
+copyright_author_href: https://grok.com/share/bGVnYWN5_17bf1797-dd78-42f9-931b-f69a19a895df
+categories:
+  - DevOps
+tags:
+  - Podman Compose
+  - Docker Compose
+  - Container Management
+  - Commands
+keywords: DevOps, Podman Compose, Docker Compose, Container Management, Commands
 date: 2025-12-24 03:13:00
 updated: 2025-12-24 03:13:00
 ---

@@ -1,24 +1,28 @@
 ---
 title: 安装 ImageMagick 扩展
 description: 安装ImageMagick扩展以供WP使用
-categories: 转载
-tags:
-  - 框架
 copyright: false
-abstract: '有东西被加密了, 请输入密码查看.'
-message: '您好, 这里需要密码.'
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: '抱歉, 这个密码看着不太对, 请再试试.'
-wrong_hash_message: '抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.'
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: 8ba6
 top_img: false
 copyright_author: Anthony Bouch
+categories:
+  - 软件安装
+tags:
+  - ImageMagick
+  - PHP扩展
+  - Windows Server
+  - IIS
+keywords: 软件安装, ImageMagick, PHP扩展, Windows Server, IIS
 date: 2023-01-31 04:00:00
 updated: 2023-01-31 04:00:00
 cover:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

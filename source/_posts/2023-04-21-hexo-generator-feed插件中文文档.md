@@ -1,27 +1,28 @@
 ---
 title: hexo-generator-feed插件中文文档
 description: Hexo博客RSS订阅文件生成的插件中文文档
-categories: 转载
-tags:
-  - 框架
-  - 插件
-  - 文档
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试."
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: f65f
 copyright: false
 top_img: false
 copyright_author: hexojs
-copyright_author_href: "https://github.com/hexojs"
+copyright_author_href: https://github.com/hexojs
+categories:
+  - Web Development
+tags:
+  - Hexo
+  - RSS Feed
+  - Plugin Documentation
+keywords: Web Development, Hexo, RSS Feed, Plugin Documentation
 date: 2023-04-21 17:00:00
 updated: 2023-04-21 17:00:00
 cover:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:
