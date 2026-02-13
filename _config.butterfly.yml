@@ -28,6 +28,7 @@ menu:
     分类: /categories/ || fas fa-folder-open
     说说: /shuoshuo/ || fas fa-lightbulb
   休闲||fas fa-mug-hot || hide:
+    项目: /projects/ || fas fa-code
     图库: /gallery/ || fas fa-images
     音乐: /music/ || fas fa-music
     视频: /video/ || fas fa-video

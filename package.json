@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "push": "hexo clean && node link.js && hexo generate && hexo deploy"
+    "push": "hexo clean && node link.js && hexo generate && hexo deploy",
+    "dev": "hexo clean && hexo server"
   },
   "hexo": {
     "version": "8.1.1"
@@ -24,7 +25,7 @@
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-sitemap": "^3.0.1",
@@ -41,5 +42,6 @@
     "hexo-wordcount": "^6.0.1",
     "swpp-backends": "^2.3.12",
     "yamljs": "^0.3.0"
-  }
+  },
+  "packageManager": "pnpm@10.29.3+sha512.498e1fb4cca5aa06c1dcf2611e6fafc50972ffe7189998c409e90de74566444298ffe43e6cd2acdc775ba1aa7cc5e092a8b7054c811ba8c5770f84693d33d2dc"
 }
