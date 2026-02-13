@@ -1,27 +1,29 @@
 ---
 title: hexo-filter-nofollow插件中文文档
-description: "为网站使用到的所有外链添加nofollow属性, 可以有效地加强网站SEO和防止权重流失"
-categories: 转载
-tags:
-  - 框架
-  - 插件
-  - 文档
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+description: 为网站使用到的所有外链添加nofollow属性, 可以有效地加强网站SEO和防止权重流失
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试."
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: d4ad
 copyright: false
 top_img: false
 copyright_author: hexojs
-copyright_author_href: "https://github.com/hexojs"
+copyright_author_href: https://github.com/hexojs
+categories:
+  - Web Development
+tags:
+  - Hexo
+  - nofollow
+  - SEO
+  - Plugin
+keywords: Web Development, Hexo, nofollow, SEO, Plugin
 date: 2023-04-21 16:30:00
 updated: 2023-04-21 16:30:00
 cover:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

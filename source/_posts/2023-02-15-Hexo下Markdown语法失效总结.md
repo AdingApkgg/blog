@@ -1,25 +1,29 @@
 ---
 title: Hexo 下 Markdown 语法失效总结
 description: Hexo 框架下的 Markdown 语法失效问题总结
-categories: 转载
-tags:
-  - 框架
 copyright: false
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试."
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: b45a
 top_img: false
 copyright_author: 萌小奇
-copyright_author_href: "https://www.jianshu.com/u/60dc3c4c6c3d"
+copyright_author_href: https://www.jianshu.com/u/60dc3c4c6c3d
+categories:
+  - 技术指南
+tags:
+  - Markdown
+  - Hexo
+  - 表格显示
+  - 有序列表
+keywords: 技术指南, Markdown, Hexo, 表格显示, 有序列表
 date: 2023-02-15 05:00:00
 updated: 2023-02-15 05:00:00
 cover:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

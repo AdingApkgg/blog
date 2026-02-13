@@ -1,22 +1,26 @@
 ---
 title: Butterfly 主题 HTML5 音乐播放器 APlayer 美化调整
-description: "Butterfly 主题 HTML5 播放器 Aplayer 的美化与调整过程记录，顺便 debug"
-categories: 技术
-tags:
-  - 主题
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+description: Butterfly 主题 HTML5 播放器 Aplayer 的美化与调整过程记录，顺便 debug
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试."
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: 8dc9
 top_img: false
+categories:
+  - Web Development
+tags:
+  - HTML5
+  - Music Player
+  - Butterfly Theme
+  - APlayer
+keywords: Web Development, HTML5, Music Player, Butterfly Theme, APlayer
 date: 2023-04-08 00:00:00
 updated: 2025-02-10 06:14:20
 cover:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

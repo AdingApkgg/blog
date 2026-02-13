@@ -3,14 +3,16 @@ title: Reflector 镜像列表更新常用命令与配置文件
 description: >-
   使用 Reflector 自动更新 Arch Linux 镜像列表，筛选中国地区最新且速度最快的 5 个镜像，并保存至
   /etc/pacman.d/mirrorlist 文件，提升软件包下载效率。
-categories: 技术
-tags:
-  - 命令
-  - 系统
-  - 镜像
 abbrlink: 59587
 top_img: false
-keywords: 'reflector, 命令, 指令, 配置, Linux, Arch'
+categories:
+  - Software Tools
+tags:
+  - reflector
+  - Arch Linux
+  - mirror list
+  - pacman
+keywords: Software Tools, reflector, Arch Linux, mirror list, pacman
 date: 2025-05-24 19:00:00
 updated: 2025-05-24 19:00:00
 ---

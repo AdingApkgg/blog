@@ -1,23 +1,27 @@
 ---
 title: 部署Meting-API
 description: 无服务器部署属于自己的Meting-API服务
-categories: 技术
-tags:
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）"
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
-abbrlink: "300"
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+abbrlink: '300'
 top_img: false
-cover: >-
-  /img/202306211545453.webp
+cover: /img/202306211545453.webp
+categories:
+  - 技术教程
+tags:
+  - Meting-API
+  - 无服务器部署
+  - Vercel
+  - GitHub
+keywords: 技术教程, Meting-API, 无服务器部署, Vercel, GitHub
 date: 2023-06-21 14:00:00
 updated: 2023-06-29 22:30:00
 password:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

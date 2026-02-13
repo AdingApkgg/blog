@@ -1,24 +1,27 @@
 ---
 title: Butterfly主题公告栏插入a标签按钮
 description: 在Hexo的Butterfly主题aside公告栏里插入a标签按钮
-categories: 技术
-tags:
-  - 主题
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）"
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: 7a98
 top_img: false
-cover: >-
-  /img/202306302327335.webp
+cover: /img/202306302327335.webp
+categories:
+  - Web Development
+tags:
+  - Butterfly Theme
+  - Hexo
+  - HTML
+  - CSS
+keywords: Web Development, Butterfly Theme, Hexo, HTML, CSS
 date: 2023-06-30 23:30:00
 updated: 2023-06-30 23:50:00
 password:
 type:
 comments:
-keywords:
 sticky:
 mathjax:
 katex:

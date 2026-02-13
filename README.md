@@ -2,8 +2,7 @@
 
 ```sh
 git clone https://github.com/AdingApkgg/blog.git
-cd blog && npm i -g hexo-cli && npm install
-hexo cl && hexo server
+cd blog && pnpm install && pnpm dev
 
 ```
 

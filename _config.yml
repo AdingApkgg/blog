@@ -254,15 +254,15 @@ markdown_it_plus:
   pre_class: highlight
 
 swpp:
-  # 是否启用插件
-  enable: false
-  # 是否在发布前自动执行脚本
-  # auto_exec: true
-  # 构建时拉取版本文件的警告等级，缺省为 1（该功能仅在 swpp-backends 版本号 >= 2.1.2 时可用）
-  # 0 - 表示不允许出现 404 情况；1 - 表示允许服务器返回 404 状态码；2 - 表示允许任何 404（包括 DNS 解析失败等）
-  # warn_level: 1
-  # 检查版本的 URL，不能以 '/' 结尾
-  # npm_url: "https://registry.npmmirror.com"
+  enable: true
+  config_path: 'swpp.config.ts'
+  serviceWorker: true
+  auto_register: true
+  gen_dom: true
+  gen_diff: './diff.json'
+  track_link: true
+  auto_exec: true
+  npm_url: 'https://registry.npmmirror.com'
 
 # 配置谷歌、必应、百度链接主动推送
 hexo_submit_urls_to_search_engine:
@@ -300,3 +300,9 @@ image_minifier:
   pngquant: false
   progressive: false
   silent: false
+
+llm_tagging:
+  api_key: "sk-dlamYMLcndbINqk83b1f26D1A8B047F9A661CaF8448a642f"
+  model: "Qwen/Qwen2.5-32B-Instruct"
+  endpoint: "http://175.178.127.190:3000/v1"
+  max_tokens: 256

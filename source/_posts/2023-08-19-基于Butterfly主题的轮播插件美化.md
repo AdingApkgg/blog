@@ -1,21 +1,24 @@
 ---
 title: 基于 Butterfly 主题的轮播插件美化
 description: 基于 Butterfly 主题的 SwiperBar 轮播插件，文章置顶滚动栏美化微调记录
-categories: 技术
-tags:
-  - 主题
-  - 插件
-abstract: "有东西被加密了, 请输入密码查看."
-message: "您好, 这里需要密码."
+abstract: 有东西被加密了, 请输入密码查看.
+message: 您好, 这里需要密码.
 theme: xray
-wrong_pass_message: "抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）"
-wrong_hash_message: "抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.（提示：某个词的罗马音）
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 abbrlink: 4d82
 top_img: false
-keywords: "Butterfly, Hexo, 博客插件, SwiperBar, 轮播"
+cover: /img/202308192202623.webp
+categories:
+  - Web Development
+tags:
+  - Hexo
+  - Butterfly Theme
+  - CSS
+  - Swiper Bar
+keywords: Web Development, Hexo, Butterfly Theme, CSS, Swiper Bar
 date: 2023-08-19 22:00:00
 updated: 2023-08-19 22:00:00
-cover: /img/202308192202623.webp
 password:
 type:
 comments:
