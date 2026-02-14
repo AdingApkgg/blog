@@ -1,3 +1,8 @@
+- name: 無名の主页
+  link: https://github.com/AdingApkgg/home
+  img: /img/projects/home.avif
+  desc: 用 Nuxt 与 TypeScript 重写的 imsyy/home 继任者
+
 - name: 不蒜子.rs
   link: https://bsz.saop.cc/
   img: /img/projects/bsz.avif
