@@ -90,8 +90,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       openai:
-        specifier: ^6.21.0
-        version: 6.21.0
+        specifier: ^6.22.0
+        version: 6.22.0
       swpp-backends:
         specifier: ^3.0.0
         version: 3.0.0
@@ -2678,8 +2678,8 @@ packages:
       zod:
         optional: true
 
-  openai@6.21.0:
-    resolution: {integrity: sha512-26dQFi76dB8IiN/WKGQOV+yKKTTlRCxQjoi2WLt0kMcH8pvxVyvfdBDkld5GTl7W1qvBpwVOtFcsqktj3fBRpA==}
+  openai@6.22.0:
+    resolution: {integrity: sha512-7Yvy17F33Bi9RutWbsaYt5hJEEJ/krRPOrwan+f9aCPuMat1WVsb2VNSII5W1EksKT6fF69TG/xj4XzodK3JZw==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -6989,7 +6989,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  openai@6.21.0: {}
+  openai@6.22.0: {}
 
   opencollective-postinstall@2.0.3: {}
 
