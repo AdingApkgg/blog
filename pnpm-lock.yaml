@@ -76,7 +76,7 @@ importers:
         version: 3.0.0
       hexo-swpp:
         specifier: ^4.0.1
-        version: 4.0.1(swpp-backends@3.0.0)
+        version: 4.0.1(swpp-backends@3.1.1)
       hexo-tag-dplayer:
         specifier: ^0.3.3
         version: 0.3.3
@@ -93,8 +93,8 @@ importers:
         specifier: ^6.22.0
         version: 6.22.0
       swpp-backends:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.1.1
+        version: 3.1.1
       yamljs:
         specifier: ^0.3.0
         version: 0.3.0
@@ -3532,8 +3532,8 @@ packages:
     deprecated: unmaintained
     hasBin: true
 
-  swpp-backends@3.0.0:
-    resolution: {integrity: sha512-kR4r7pyMwcPEvrUN7KsuSKExc5xwFWlOAC8Pkm7Zdu3CvEXfZDoLc5iNqU8l+P2SxNsqUQ2om//uQfpC1tezCA==}
+  swpp-backends@3.1.1:
+    resolution: {integrity: sha512-SNHlrh3oKNx0eMBox1TWUsdBsVPPa4EzuWcWcqKnoFv+VQO1zuANHaiH2Q/KD9LmTAS5VWWQHoIe0a+YAAj4cg==}
     hasBin: true
 
   tar-stream@1.6.2:
@@ -5778,10 +5778,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-swpp@4.0.1(swpp-backends@3.0.0):
+  hexo-swpp@4.0.1(swpp-backends@3.1.1):
     dependencies:
       hexo-log: 4.1.0
-      swpp-backends: 3.0.0
+      swpp-backends: 3.1.1
 
   hexo-tag-dplayer@0.3.3:
     dependencies:
@@ -7885,7 +7885,7 @@ snapshots:
       optimist: 0.6.1
       uglify-js: 2.6.0
 
-  swpp-backends@3.0.0:
+  swpp-backends@3.1.1:
     dependencies:
       commander: 12.1.0
       jiti: 2.6.1

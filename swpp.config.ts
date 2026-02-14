@@ -5,20 +5,6 @@ defineConfig({
     DOMAIN_HOST: new URL('https://blog.saop.cc'),
     // 允许服务器返回 404
     ALLOW_NOT_FOUND: 1,
-    // 判断 URL 是否稳定（内容永不变化）
-    isStable: (url: URL) => {
-      const cdnHosts = [
-        'registry.npmmirror.com',
-        'npm.elemecdn.com',
-        'unpkg.com',
-        'fastly.jsdelivr.net',
-        'cdn.jsdelivr.net',
-        'cdn.staticfile.net',
-        'cdn.staticfile.org',
-        's1.hdslb.com',
-      ]
-      return cdnHosts.includes(url.hostname)
-    },
   },
 
   crossEnv: {
@@ -31,7 +17,7 @@ defineConfig({
 
   crossDep: {
     // 缓存规则
-    // 返回值：INFINITE_CACHE (symbol) = 永久缓存 | 正整数 = 过期时间(ms) | false/null/undefined = 不缓存
+    // 返回值：负数 = 永久缓存（非本站资源等价于 24h）| 正数 = 过期时间(ms) | false/null/undefined/0 = 不缓存
     matchCacheRule: {
       runOnBrowser: (url: URL) => {
         const hostname = url.hostname
@@ -51,16 +37,15 @@ defineConfig({
           'cdn.staticfile.org',
           's1.hdslb.com',
         ]
-        // @ts-ignore - INFINITE_CACHE 是 swpp 在 SW 上下文中注入的全局变量
-        if (cdnHosts.includes(hostname)) return INFINITE_CACHE
+        // 负数 = 永久缓存（非本站资源等价于缓存 24h）
+        if (cdnHosts.includes(hostname)) return -1
 
         // 本站资源
         if (hostname === 'blog.saop.cc') {
           // HTML 页面不缓存，保证内容实时更新
           if (pathname.endsWith('/') || pathname.endsWith('.html')) return null
           // 字体文件 → 永久缓存
-          // @ts-ignore
-          if (/\.(woff2?|ttf|otf|eot)$/.test(pathname)) return INFINITE_CACHE
+          if (/\.(woff2?|ttf|otf|eot)$/.test(pathname)) return -1
           // JS / CSS → 缓存 3 天
           if (/\.(js|css)$/.test(pathname)) return 3 * 24 * 60 * 60 * 1000
           // 图片 → 缓存 7 天
@@ -87,10 +72,10 @@ defineConfig({
           'cdn.staticfile.org',
           's1.hdslb.com',
         ]
-        if (cdnHosts.includes(hostname)) return Symbol()
+        if (cdnHosts.includes(hostname)) return -1
         if (hostname === 'blog.saop.cc') {
           if (pathname.endsWith('/') || pathname.endsWith('.html')) return null
-          if (/\.(woff2?|ttf|otf|eot)$/.test(pathname)) return Symbol()
+          if (/\.(woff2?|ttf|otf|eot)$/.test(pathname)) return -1
           if (/\.(js|css)$/.test(pathname)) return 3 * 24 * 60 * 60 * 1000
           if (/\.(png|jpe?g|gif|webp|svg|ico|avif)$/.test(pathname)) return 7 * 24 * 60 * 60 * 1000
           return 24 * 60 * 60 * 1000
