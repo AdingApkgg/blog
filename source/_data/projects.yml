@@ -1,17 +1,17 @@
-- name: Mikiacg
-  link: https://www.mikiacg.vip/
-  img: /img/projects/mikiacg.avif
-  desc: ACGN 资源内容分享平台
-
-- name: 蚕豆海岛私服官网
-  link: https://30hb.cn/
-  img: /img/projects/bbps.avif
-  desc: 非官方的海岛奇兵私服，体验无限资源和独特玩法
-
 - name: 不蒜子.rs
   link: https://bsz.saop.cc/
   img: /img/projects/bsz.avif
   desc: 不蒜子计数器的 Rust 高性能重写实现，带后台管理
+
+- name: ACGN Flow
+  link: https://af.saop.cc/
+  img: /img/projects/af.avif
+  desc: 流式媒体内容分享平台，提供丰富的动画、漫画、游戏、轻小说相关内容。
+
+- name: Mikiacg
+  link: https://www.mikiacg.vip/
+  img: /img/projects/mikiacg.avif
+  desc: ACGN 资源内容分享平台
 
 - name: 在线动漫聚合搜索
   link: https://as.saop.cc/
@@ -23,10 +23,10 @@
   img: /img/projects/gs.avif
   desc: 一键搜索多个 Galgame 资源站，附带最先进的游戏信息查询功能
 
-- name: ACGN Flow
-  link: https://af.saop.cc/
-  img: /img/projects/af.avif
-  desc: 流式媒体内容分享平台，提供丰富的动画、漫画、游戏、轻小说相关内容。
+- name: 蚕豆海岛私服官网
+  link: https://30hb.cn/
+  img: /img/projects/bbps.avif
+  desc: 非官方的海岛奇兵私服，体验无限资源和独特玩法
 
 - name: 图吧工具箱下载站
   link: https://tb.saop.cc/
@@ -37,3 +37,38 @@
   link: https://huanvae.cn/
   img: /img/projects/huanvae.avif
   desc: AI聊天、群组协作、视频会议，支持实时消息、文件共享、视频通话
+
+- name: VNS
+  link: https://vns.saop.cc/
+  img: /img/projects/vns.avif
+  desc: 旮旯资源数据收集站
+
+- name: bili-parse
+  link: https://github.com/AdingApkgg/bili-parse
+  img: /img/projects/bili-parse.avif
+  desc: bilibili 非官方视频解析工具
+
+- name: FA-Kara WebUI
+  link: https://github.com/AdingApkgg/FA-Kara-WebUI
+  img: /img/projects/fa-kara.avif
+  desc: 基于 FA-Kara 的卡拉 OK 歌词对齐工具 WebUI 版本。
+
+- name: 电子木鱼
+  link: https://muyv.saop.cc/
+  img: /img/projects/muyv.avif
+  desc: 入门 JavaScript 时的练习作品..
+
+- name: 原神社群推荐列表
+  link: https://ysbbs.saop.cc/
+  img: /img/projects/ysbbs.avif
+  desc: 入门 CSS 时的练习作品..
+
+- name: Genshin Impact Start
+  link: https://genshin-start.saop.cc/
+  img: /img/projects/genshin-start.avif
+  desc: 原神，启动！
+
+- name: Web Test
+  link: https://github.com/AdingApkgg/web-test
+  img: /img/projects/web-test.avif
+  desc: 入门 Web 开发时的一些练习用 Demo..
