@@ -260,7 +260,6 @@ swpp:
   auto_register: true
   gen_dom: true
   gen_diff: './diff.json'
-  track_link: true
   auto_exec: false
 
 # 配置谷歌、必应、百度链接主动推送
