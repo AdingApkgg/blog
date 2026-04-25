@@ -36,14 +36,14 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-swpp": "^4.0.2",
+    "hexo-swpp": "^4.0.3",
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-butterfly": "^5.5.4",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "openai": "^6.33.0",
+    "openai": "^6.34.0",
     "swpp-backends": "^3.1.1",
     "yamljs": "^0.3.0"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.2"
 }
