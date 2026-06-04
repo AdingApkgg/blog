@@ -1,0 +1,15 @@
+allowBuilds:
+  core-js: true
+  ejs: true
+  fsevents: true
+  gifsicle: true
+  hexo-helper-live2d: true
+  hexo-util: true
+  highlight.js: true
+  jpegtran-bin: true
+  live2d-widget: true
+  mozjpeg: true
+  optipng-bin: true
+  pngquant-bin: true
+minimumReleaseAgeExclude:
+  - openai@6.42.0

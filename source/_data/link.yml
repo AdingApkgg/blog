@@ -235,6 +235,10 @@
       link: https://u.sb/
       avatar: https://s.u.sb/favicon.ico
       descr: 专注于服务器运维、专业域名投资分析
+    - name: 落叶下的记事本
+      link: https://lemonkoi.one/
+      avatar: https://gravatar.com/avatar/24972965681ebfcf8369dcecbc7080fa
+      descr: puuuuing~~
 
 - class_name: 朋友们
   class_desc: 一些似朋友又不是朋友的朋友~~
@@ -541,3 +545,7 @@
       link: https://gwy.fun
       avatar: https://www.gwy.fun/zhan/logo.jpg
       descr: 不知何时春日悄来临， 不知何日春花已落尽。
+    - name: 吾爱丫鬟
+      link: https://www.52yahuan.com/
+      avatar: https://www.52yahuan.com/images/2026/04/111.jpeg
+      descr: 丫鬟有个梦想，每天吃饭前，都能享受到年轻女性赏赐的耳光！
