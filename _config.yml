@@ -194,7 +194,8 @@ encrypt: # hexo-blog-encrypt
     - { name: 加密, password: AdingApkgg }
   theme: xray
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
-  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+  kdf:
+    iterations: 600000
   silent: true
 
 feed:
@@ -254,7 +255,7 @@ markdown_it_plus:
   pre_class: highlight
 
 swpp:
-  enable: true
+  enable: false
   config_path: 'swpp.config.ts'
   serviceWorker: true
   auto_register: true

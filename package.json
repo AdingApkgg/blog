@@ -11,14 +11,14 @@
     "dev": "hexo clean && hexo server"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
-    "hexo": "^8.1.1",
+    "hexo": "^8.1.2",
     "hexo-abbrlink": "^2.2.1",
     "hexo-all-minifier": "^0.5.7",
-    "hexo-blog-encrypt": "^3.1.9",
+    "hexo-blog-encrypt": "^4.0.1",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-deployer-git": "^4.0.0",
     "hexo-filter-nofollow": "^2.0.2",
@@ -36,14 +36,14 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-swpp": "^4.0.3",
+    "hexo-swpp": "^4.0.4",
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-butterfly": "^5.5.4",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "openai": "^6.34.0",
-    "swpp-backends": "^3.1.1",
+    "openai": "^6.42.0",
+    "swpp-backends": "^3.1.4",
     "yamljs": "^0.3.0"
   },
-  "packageManager": "pnpm@10.33.2"
+  "packageManager": "pnpm@11.5.1"
 }
