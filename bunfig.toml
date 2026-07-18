@@ -1,0 +1,4 @@
+[install]
+# 供应链安全:仅安装发布满 24 小时的包版本(对齐 pnpm 11 默认的 minimumReleaseAge)
+minimumReleaseAge = 86400
+minimumReleaseAgeExcludes = ["openai"]
