@@ -85,7 +85,7 @@ highlight_shrink:
     top: -8px;
     left: -8px;
     background: #ff6b6b;
-    color: var(--font-color);
+    color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -125,7 +125,7 @@ highlight_shrink:
 .level {
     display: inline-block;
     background: #ff6b6b;
-    color: var(--font-color);
+    color: #fff;
     padding: 2px 6px;
     border-radius: 8px;
     font-size: 0.7rem;
@@ -134,13 +134,15 @@ highlight_shrink:
 
 .achievements {
     font-size: 0.8rem;
-    color: #666;
+    color: var(--font-color);
+    opacity: 0.75;
     margin-bottom: 2px;
 }
 
 .rating {
     font-size: 0.75rem;
-    color: #888;
+    color: var(--font-color);
+    opacity: 0.6;
     font-weight: bold;
 }
 
@@ -158,6 +160,7 @@ highlight_shrink:
     left: 0;
     width: 100%;
     height: 100%;
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(8px);
     z-index: 1000;
     align-items: center;
@@ -183,6 +186,20 @@ highlight_shrink:
     font-size: 2rem;
     cursor: pointer;
     z-index: 1001;
+}
+
+.modal-badge {
+    display: inline-block;
+    background: #ff6b6b;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.modal-badge-type {
+    background: #4ecdc4;
+    margin-left: 8px;
 }
 
 @media (max-width: 768px) {
@@ -243,171 +260,8 @@ highlight_shrink:
 </div>
 </div>
 <div class="detail-modal" id="detailModal">
-<div class="close-modal" onclick="closeModal()">×</div>
+<div class="close-modal">×</div>
 <div class="modal-content" id="modalContent">
 </div>
 </div>
-<script>
-const token = "5xyMaPC0gE-h5qPUY2MHh30eYlv5bb_rSvJLlK27v_w=";
-const friendCode = "367165286529031";
-let dxScores = [];
-let standardScores = [];
-fetch(
-"https://vn-rank-api.adingapkgg.workers.dev/?target=https://maimai.lxns.net/api/v0/maimai/player/" +
-friendCode +
-"/bests",
-{
-method: "GET",
-headers: {
-Authorization: token,
-"Content-Type": "application/json",
-},
-}
-)
-.then((response) => {
-if (!response.ok) {
-throw new Error("网络响应不正常");
-}
-return response.json();
-})
-.then((data) => {
-console.log("获取到的B50数据:", data);
-processB50Data(data);
-})
-.catch((error) => {
-console.error("请求失败:", error);
-document.getElementById("dxScores").innerHTML =
-document.getElementById("standardScores").innerHTML =
-'<div class="loading">加载失败，请检查网络连接</div>';
-});
-function processB50Data(data) {
-// B50 数据的结构：data.data.dx 和 data.data.standard
-dxScores = data.data.dx || [];
-standardScores = data.data.standard || [];
-// 更新统计信息
-document.getElementById(
-"dxStats"
-).textContent = `共 ${dxScores.length} 首歌曲`;
-document.getElementById(
-"standardStats"
-).textContent = `共 ${standardScores.length} 首歌曲`;
-// 计算 Rating
-calculateRatings(data.data);
-// 渲染两个区域的成绩
-renderScores(dxScores, "dxScores");
-renderScores(standardScores, "standardScores");
-}
-// 计算 Rating
-function calculateRatings(b50Data) {
-// 直接从 API 返回的数据中获取总 Rating
-const totalRating =
-(b50Data.dx_total || 0) + (b50Data.standard_total || 0);
-const dxRating = b50Data.dx_total || 0;
-const standardRating = b50Data.standard_total || 0;
-document.getElementById("totalRating").textContent =
-Math.round(totalRating);
-document.getElementById("dxRating").textContent = Math.round(dxRating);
-document.getElementById("standardRating").textContent =
-Math.round(standardRating);
-}
-// 渲染成绩卡片
-function renderScores(scores, containerId) {
-const grid = document.getElementById(containerId);
-if (scores.length === 0) {
-grid.innerHTML = '<div class="loading">暂无成绩数据</div>';
-return;
-}
-grid.innerHTML = scores
-.map(
-(score, index) => `
-<div class="score-card" onclick="showDetail('${containerId}', ${index})">
-<div class="rank-badge">${index + 1}</div>
-<img
-src="https://assets.lxns.net/maimai/jacket/${
-score.id
-}.png!webp"
-alt="${score.song_name}"
-class="jacket"
->
-<div class="song-info">
-<div class="song-name" title="${score.song_name}">${
-score.song_name
-}</div>
-<div class="level">${score.level}</div>
-<div class="achievements">${score.achievements.toFixed(
-2
-)}%</div>
-<div class="rating">${
-score.dx_rating ? score.dx_rating.toFixed(0) : "N/A"
-}</div>
-</div>
-</div>
-`
-)
-.join("");
-}
-// 显示详情模态框
-function showDetail(section, index) {
-let score;
-if (section === "dxScores") {
-score = dxScores[index];
-} else {
-score = standardScores[index];
-}
-if (!score) return;
-const modal = document.getElementById("detailModal");
-const modalContent = document.getElementById("modalContent");
-modalContent.innerHTML = `
-<img
-src="https://assets.lxns.net/maimai/jacket/${
-score.id
-}.png!webp"
-alt="${score.song_name}"
->
-<h2>${score.song_name}</h2>
-<div style="margin: 15px 0;">
-<span style="background: #ff6b6b; color: var(--font-color); padding: 4px 12px; border-radius: 15px; font-size: 0.9rem;">
-B50 #${index + 1}
-</span>
-<span class="level" style="margin-left: 8px;">${
-score.level
-}</span>
-<span style="margin-left: 8px; background: #4ecdc4; var(--font-color): white; padding: 4px 8px; border-radius: 12px; font-size: 0.8rem;">
-${section === "dxScores" ? "DX" : "标准"}
-</span>
-</div>
-<div style="text-align: left; margin: 20px 0;">
-<p><strong>达成率:</strong> ${score.achievements.toFixed(
-4
-)}%</p>
-<p><strong>Rating:</strong> ${
-score.dx_rating ? score.dx_rating.toFixed(2) : "N/A"
-}</p>
-<p><strong>FC:</strong> ${score.fc || "无"}</p>
-<p><strong>FS:</strong> ${score.fs || "无"}</p>
-<p><strong>评级:</strong> ${score.rate || "N/A"}</p>
-<p><strong>更新时间:</strong> ${new Date(
-score.upload_time
-).toLocaleString()}</p>
-</div>
-${
-score.id
-? `<audio controls style="width: 100%; margin-top: 15px;" src="https://assets2.lxns.net/maimai/music/${score.id}.mp3"></audio>`
-: ""
-}
-`;
-modal.style.display = "flex";
-}
-// 关闭模态框
-function closeModal() {
-document.getElementById("detailModal").style.display = "none";
-}
-// 点击模态框外部关闭
-document
-.getElementById("detailModal")
-.addEventListener("click", function (e) {
-if (e.target === this) {
-closeModal();
-}
-});
-</script>
+<script data-pjax src="/js/mai-b50.js"></script>
