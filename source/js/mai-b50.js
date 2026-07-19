@@ -15,6 +15,10 @@
   const root = document.getElementById('mai-b50')
   // 页面元素不存在（非 /mai 页误加载）时直接退出
   if (!root || !$('dxScores') || !$('standardScores') || !$('detailModal')) return
+  // pjax 换页时脚本可能被 pjax.js 与主题的 data-pjax 克隆各执行一次；
+  // root 元素每次导航都是新节点，用它上面的标记去重
+  if (root.dataset.maiInit) return
+  root.dataset.maiInit = '1'
   // pjax 离开时可能残留的滚动锁，进入页面先复位
   document.documentElement.style.overflow = ''
 
@@ -243,6 +247,12 @@
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeModal()
   }, { signal: window.__maiAbort.signal })
+  // 弹窗开着时通过后退等方式 pjax 离开本页，需解除滚动锁（按名注册，重复执行覆盖不堆积）
+  if (window.btf && window.btf.addGlobalFn) {
+    window.btf.addGlobalFn('pjaxSend', () => {
+      document.documentElement.style.overflow = ''
+    }, 'maiB50')
+  }
 
   load(false)
 })()

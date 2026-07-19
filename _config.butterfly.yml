@@ -1397,7 +1397,6 @@ pjax:
   exclude:
     # - /xxxxxx/
     - /movie/
-    - /mai/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
