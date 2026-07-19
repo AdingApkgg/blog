@@ -5,36 +5,36 @@
     "": {
       "name": "hexo-site",
       "dependencies": {
-        "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
-        "hexo": "^8.1.2",
-        "hexo-abbrlink": "^2.2.1",
-        "hexo-all-minifier": "^0.5.7",
-        "hexo-blog-encrypt": "^4.0.1",
-        "hexo-butterfly-envelope": "^1.0.15",
-        "hexo-deployer-git": "^4.0.0",
-        "hexo-filter-nofollow": "^2.0.2",
-        "hexo-generator-archive": "^2.0.0",
-        "hexo-generator-baidu-sitemap": "^0.1.9",
-        "hexo-generator-category": "^2.0.0",
-        "hexo-generator-feed": "^4.0.0",
-        "hexo-generator-index": "^4.0.0",
-        "hexo-generator-searchdb": "^1.5.0",
-        "hexo-generator-sitemap": "^3.0.1",
-        "hexo-generator-tag": "^2.0.0",
-        "hexo-helper-live2d": "^3.1.1",
-        "hexo-llm-tagging": "^3.2.2",
-        "hexo-renderer-ejs": "^2.0.0",
-        "hexo-renderer-pug": "^3.0.0",
-        "hexo-renderer-stylus": "^3.0.1",
-        "hexo-server": "^3.0.0",
-        "hexo-swpp": "^4.0.4",
-        "hexo-tag-dplayer": "^0.3.3",
-        "hexo-theme-butterfly": "^5.5.4",
-        "hexo-util": "^4.0.0",
-        "hexo-wordcount": "^6.0.1",
-        "openai": "^6.42.0",
-        "swpp-backends": "^3.1.4",
-        "yamljs": "^0.3.0",
+        "@upupming/hexo-renderer-markdown-it-plus": "latest",
+        "hexo": "latest",
+        "hexo-abbrlink": "latest",
+        "hexo-all-minifier": "latest",
+        "hexo-blog-encrypt": "latest",
+        "hexo-butterfly-envelope": "latest",
+        "hexo-deployer-git": "latest",
+        "hexo-filter-nofollow": "latest",
+        "hexo-generator-archive": "latest",
+        "hexo-generator-baidu-sitemap": "latest",
+        "hexo-generator-category": "latest",
+        "hexo-generator-feed": "latest",
+        "hexo-generator-index": "latest",
+        "hexo-generator-searchdb": "latest",
+        "hexo-generator-sitemap": "latest",
+        "hexo-generator-tag": "latest",
+        "hexo-helper-live2d": "latest",
+        "hexo-llm-tagging": "latest",
+        "hexo-renderer-ejs": "latest",
+        "hexo-renderer-pug": "latest",
+        "hexo-renderer-stylus": "latest",
+        "hexo-server": "latest",
+        "hexo-swpp": "latest",
+        "hexo-tag-dplayer": "latest",
+        "hexo-theme-butterfly": "latest",
+        "hexo-util": "latest",
+        "hexo-wordcount": "latest",
+        "openai": "latest",
+        "swpp-backends": "latest",
+        "yamljs": "latest",
       },
     },
   },
@@ -601,7 +601,7 @@
 
     "hexo-all-minifier": ["hexo-all-minifier@0.5.7", "", { "dependencies": { "bluebird": "3.7.2", "cheerio": "1.1.2", "clean-css": "5.3.3", "html-minifier-terser": "5.1.1", "imagemin": "7.0.1", "imagemin-gifsicle": "7.0.0", "imagemin-jpegtran": "7.0.0", "imagemin-mozjpeg": "9.0.0", "imagemin-optipng": "8.0.0", "imagemin-pngquant": "9.0.2", "imagemin-svgo": "9.0.0", "minimatch": "3.1.2", "uglify-js": "3.19.3" } }, "sha512-dOMBGDmfD8EqLiHn5AWJM9Y2xNvQ3j+WmHYRAIbyLaINItRVkxFr5Aws2GwXry89F3K+KbytxW0O40Z9SytBjw=="],
 
-    "hexo-blog-encrypt": ["hexo-blog-encrypt@4.0.1", "", { "peerDependencies": { "hexo": "8.1.2" } }, "sha512-8BXbuNNe6fXxEG2lqI8s4xbY11AfY5grx7NErtiH4sBu6bKgMWczayhcNgabvdINCjkFx8lQqxT1WQ+QThs/IA=="],
+    "hexo-blog-encrypt": ["hexo-blog-encrypt@4.0.2", "", { "peerDependencies": { "hexo": ">=5" } }, "sha512-61A6wl0NWWVPs2NTtjM1f9EojOnGadyPxCGUJs9m9Qvz5F/Jtw6lpnaUR3GCdY/yYHSDuGxPakvKZP2XVXBv2g=="],
 
     "hexo-bunyan": ["hexo-bunyan@1.0.0", "", { "optionalDependencies": { "moment": "2.30.1", "mv": "2.1.1", "safe-json-stringify": "1.2.0" }, "bin": { "bunyan": "./bin/bunyan" } }, "sha512-RymT8Ck+K77mLt9BEYNb4uyfC7RIQnU5N3laXowMrS28jj2h89VHJCOnhV00mmta4fHRqNa07kP1Hrn17nvMkQ=="],
 
@@ -655,7 +655,7 @@
 
     "hexo-tag-dplayer": ["hexo-tag-dplayer@0.3.3", "", { "dependencies": { "dplayer": "1.27.1", "hexo-fs": "0.2.3", "hexo-log": "0.2.0", "hexo-util": "0.6.3" } }, "sha512-Y2sweNkcYNr9cLt2J35V0R40P7rriPiW/99shfEdWy5xYxXNzCBKKuDC/YAr2XzzZk29WM5YPID9f2w3veaqdA=="],
 
-    "hexo-theme-butterfly": ["hexo-theme-butterfly@5.5.4", "", { "dependencies": { "hexo-renderer-pug": "3.0.0", "hexo-renderer-stylus": "3.0.1", "hexo-util": "4.0.0", "moment-timezone": "0.6.0" } }, "sha512-gk953p0P1c8QQHBm6xZAoPsYZuIMWsZR+riwT7By+1ygnEv9ZlEWqFflbZbKiXEJWy8VZhkV63k7SiwyifCkSw=="],
+    "hexo-theme-butterfly": ["hexo-theme-butterfly@5.6.0", "", { "dependencies": { "hexo-renderer-pug": "^3.0.0", "hexo-renderer-stylus": "^3.0.1", "hexo-util": "^4.0.0", "moment-timezone": "^0.6.2" } }, "sha512-qfL1+pmdXqp6unwilE3EMYPGgukyO5r5k7MplfhVAfvAgtv5M/PBNGmI/38nFG0mKE22PKlNVs0ehEFSYaOSHA=="],
 
     "hexo-util": ["hexo-util@4.0.0", "", { "dependencies": { "camel-case": "4.1.2", "cross-spawn": "7.0.6", "deepmerge": "4.3.1", "highlight.js": "11.11.1", "htmlparser2": "10.0.0", "prismjs": "1.30.0", "strip-indent": "3.0.0" } }, "sha512-oXKXBs1HZ2Wu/eq0paAVqtCmAEcqJPZ4xxSVRuwAplm1hFU41Ul53WA5bmYMEz9Dp+OJ/SdchjXRmYlbGJdt3w=="],
 
@@ -1091,7 +1091,7 @@
 
     "open": ["open@8.4.2", "", { "dependencies": { "define-lazy-prop": "2.0.0", "is-docker": "2.2.1", "is-wsl": "2.2.0" } }, "sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ=="],
 
-    "openai": ["openai@6.42.0", "", {}, "sha512-1WFEt/uXMXOLhYRNkgJWo08Y2YNvNwpVU72K7ibrWgWpNOXd4VojXLbe6SQ4bLiUQ3Y8jz4IiyVkylJCL1DtZg=="],
+    "openai": ["openai@6.48.0", "", { "peerDependencies": { "@aws-sdk/credential-provider-node": ">=3.972.0 <4", "@smithy/hash-node": ">=4.3.0 <5", "@smithy/signature-v4": ">=5.4.0 <6", "ws": "^8.18.0", "zod": "^3.25 || ^4.0" }, "optionalPeers": ["@aws-sdk/credential-provider-node", "@smithy/hash-node", "@smithy/signature-v4", "ws", "zod"] }, "sha512-KhVp+FyV50QrXNextvL9hIU5l6ox5HYuKQjGVk7lIqprgJol90+dQXWONV6S1lRWsKA1bXjrow8RsUT14M1hNA=="],
 
     "opencollective": ["opencollective@1.0.3", "", { "dependencies": { "babel-polyfill": "6.23.0", "chalk": "1.1.3", "inquirer": "3.0.6", "minimist": "1.2.0", "node-fetch": "1.6.3", "opn": "4.0.2" }, "bin": { "opencollective": "./dist/bin/opencollective.js", "oc": "./dist/bin/opencollective.js" } }, "sha512-YBRI0Qa8+Ui0/STV1qYuPrJm889PT3oCPHMVoL+8Y3nwCffj7PSrB2NlGgrhgBKDujxTjxknHWJ/FiqOsYcIDw=="],
 
@@ -1805,7 +1805,7 @@
 
     "hexo-tag-dplayer/hexo-util": ["hexo-util@0.6.3", "", { "dependencies": { "bluebird": "3.7.2", "camel-case": "3.0.0", "cross-spawn": "4.0.2", "highlight.js": "9.18.5", "html-entities": "1.4.0", "striptags": "2.2.1" } }, "sha512-zPxaqCWZz3/25SAB4FlrRtWktJ+Pr+vBiv/nyHpXKgXPt1m70liViKlRwWLqDmRjJ72x6/k4qCEeXHajvcGHUw=="],
 
-    "hexo-theme-butterfly/moment-timezone": ["moment-timezone@0.6.0", "", { "dependencies": { "moment": "2.30.1" } }, "sha512-ldA5lRNm3iJCWZcBCab4pnNL3HSZYXVb/3TYr75/1WCTWYuTqYUb5f/S384pncYjJ88lbO8Z4uPDvmoluHJc8Q=="],
+    "hexo-theme-butterfly/moment-timezone": ["moment-timezone@0.6.2", "", { "dependencies": { "moment": "^2.29.4" } }, "sha512-lDsQv8FoGdBUdf0+TjGsq2orxKuXdwFlQ6Zw6TX3xIcTwTfEpCLyKqvEauvCHJ8iu3KBV8+uPhlv70YsNGdUBQ=="],
 
     "hexo-util/highlight.js": ["highlight.js@11.11.1", "", {}, "sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w=="],
 
