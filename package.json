@@ -41,7 +41,6 @@
     "hexo-theme-butterfly": "^5.6.1",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "openai": "^6.49.0",
     "swpp-backends": "^3.1.4",
     "yamljs": "^0.3.0"
   },
