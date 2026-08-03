@@ -221,11 +221,15 @@ nofollow:
   field: site
   exclude:
 
-# hexo-generator-seo-friendly-sitemap：索引式 sitemap，按 posts/pages/categories/tags 分表
 sitemap:
-  path: sitemap.xml
-  # tag/category 页默认收录；如需排除设为 false
-  # 单篇排除：在该文章 front-matter 加 sitemap: false
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap.xml
+  template_txt: ./sitemap.txt
+  rel: false
+  tags: true
+  categories: true
 
 baidusitemap:
   path: baidusitemap.xml
