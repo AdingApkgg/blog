@@ -38,7 +38,7 @@
     "hexo-server": "^3.0.0",
     "hexo-swpp": "^4.0.4",
     "hexo-tag-dplayer": "^0.3.3",
-    "hexo-theme-butterfly": "^5.6.0",
+    "hexo-theme-butterfly": "^5.6.1",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
     "openai": "^6.48.0",

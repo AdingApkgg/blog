@@ -8,6 +8,7 @@ public/
 _multiconfig.yml
 .history/
 .vscode/
+.claude/
 package-lock.json
 Project.json
 yarn.lock
