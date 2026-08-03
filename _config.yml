@@ -190,8 +190,8 @@ envelope_comment:
 encrypt: # hexo-blog-encrypt
   abstract: 有东西被加密了, 请输入密码查看.
   message: 您好, 这里需要密码.
-  categories:
-    - { name: 加密, password: AdingApkgg }
+  # categories（含加密口令）移至 _config.local.yml，构建时经 --config 合并
+  # ⚠ 不带 _config.local.yml 合并构建时，加密分类的文章会以明文输出
   theme: xray
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   kdf:

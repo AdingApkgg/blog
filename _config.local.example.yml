@@ -12,3 +12,8 @@ hexo_submit_urls_to_search_engine:
 # LLM 自动打标签（OpenAI 兼容接口）——仅 api_key 为敏感项，其余非密字段留在 _config.yml
 llm_tagging:
   api_key: ""       # 如 DeepSeek: sk-xxxx
+
+# 文章加密口令（hexo-blog-encrypt）——深合并进 _config.yml 的 encrypt 块
+encrypt:
+  categories:
+    - { name: 加密, password: "" }   # 「加密」分类文章的口令
