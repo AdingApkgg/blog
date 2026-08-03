@@ -6,6 +6,7 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+_config.local.yml
 .history/
 .vscode/
 .claude/

@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate --config _config.yml,_config.local.yml",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
-    "push": "hexo clean && node link.js && hexo generate && hexo swpp && bash deploy.sh",
-    "dev": "hexo clean && hexo server"
+    "deploy": "hexo deploy --config _config.yml,_config.local.yml",
+    "server": "hexo server --config _config.yml,_config.local.yml",
+    "push": "hexo clean && node link.js && hexo generate --config _config.yml,_config.local.yml && hexo swpp --config _config.yml,_config.local.yml && bash deploy.sh",
+    "dev": "hexo clean && hexo server --config _config.yml,_config.local.yml"
   },
   "hexo": {
     "version": "8.1.2"

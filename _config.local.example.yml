@@ -1,0 +1,14 @@
+# 私密配置模板 —— 复制为 _config.local.yml 并填入真实值
+#   cp _config.local.example.yml _config.local.yml
+# _config.local.yml 已被 .gitignore 忽略，不会进入版本库。
+# 构建时通过 `hexo --config _config.yml,_config.local.yml` 合并；
+# package.json 的 build / server / dev / push 脚本已内置该合并参数。
+
+# 搜索引擎主动推送密钥（父键与 _config.yml 中一致，深度合并只覆盖这两项）
+hexo_submit_urls_to_search_engine:
+  baidu_token: ""   # 百度站长平台推送 token
+  bing_token: ""    # Bing 站长平台推送 token
+
+# LLM 自动打标签（OpenAI 兼容接口）——仅 api_key 为敏感项，其余非密字段留在 _config.yml
+llm_tagging:
+  api_key: ""       # 如 DeepSeek: sk-xxxx
