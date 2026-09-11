@@ -1398,10 +1398,8 @@ pjax:
     # - /xxxxxx/
     - /movie/
 
-# Inject the css and script (aplayer/meting)
-aplayerInject:
-  enable: true
-  per_page: true
+# APlayer/Meting：Butterfly 5.7.0 已移除内置支持（原 aplayerInject 配置失效），
+# 改为在下方 inject 中手动引入样式与脚本
 
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
@@ -1472,6 +1470,7 @@ inject:
     - <link rel="stylesheet" href="https://registry.npmmirror.com/weblive2d/latest/files/waifu.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <span id="fps"></span> # 帧率检测
+    - <link rel="stylesheet" href="https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.css" media="print" onload="this.media='all'"> # APlayer 样式
   bottom:
     # - <script src="xxxx"></script>
     - <script async src="https://registry.npmmirror.com/vue/2.7.16/files/dist/vue.min.js"></script> # 引入VUE v2
@@ -1479,6 +1478,9 @@ inject:
     - <script async type="text/javascript" src="https://registry.npmmirror.com/sweetalert2/latest/files/dist/sweetalert2.all.min.js"></script> # 节日弹窗依赖
     - <script async src="https://registry.npmmirror.com/weblive2d/latest/files/js/autoload.js"></script>
     - <script async src="/js/custom.js"></script>
+    - <script src="https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.js"></script> # APlayer
+    - <script>window.meting_api="https://meting-api.saop.cc/api?server=:server&type=:type&id=:id&r=:r"</script> # 自建 Meting API，必须在 Meting.min.js 之前设置（MetingJS 默认的 api.i-meto.com 已失效）
+    - <script src="https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js"></script> # Meting（v2 自定义元素，pjax 下由 connected/disconnectedCallback 自行重建与销毁，无需额外胶水脚本）
     - <meting-js class="no-destroy" id="8464409595" server="netease" type="playlist" fixed="true" autoplay="true" order="random" volume="0.3" list-folded="false" list-max-height="36vh"></meting-js>
 
 # CDN Settings
@@ -1503,6 +1505,7 @@ CDN:
     activate_power_mode: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/activate-power-mode.min.js
     # algolia_js: /js/search/algolia.js
     # algolia_search: https://registry.npmmirror.com/algoliasearch/latest/files/dist/algoliasearch-lite.umd.js
+    # 以下 aplayer_css / aplayer_js 自 Butterfly 5.7.0 起主题已不再读取，实际生效的地址在上方 inject 中
     aplayer_css: https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.css
     aplayer_js: https://registry.npmmirror.com/aplayer/latest/files/dist/APlayer.min.js
     # artalk_css: https://npm.elemecdn.com/artalk/dist/Artalk.css
@@ -1541,7 +1544,7 @@ CDN:
     # meting_js: https://registry.npmmirror.com/js-asuna/latest/files/js/Meting.min.js
     # meting_js: https://registry.npmmirror.com/butterfly-extsrc/latest/files/dist/Meting.min.js
     # meting_js: https://npm.elemecdn.com/butterfly-extsrc/dist/Meting.min.js
-    meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js
+    meting_js: https://registry.npmmirror.com/meting/latest/files/dist/Meting.min.js # 同上，5.7.0 起主题不再读取
     prismjs_autoloader: https://registry.npmmirror.com/prismjs/latest/files/plugins/autoloader/prism-autoloader.min.js
     prismjs_js: https://registry.npmmirror.com/prismjs/latest/files/prism.js
     prismjs_lineNumber_js: https://registry.npmmirror.com/prismjs/latest/files/plugins/line-numbers/prism-line-numbers.min.js
