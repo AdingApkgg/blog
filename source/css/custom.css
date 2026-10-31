@@ -1249,6 +1249,20 @@ body {
   position: relative;
 }
 
+/* APlayer.min.css 是 media="print" 异步加载的，赶不上时 .aplayer 会退回上面的
+   position:relative，200 条播放列表跟着进文档流，页面被撑高六七千像素。钉死浮层。 */
+.aplayer.aplayer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  z-index: 99;
+  overflow: visible;
+  max-width: 400px;
+  box-shadow: none;
+}
+
 .aplayer.aplayer-fixed .aplayer-lrc:after,
 .aplayer.aplayer-fixed .aplayer-lrc:before {
   display: none;
