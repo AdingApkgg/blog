@@ -1,15 +1,3 @@
-- name: DramaRush
-  link: https://ai.dramarush.vip/
-  img: /img/projects/dramarush.avif
-  tag: 在线站
-  desc: 竖屏短剧在线平台，多语言、会员与金币解锁，全栈自建
-
-- name: SakuraAV
-  link: https://sakuraav.com/
-  img: /img/projects/sakuraav.avif
-  tag: 在线站
-  desc: 按番号、女优或截图检索的日本 AV 索引站，中日英三语，支持截图搜番号
-
 - name: WVN 在线视觉小说
   link: https://gal.saop.cc/
   img: /img/projects/wvn.avif
@@ -41,18 +29,6 @@
   img: /img/projects/home.avif
   tag: 个人站
   desc: 用 Nuxt 与 TypeScript 重写的 imsyy/home 继任者
-
-- name: 综合精品导航
-  link: https://ZHdaohang.com/
-  img: /img/projects/zhdaohang.avif
-  tag: 在线站
-  desc: 自己维护的网址导航，按场景分类，人工挑过一遍
-
-- name: 咪咔 ACG
-  link: https://www.mikiacg.org/
-  img: /img/projects/mikiacg.avif
-  tag: 在线站
-  desc: ACG 资源发布站，资源库与频道分开入口
 
 - name: ACGN Flow
   link: https://af.saop.cc/
