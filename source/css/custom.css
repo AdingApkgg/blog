@@ -1380,3 +1380,28 @@ body {
     opacity: 1;
   }
 }
+
+.page.type-shuoshuo #article-container .shuoshuo-item {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.page.type-shuoshuo #article-container .shuoshuo-item:hover {
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .page.type-shuoshuo #article-container .shuoshuo-item {
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .page.type-shuoshuo #article-container .shuoshuo-item:hover {
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+
+/* 说说页的分页条在窄屏下会把输入框挤没，给点收缩余地 */
+@media (max-width: 768px) {
+  .page.type-shuoshuo .shuoshuo-navigation {
+    gap: 6px;
+  }
+}

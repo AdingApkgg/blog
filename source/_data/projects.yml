@@ -1,79 +1,139 @@
+- name: DramaRush
+  link: https://ai.dramarush.vip/
+  img: /img/projects/dramarush.avif
+  tag: 在线站
+  desc: 竖屏短剧在线平台，多语言、会员与金币解锁，全栈自建
+
+- name: SakuraAV
+  link: https://sakuraav.com/
+  img: /img/projects/sakuraav.avif
+  tag: 在线站
+  desc: 按番号、女优或截图检索的日本 AV 索引站，中日英三语，支持截图搜番号
+
+- name: WVN 在线视觉小说
+  link: https://gal.saop.cc/
+  img: /img/projects/wvn.avif
+  tag: 在线站
+  desc: 浏览器里直接读视觉小说，带本机与云端存档、进度分享
+
+- name: AstroDX 谱面资料站
+  link: https://adxdls.saop.cc/
+  img: /img/projects/adx.avif
+  tag: 在线站
+  desc: AstroDX 谱面社区图书馆，检索、试玩、一键导入
+  repo: https://github.com/AdingApkgg/adx-dl
+
+- name: EAGLER TOUHOU
+  link: https://touhou.vip/
+  img: /img/projects/touhou.avif
+  tag: 在线玩
+  desc: 把东方原作移植进浏览器的项目，支持单机游玩与联机大厅
+
+- name: i.
+  link: https://i.saop.cc/
+  img: /img/projects/i.avif
+  tag: 个人站
+  desc: 独属于某个变态的后花园，用 Hono 和 React Router 慢慢长大
+  repo: https://github.com/AdingApkgg/i
+
 - name: 無名の主页
   link: https://github.com/AdingApkgg/home
   img: /img/projects/home.avif
+  tag: 个人站
   desc: 用 Nuxt 与 TypeScript 重写的 imsyy/home 继任者
 
-- name: 不蒜子.rs
-  link: https://bsz.saop.cc/
-  img: /img/projects/bsz.avif
-  desc: 不蒜子计数器的 Rust 高性能重写实现，带后台管理
+- name: 综合精品导航
+  link: https://ZHdaohang.com/
+  img: /img/projects/zhdaohang.avif
+  tag: 在线站
+  desc: 自己维护的网址导航，按场景分类，人工挑过一遍
+
+- name: 咪咔 ACG
+  link: https://www.mikiacg.org/
+  img: /img/projects/mikiacg.avif
+  tag: 在线站
+  desc: ACG 资源发布站，资源库与频道分开入口
 
 - name: ACGN Flow
   link: https://af.saop.cc/
   img: /img/projects/af.avif
-  desc: 流式媒体内容分享平台，提供丰富的动画、漫画、游戏、轻小说相关内容。
+  tag: 在线站
+  desc: 流式媒体内容分享平台，动画、漫画、游戏、轻小说一锅端
 
-- name: Mikiacg
-  link: https://www.mikiacg.vip/
-  img: /img/projects/mikiacg.avif
-  desc: ACGN 资源内容分享平台
+- name: 不蒜子.rs
+  link: https://bsz.saop.cc/
+  img: /img/projects/bsz.avif
+  tag: 自托管
+  desc: 不蒜子计数器的高性能 Rust 重写，带后台管理
 
 - name: 在线动漫聚合搜索
   link: https://as.saop.cc/
   img: /img/projects/as.avif
+  tag: 工具
   desc: 在线动漫聚合搜索工具，快速检索番剧资源
 
 - name: Galgame 聚合搜索
   link: https://www.searchgal.top/
   img: /img/projects/gs.avif
-  desc: 一键搜索多个 Galgame 资源站，附带最先进的游戏信息查询功能
-
-- name: 蚕豆海岛私服官网
-  link: https://30hb.cn/
-  img: /img/projects/bbps.avif
-  desc: 非官方的海岛奇兵私服，体验无限资源和独特玩法
+  tag: 工具
+  desc: 一键搜索多个 Galgame 资源站，附带游戏信息查询
 
 - name: 图吧工具箱下载站
   link: https://tb.saop.cc/
   img: /img/projects/tb.avif
+  tag: 镜像
   desc: 提供多条下载直链以替代官网，给用户最好的体验
+
+- name: 蚕豆海岛私服官网
+  link: https://30hb.cn/
+  img: /img/projects/bbps.avif
+  tag: 在线站
+  desc: 非官方的海岛奇兵私服，体验无限资源和独特玩法
 
 - name: Huanvae Chat
   link: https://huanvae.cn/
   img: /img/projects/huanvae.avif
-  desc: AI聊天、群组协作、视频会议，支持实时消息、文件共享、视频通话
+  tag: 在线站
+  desc: AI 聊天、群组协作、视频会议，支持实时消息与文件共享
 
 - name: VNS
   link: https://vns.saop.cc/
   img: /img/projects/vns.avif
-  desc: 旮旯资源数据收集站
+  tag: 在线站
+  desc: 旮旯资源数据收集站，多平台作品的简介与分流
 
 - name: bili-parse
   link: https://github.com/AdingApkgg/bili-parse
   img: /img/projects/bili-parse.avif
+  tag: 工具
   desc: bilibili 非官方视频解析工具
 
 - name: FA-Kara WebUI
   link: https://github.com/AdingApkgg/FA-Kara-WebUI
   img: /img/projects/fa-kara.avif
-  desc: 基于 FA-Kara 的卡拉 OK 歌词对齐工具 WebUI 版本。
-
-- name: 电子木鱼
-  link: https://muyv.saop.cc/
-  img: /img/projects/muyv.avif
-  desc: 入门 JavaScript 时的练习作品..
-
-- name: 原神社群推荐列表
-  link: https://ysbbs.saop.cc/
-  img: /img/projects/ysbbs.avif
-  desc: 入门 CSS 时的练习作品..
+  tag: 工具
+  desc: 基于 FA-Kara 的卡拉 OK 歌词对齐工具的 WebUI 版本
 
 - name: Genshin Impact Start
   link: https://genshin-start.saop.cc/
   img: /img/projects/genshin-start.avif
+  tag: 玩具
   desc: 原神，启动！
+
+- name: 电子木鱼
+  link: https://muyv.saop.cc/
+  img: /img/projects/muyv.avif
+  tag: 玩具
+  desc: 入门 JavaScript 时的练习作品
+
+- name: 原神社群推荐列表
+  link: https://ysbbs.saop.cc/
+  img: /img/projects/ysbbs.avif
+  tag: 玩具
+  desc: 入门 CSS 时的练习作品
 
 - name: Web Test
   link: https://github.com/AdingApkgg/web-test
   img: /img/projects/web-test.avif
-  desc: 入门 Web 开发时的一些练习用 Demo..
+  tag: 玩具
+  desc: 入门 Web 开发时的一些练习用 Demo

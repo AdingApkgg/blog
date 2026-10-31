@@ -925,3 +925,101 @@ function owoBig() {
     childList: true,
   }); // 监听的 元素 和 配置项
 }
+
+// 说说页兜底。
+// 主题的说说模板在解析时就跑了，此刻 pjax 还没加载，于是它走的是
+// window.addEventListener('load', loadShuoshuo) 分支。本站第三方资源
+// （不蒜子走 http、Meting 拉网易云、Live2D 模型）经常迟迟不结束，load 可能
+// 永远等不到，列表就一直空白。
+// 而模板里的另一个分支（有 pjax 时直接渲染）是现成的，所以这里在 DOM 就绪后
+// 把那段内联脚本重放一次：此时 pjax 已由 defer 脚本初始化，重放会直接渲染，
+// 不必再去惊动全局 load（避免 local-search 之类的 load 监听被跑第二遍）。
+// 另外数据脚本 #shuoshuo-data 原本在 #article-container 里面，渲染时会整块
+// 替换 innerHTML，脚本跟着没；先把它挪到 body 下，重放和后续的 load 才有数据可读。
+(function () {
+  function isShuoshuo() {
+    return typeof GLOBAL_CONFIG_SITE !== "undefined" && GLOBAL_CONFIG_SITE.pageType === "shuoshuo";
+  }
+
+  function setup() {
+    if (!isShuoshuo()) return;
+
+    var dataEl = document.getElementById("shuoshuo-data");
+    if (dataEl) {
+      // pjax 回来时 body 上可能还留着上一次的那份，先清掉同名旧节点
+      document.querySelectorAll("body > #shuoshuo-data").forEach(function (n) {
+        if (n !== dataEl) n.remove();
+      });
+      if (dataEl.parentNode !== document.body) document.body.appendChild(dataEl);
+    }
+
+    var container = document.getElementById("article-container");
+    var source = null;
+    if (container) {
+      Array.prototype.some.call(container.querySelectorAll("script:not([src])"), function (s) {
+        if (s.textContent.indexOf("loadShuoshuo") !== -1) {
+          source = s.textContent;
+          return true;
+        }
+        return false;
+      });
+    }
+
+    // local-search 的初始化挂在全局 load 上，而它的 search:loaded 处理函数会把
+    // #loading-database 取走并删掉。load 一旦触发第二次（本页兜底补发、pjax 回来、
+    // 或第三方资源晚到），再取就是 null 抛错。
+    // custom.js 是 async 加载的，注册顺序不可靠，所以直接包一层 getElementById：
+    // 取不到时现造一个隐藏占位塞进搜索对话框（后面紧跟 .local-search-input，
+    // 主题要的 nextElementSibling 仍然成立），主题照旧把它删掉。
+    if (!window.__ssIdHook) {
+      window.__ssIdHook = true;
+      var orig = document.getElementById.bind(document);
+      document.getElementById = function (id) {
+        var el = orig(id);
+        if (el || id !== "loading-database") return el;
+        var dialog = document.querySelector("#local-search .search-dialog");
+        if (!dialog) return el;
+        var ref = dialog.querySelector(".local-search-input");
+        if (!ref) return el;
+        var stub = document.createElement("div");
+        stub.id = "loading-database";
+        stub.style.display = "none";
+        ref.insertAdjacentElement("beforebegin", stub);
+        return stub;
+      };
+    }
+
+    var tries = 0;
+    var timer = setInterval(function () {
+      tries++;
+      if (document.querySelector(".shuoshuo-item")) {
+        clearInterval(timer);
+        return;
+      }
+      if (tries < 3) return;
+      clearInterval(timer);
+
+      // pjax 没就位时重放会走回 load 分支，白跑一遍，直接补发 load 更省事
+      if (source && window.pjax) {
+        var s = document.createElement("script");
+        s.textContent = source;
+        document.body.appendChild(s);
+        s.remove();
+        setTimeout(function () {
+          // 重放仍没渲染出来就退回触发 load
+          if (!document.querySelector(".shuoshuo-item")) {
+            window.dispatchEvent(new Event("load"));
+          }
+        }, 800);
+      } else {
+        window.dispatchEvent(new Event("load"));
+      }
+    }, 500);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setup, { once: true });
+  } else {
+    setup();
+  }
+})();
