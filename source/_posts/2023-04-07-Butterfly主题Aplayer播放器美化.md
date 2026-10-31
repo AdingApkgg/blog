@@ -8,13 +8,13 @@ wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
 abbrlink: 8dc9
 top_img: false
 categories:
-  - Web Development
+  - 技术开发
+  - 前端与主题
 tags:
-  - HTML5
-  - Music Player
-  - Butterfly Theme
+  - Butterfly
   - APlayer
-keywords: Web Development, HTML5, Music Player, Butterfly Theme, APlayer
+  - CSS
+keywords: 前端与主题, Butterfly, APlayer, CSS
 date: 2023-04-08 00:00:00
 updated: 2025-02-10 06:14:20
 cover:

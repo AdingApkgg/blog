@@ -11,12 +11,11 @@ top_img: false
 copyright_author: hexojs
 copyright_author_href: https://github.com/hexojs
 categories:
-  - Web Development
+  - 参考手册
 tags:
   - Hexo
-  - RSS Feed
-  - Plugin Documentation
-keywords: Web Development, Hexo, RSS Feed, Plugin Documentation
+  - 插件
+keywords: 参考手册, Hexo, 插件
 date: 2023-04-21 17:00:00
 updated: 2023-04-21 17:00:00
 cover:

@@ -10,13 +10,12 @@ abbrlink: 8ba6
 top_img: false
 copyright_author: Anthony Bouch
 categories:
-  - 软件安装
+  - 技术开发
+  - 部署与运维
 tags:
   - ImageMagick
-  - PHP扩展
-  - Windows Server
-  - IIS
-keywords: 软件安装, ImageMagick, PHP扩展, Windows Server, IIS
+  - Windows
+keywords: 部署与运维, ImageMagick, Windows
 date: 2023-01-31 04:00:00
 updated: 2023-01-31 04:00:00
 cover:

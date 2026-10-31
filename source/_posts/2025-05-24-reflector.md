@@ -6,13 +6,12 @@ description: >-
 abbrlink: 59587
 top_img: false
 categories:
-  - Software Tools
+  - 工具与系统
+  - 命令行
 tags:
   - reflector
-  - Arch Linux
-  - mirror list
-  - pacman
-keywords: Software Tools, reflector, Arch Linux, mirror list, pacman
+  - Pacman
+keywords: 命令行, reflector, Pacman
 date: 2025-05-24 19:00:00
 updated: 2025-05-24 19:00:00
 ---

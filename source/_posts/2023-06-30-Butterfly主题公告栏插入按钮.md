@@ -9,13 +9,13 @@ abbrlink: 7a98
 top_img: false
 cover: /img/202306302327335.webp
 categories:
-  - Web Development
+  - 技术开发
+  - 前端与主题
 tags:
-  - Butterfly Theme
-  - Hexo
+  - Butterfly
   - HTML
   - CSS
-keywords: Web Development, Butterfly Theme, Hexo, HTML, CSS
+keywords: 前端与主题, Butterfly, HTML, CSS
 date: 2023-06-30 23:30:00
 updated: 2023-06-30 23:50:00
 password:

@@ -9,12 +9,12 @@ wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
 abbrlink: '22'
 top_img: false
 categories:
-  - WordPress
+  - 技术开发
+  - 前端与主题
 tags:
-  - WordPress插件
-  - 主题推荐
-  - Hexo迁移
-keywords: WordPress, WordPress插件, 主题推荐, Hexo迁移
+  - WordPress
+  - 插件
+keywords: 前端与主题, WordPress, 插件
 date: 2023-02-16 08:00:00
 updated: 2023-02-16 08:00:00
 type:

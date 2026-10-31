@@ -9,13 +9,12 @@ abbrlink: 4d82
 top_img: false
 cover: /img/202308192202623.webp
 categories:
-  - Web Development
+  - 技术开发
+  - 前端与主题
 tags:
-  - Hexo
-  - Butterfly Theme
+  - Butterfly
   - CSS
-  - Swiper Bar
-keywords: Web Development, Hexo, Butterfly Theme, CSS, Swiper Bar
+keywords: 前端与主题, Butterfly, CSS
 date: 2023-08-19 22:00:00
 updated: 2023-08-19 22:00:00
 password:

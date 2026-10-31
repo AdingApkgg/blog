@@ -8,12 +8,11 @@ wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.（提示�
 abbrlink: 245f
 top_img: false
 categories:
-  - 软件工具
+  - 工具与系统
+  - 软件与硬件
 tags:
-  - 显示器亮度调节
   - Monitorian
-  - Microsoft Store
-keywords: 软件工具, 显示器亮度调节, Monitorian, Microsoft Store
+keywords: 软件与硬件, Monitorian
 date: 2023-07-13 17:40:00
 updated: 2023-07-13 17:40:00
 cover:

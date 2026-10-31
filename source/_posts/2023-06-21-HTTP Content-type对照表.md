@@ -11,13 +11,10 @@ cover: /img/202306211542361.webp
 copyright_author: 维基百科
 copyright_author_href: https://zh.wikipedia.org/
 categories:
-  - Web Development
+  - 参考手册
 tags:
-  - MIME Types
-  - File Extensions
-  - Content-Type
   - HTTP
-keywords: Web Development, MIME Types, File Extensions, Content-Type, HTTP
+keywords: 参考手册, HTTP
 date: 2023-06-21 15:30:00
 updated: 2023-06-21 15:30:00
 password:

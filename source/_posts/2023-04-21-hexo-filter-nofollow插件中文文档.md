@@ -11,13 +11,11 @@ top_img: false
 copyright_author: hexojs
 copyright_author_href: https://github.com/hexojs
 categories:
-  - Web Development
+  - 参考手册
 tags:
   - Hexo
-  - nofollow
-  - SEO
-  - Plugin
-keywords: Web Development, Hexo, nofollow, SEO, Plugin
+  - 插件
+keywords: 参考手册, Hexo, 插件
 date: 2023-04-21 16:30:00
 updated: 2023-04-21 16:30:00
 cover:

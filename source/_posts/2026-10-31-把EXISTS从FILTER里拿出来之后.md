@@ -4,15 +4,14 @@ description: 一条统计 SQL 从 1.5 秒降到 0.64 秒，代价是发现 Postg
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
-keywords: Postgres, SQL优化, 执行计划, JIT, 半连接
+keywords: 后端与数据, Postgres, SQL优化
 abbrlink: 23192
 categories:
-  - Web Development
+  - 技术开发
+  - 后端与数据
 tags:
   - Postgres
   - SQL优化
-  - 执行计划
-  - JIT
 date: 2026-10-31 05:50:00
 updated: 2026-10-31 05:50:00
 ---

@@ -11,13 +11,12 @@ top_img: false
 copyright_author: 萌小奇
 copyright_author_href: https://www.jianshu.com/u/60dc3c4c6c3d
 categories:
-  - 技术指南
+  - 参考手册
 tags:
   - Markdown
   - Hexo
-  - 表格显示
-  - 有序列表
-keywords: 技术指南, Markdown, Hexo, 表格显示, 有序列表
+  - 排错
+keywords: 参考手册, Markdown, Hexo, 排错
 date: 2023-02-15 05:00:00
 updated: 2023-02-15 05:00:00
 cover:

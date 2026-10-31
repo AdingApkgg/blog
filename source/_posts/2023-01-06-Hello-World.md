@@ -9,13 +9,11 @@ copyright_author: Hexo
 copyright_author_href: https://hexo.io/
 noticeOutdate: false
 categories:
-  - Web Development
+  - 技术开发
+  - 前端与主题
 tags:
   - Hexo
-  - Blog
-  - Static Site Generator
-  - Deployment
-keywords: Web Development, Hexo, Blog, Static Site Generator, Deployment
+keywords: 前端与主题, Hexo
 date: 2023-01-06 08:00:00
 updated: 2023-01-06 08:00:00
 ---

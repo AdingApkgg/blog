@@ -4,15 +4,14 @@ description: 一个还在跑着旧缓存的 SW，既不能直接删，也不能�
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
-keywords: Web Development, Service Worker, PWA, 缓存, 迁移
+keywords: 前端与主题, Service Worker, PWA
 abbrlink: 10258
 categories:
-  - Web Development
+  - 技术开发
+  - 前端与主题
 tags:
   - Service Worker
   - PWA
-  - 缓存
-  - 迁移
 date: 2026-10-31 06:02:00
 updated: 2026-10-31 06:02:00
 ---
