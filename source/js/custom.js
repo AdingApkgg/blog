@@ -951,7 +951,11 @@ function owoBig() {
         if (n !== dataEl) n.remove();
       });
       if (dataEl.parentNode !== document.body) document.body.appendChild(dataEl);
+      window.__ssData = dataEl.textContent;
     }
+    // pjax 进来时内联脚本已经把数据脚本连同容器一起换掉了，内容没了；
+    // 不补回去的话，之后任何一次重渲染都读不到数据。
+    if (!document.getElementById("shuoshuo-data")) ensureData(function () {});
 
     var container = document.getElementById("article-container");
     var source = null;
@@ -989,6 +993,53 @@ function owoBig() {
       };
     }
 
+    // 数据脚本也可能彻底没了（pjax 换页时内联脚本先跑了一遍，把容器连同数据整块换掉）。
+    // 重放需要数据，实在没有就去把当前页再拉一次，从 HTML 里抠回那段 JSON。
+    function ensureData(cb) {
+      if (document.getElementById("shuoshuo-data")) return cb();
+      if (window.__ssData) {
+        putData(window.__ssData);
+        return cb();
+      }
+      fetch(location.href)
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var m = html.match(/<script[^>]*id="shuoshuo-data"[^>]*>([\s\S]*?)<\/script>/);
+          if (m && !document.getElementById("shuoshuo-data")) {
+            putData(m[1].replace(/&quot;/g, '"').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
+          }
+        })
+        .catch(function () {})
+        .then(cb);
+    }
+
+    function putData(text) {
+      var el = document.createElement("script");
+      el.type = "application/json";
+      el.id = "shuoshuo-data";
+      el.textContent = text;
+      document.body.appendChild(el);
+    }
+
+    function replay() {
+      if (!source) {
+        window.dispatchEvent(new Event("load"));
+        return;
+      }
+      var s = document.createElement("script");
+      s.textContent = source;
+      document.body.appendChild(s);
+      s.remove();
+      setTimeout(function () {
+        // 重放仍没渲染出来就退回触发 load。整页的 load 已经放过一次的话
+        // 就不再惊动它：首页那些 typed.js、infinitegrid 的 load 监听没做清理，
+        // 第二次跑会去找已经被 pjax 换掉的节点，抛一堆没用的错。
+        if (!document.querySelector(".shuoshuo-item") && !window.__ssLoaded) {
+          window.dispatchEvent(new Event("load"));
+        }
+      }, 800);
+    }
+
     var tries = 0;
     var timer = setInterval(function () {
       tries++;
@@ -1001,16 +1052,7 @@ function owoBig() {
 
       // pjax 没就位时重放会走回 load 分支，白跑一遍，直接补发 load 更省事
       if (source && window.pjax) {
-        var s = document.createElement("script");
-        s.textContent = source;
-        document.body.appendChild(s);
-        s.remove();
-        setTimeout(function () {
-          // 重放仍没渲染出来就退回触发 load
-          if (!document.querySelector(".shuoshuo-item")) {
-            window.dispatchEvent(new Event("load"));
-          }
-        }, 800);
+        ensureData(replay);
       } else {
         window.dispatchEvent(new Event("load"));
       }
@@ -1022,4 +1064,18 @@ function owoBig() {
   } else {
     setup();
   }
+  // pjax 进来时 custom.js 不会再跑，setup 也不会，数据脚本还是会被渲染吞掉，补一钩。
+  // 捕获阶段先于主题的 pjax:complete 处理器（它会把内联脚本重放一遍），
+  // 此刻新页面的数据脚本还在，先把 JSON 抄下来，setup 里再补回去。
+  window.addEventListener("pjax:complete", function () {
+    var fresh = document.getElementById("shuoshuo-data");
+    if (fresh) window.__ssData = fresh.textContent;
+  }, true);
+  // 记一下整页 load 是不是已经放过，免得我们兜底时再放一次
+  if (document.readyState === "complete") window.__ssLoaded = true;
+  else
+    window.addEventListener("load", function () {
+      window.__ssLoaded = true;
+    });
+  window.addEventListener("pjax:complete", setup);
 })();
