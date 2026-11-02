@@ -9,7 +9,7 @@
 //
 // 注入内容：
 //   所有页面：搜索索引与 feed 链接按页面语言分流
-//   文章页另加：<html lang> / og:locale、对称 hreflang、三语切换器
+//   文章页另加：<html lang> / og:locale、对称 hreflang
 //
 // hreflang 的规则（Google 官方要求，违反会被静默忽略）：
 //   - 每个版本都必须列出自己以及所有其他版本
@@ -93,29 +93,6 @@ function hreflangBlock(versions) {
   return tags.join('\n');
 }
 
-// 三语切换器：当前语言高亮，缺译文的语言置灰不可点。
-// 注意：不做任何自动跳转 —— Google 明确不推荐按浏览器语言重定向，
-// 那会让爬虫和用户都看不到全部版本。
-function switcherHtml(versions, current) {
-  const items = langs.ALL_LANGS.map(function (code) {
-    const label = langs.label(code);
-    const version = versions[code];
-    const hreflang = langs.htmlLang(code);
-
-    if (code === current) {
-      return version
-        ? `<a class="is-active" href="${version.url}" hreflang="${hreflang}" aria-current="page">${label}</a>`
-        : `<span class="is-active">${label}</span>`;
-    }
-    if (!version) {
-      return `<span class="is-missing" aria-disabled="true">${label}</span>`;
-    }
-    return `<a href="${version.url}" hreflang="${hreflang}">${label}</a>`;
-  });
-
-  return `<nav class="i18n-switcher" aria-label="语言 / Language">${items.join('')}</nav>`;
-}
-
 // ---------------------------------------------------------------- 资源按语言分流
 
 function searchFileFor(code) {
@@ -168,7 +145,7 @@ function prefixTaxonomyLinks(html, code) {
 // 三种形态都要归一：`/p/x/`（中文源）、`/ja/p/x/`、`/en/p/x/`。
 // 目标文章有本语言译文就指向译文，没有就退回中文源（总比跳到第三种语言好）。
 // 只改 href 属性，不碰正文文本：代码块里作为示例出现的 URL 不该被改写。
-// hreflang 与切换器用的是绝对 URL（https://…），不会被这条规则匹配到。
+// hreflang 用的是绝对 URL（https://…），不会被这条规则匹配到。
 function prefixPostLinks(html, code) {
   const dir = langs.dirOf(code);
   const pattern = new RegExp(
@@ -262,19 +239,12 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
   const versions = key ? getVersionMap().get(key) : null;
   const available = versions ? Object.keys(versions).length : 0;
 
-  // 只有真的存在多个语言版本时才声明 alternates 与切换器；
+  // 只有真的存在多个语言版本时才声明 alternates；
   // 单语言文章加 hreflang 没有意义，反而制造无效的链接组。
+  // 导航里的语言入口不在这里注入，走 _config.butterfly.yml 的 menu 配置，
+  // 和主题其它菜单项同一套样式与交互（butterfly 官网自己也是这么做的）。
   if (versions && available >= 2) {
     out = out.replace('</head>', hreflangBlock(versions) + '\n</head>');
-
-    // 放进导航栏，紧挨搜索按钮左侧。页面没有导航（罕见）时退回 body 末尾。
-    // 不能只放 body 末尾：那样是悬浮层，和导航里的其它按钮视觉上分家。
-    const switcher = switcherHtml(versions, current);
-    if (out.indexOf('<div id="menus">') > -1) {
-      out = out.replace('<div id="menus">', '<div id="menus">' + switcher);
-    } else if (out.indexOf('</body>') > -1) {
-      out = out.replace('</body>', switcher + '\n</body>');
-    }
   }
 
   return out;

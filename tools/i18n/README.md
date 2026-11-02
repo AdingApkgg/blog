@@ -88,7 +88,7 @@ tags:
 | `lib/taxonomy.js` | 读 `taxonomy.yml`，按语言查/替换分类与标签名 |
 | `translate.js` | CLI：`plan` / `run` / `status` |
 | `taxonomy.js` | CLI：`check` / `draft`（为分类标签生成译名草案） |
-| `../../scripts/i18n-render.js` | `after_render:html` 注入 `<html lang>`、`og:locale`、对称 hreflang、语言切换器 |
+| `../../scripts/i18n-render.js` | `after_render:html` 注入 `<html lang>`、`og:locale`、对称 hreflang，并分流资源与站内链接 |
 | `../../scripts/i18n-artifacts.js` | 分语言 search 索引与 feed |
 | `../../scripts/i18n-taxonomy-pages.js` | 分语言的分类页 / 标签页 / 索引页 |
 
@@ -114,7 +114,7 @@ node tools/i18n/taxonomy.js draft # 用 AI 补齐译名（写 source/_data/taxon
   确需翻译：`--only <abbrlink> --max-source-chars 0`。
 - **内容安全拒译**：露骨性内容（尤其涉及未成年主题）会被模型拒绝，症状是占位符丢失或译文
   长度异常。校验会拦下并拒绝写入，重试结果相同 —— 这是**预期行为，不应绕过**；
-  这类文章保持无译文即可，语言切换器会自动把它置灰。
+  这类文章保持无译文即可，导航语言菜单点进去会落在对应语言首页。
 - **长表格**：整张表格中间没有空行，会被当成一个超长块。`split` 现在按行切开，并给**每一块
   补回表头**；判断表头前必须先跳过前导空行，否则判定失败、后续每一块都会丢掉列结构
   （「HTTP 状态码释义」就是这么翻坏后被发现并修好的）。切开的表格之间用换行而非空行连接，

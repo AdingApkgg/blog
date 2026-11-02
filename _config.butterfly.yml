@@ -45,6 +45,10 @@ menu:
     个站商店虫洞: https://storeweb.cn/s/2032 || fas fa-dice
     开往: https://www.travellings.cn/go.html || fas fa-shuffle
     关于: /about/ || fas fa-heart
+  语言||fas fa-language:
+    English: /en/ || fas fa-e
+    中文: / || fas fa-c
+    日本語: /ja/ || fas fa-j
 
 # --------------------------------------
 # Code Blocks Settings
