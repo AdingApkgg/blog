@@ -1494,8 +1494,9 @@ body {
    · <a>.is-active       当前语种
    · .is-missing         无该语种译文（惰性 span，不可点） */
 
-/* 桌面端是导航栏里紧挨搜索按钮的一项；移动端整条导航被汉堡菜单取代，
-   所以在小屏改回右上角悬浮，保证手机上照样有入口。 */
+/* 导航栏里紧挨搜索按钮的一项，桌面和移动端都在导航里，不做独立悬浮。
+   移动端主题只收起 .menus_items 和搜索按钮文字，搜索与日夜按钮本身仍在，
+   所以这里不需要换形态，只把尺寸压紧，避免窄屏挤不下。 */
 .i18n-switcher {
   display: flex;
   align-items: center;
@@ -1511,13 +1512,19 @@ body {
 
 @media (max-width: 768px) {
   .i18n-switcher {
-    position: fixed;
-    top: 68px; /* 主题顶部导航高 60px，往下让开，避免遮住搜索 / 日夜切换按钮 */
-    right: 12px;
-    z-index: 95; /* 高于导航（90），低于各类弹层 */
-    margin-right: 0;
-    background: var(--card-bg);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 4px;
+    padding: 1px 2px;
+    font-size: 12px;
+  }
+
+  .i18n-switcher a,
+  .i18n-switcher .is-active,
+  .i18n-switcher .is-missing {
+    padding: 1px 4px;
+  }
+
+  .i18n-switcher > * + *::before {
+    margin-right: 4px;
   }
 }
 
