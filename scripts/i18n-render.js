@@ -266,8 +266,14 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
   // 单语言文章加 hreflang 没有意义，反而制造无效的链接组。
   if (versions && available >= 2) {
     out = out.replace('</head>', hreflangBlock(versions) + '\n</head>');
-    if (out.indexOf('</body>') > -1) {
-      out = out.replace('</body>', switcherHtml(versions, current) + '\n</body>');
+
+    // 放进导航栏，紧挨搜索按钮左侧。页面没有导航（罕见）时退回 body 末尾。
+    // 不能只放 body 末尾：那样是悬浮层，和导航里的其它按钮视觉上分家。
+    const switcher = switcherHtml(versions, current);
+    if (out.indexOf('<div id="menus">') > -1) {
+      out = out.replace('<div id="menus">', '<div id="menus">' + switcher);
+    } else if (out.indexOf('</body>') > -1) {
+      out = out.replace('</body>', switcher + '\n</body>');
     }
   }
 
