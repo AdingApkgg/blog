@@ -4,7 +4,7 @@ description: 一个还在跑着旧缓存的 SW，既不能直接删，也不能�
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
-keywords: 前端与主题, Service Worker, PWA
+keywords: 技术开发, 前端与主题, Service Worker, PWA
 abbrlink: 10258
 categories:
   - 技术开发

@@ -1,0 +1,353 @@
+# 分类与标签的三语对照表
+#
+# 由 `node scripts/i18n/taxonomy.js draft` 生成草案，之后可以人工修改；
+# draft 默认不会覆盖这里已有的译名。
+#
+# categories / tags 下的键是中文原名（source/_posts 里 front-matter 用的写法），
+# 值是各语言的固定译名。翻译文章时按此表替换，保证同一分类在三语里始终同名。
+#
+# 中文分类页的 URL 段沿用中文名（与改动前一致，不破坏已有链接）；
+# 日英分类页用各自译名生成 URL 段。若想给某个分类指定干净的 URL，可加 slug: xxx。
+
+categories:
+  "技术开发":
+    ja: "技術開発"
+    en: "Tech Development"
+  "工具与系统":
+    ja: "ツールとシステム"
+    en: "Tools & Systems"
+  "游戏":
+    ja: "ゲーム"
+    en: "Games"
+  "前端与主题":
+    ja: "フロントエンドとテーマ"
+    en: "Frontend & Themes"
+  "部署与运维":
+    ja: "デプロイと運用"
+    en: "Deployment & Ops"
+  "参考手册":
+    ja: "リファレンス"
+    en: "Reference"
+  "原神":
+    ja: "原神"
+    en: "Genshin Impact"
+  "软件与硬件":
+    ja: "ソフトウェアとハードウェア"
+    en: "Software & Hardware"
+  "开发流程":
+    ja: "開発フロー"
+    en: "Development Workflow"
+  "文学与书评":
+    ja: "文学と書評"
+    en: "Literature & Book Reviews"
+  "游戏记录":
+    ja: "ゲーム記録"
+    en: "Game Logs"
+  "系统与网络":
+    ja: "システムとネットワーク"
+    en: "Systems & Networking"
+  "二次元":
+    ja: "二次元"
+    en: "Anime & Manga"
+  "后端与数据":
+    ja: "バックエンドとデータ"
+    en: "Backend & Data"
+  "命令行":
+    ja: "コマンドライン"
+    en: "Command Line"
+  "生活记录":
+    ja: "生活記録"
+    en: "Life Logs"
+  "私服与模组":
+    ja: "私設サーバーとMOD"
+    en: "Private Servers & Mods"
+  "成人向":
+    ja: "成人向け"
+    en: "Adult Content"
+
+tags:
+  "原神":
+    ja: "原神"
+    en: "Genshin Impact"
+  "Hexo":
+    ja: "Hexo"
+    en: "Hexo"
+  "记录":
+    ja: "記録"
+    en: "Notes"
+  "AI编程":
+    ja: "AIプログラミング"
+    en: "AI Programming"
+  "CSS":
+    ja: "CSS"
+    en: "CSS"
+  "Butterfly":
+    ja: "Butterfly"
+    en: "Butterfly"
+  "刘慈欣":
+    ja: "劉慈欣"
+    en: "Liu Cixin"
+  "命令":
+    ja: "コマンド"
+    en: "Commands"
+  "排错":
+    ja: "トラブルシューティング"
+    en: "Troubleshooting"
+  "插件":
+    ja: "プラグイン"
+    en: "Plugins"
+  "Git":
+    ja: "Git"
+    en: "Git"
+  "Hugo":
+    ja: "Hugo"
+    en: "Hugo"
+  "JavaScript":
+    ja: "JavaScript"
+    en: "JavaScript"
+  "Next.js":
+    ja: "Next.js"
+    en: "Next.js"
+  "三体":
+    ja: "三体"
+    en: "The Three-Body Problem"
+  "书评":
+    ja: "書評"
+    en: "Book Reviews"
+  "代码审查":
+    ja: "コードレビュー"
+    en: "Code Review"
+  "抽卡":
+    ja: "ガチャ"
+    en: "Gacha"
+  "生日":
+    ja: "誕生日"
+    en: "Birthday"
+  "APlayer":
+    ja: "APlayer"
+    en: "APlayer"
+  "Cloudflare Tunnel":
+    ja: "Cloudflare Tunnel"
+    en: "Cloudflare Tunnel"
+  "Docker":
+    ja: "Docker"
+    en: "Docker"
+  "HTML":
+    ja: "HTML"
+    en: "HTML"
+  "HTTP":
+    ja: "HTTP"
+    en: "HTTP"
+  "Linux":
+    ja: "Linux"
+    en: "Linux"
+  "Markdown":
+    ja: "Markdown"
+    en: "Markdown"
+  "Pacman":
+    ja: "Pacman"
+    en: "Pacman"
+  "Postgres":
+    ja: "Postgres"
+    en: "Postgres"
+  "Vercel":
+    ja: "Vercel"
+    en: "Vercel"
+  "Windows":
+    ja: "Windows"
+    en: "Windows"
+  "WordPress":
+    ja: "WordPress"
+    en: "WordPress"
+  "代理":
+    ja: "プロキシ"
+    en: "Proxy"
+  "科幻":
+    ja: "SF"
+    en: "Sci-Fi"
+  "自托管":
+    ja: "セルフホスト"
+    en: "Self-hosted"
+  "萝莉":
+    ja: "ロリ"
+    en: "Loli"
+  "迁移":
+    ja: "移行"
+    en: "Migration"
+  "部署":
+    ja: "デプロイ"
+    en: "Deployment"
+  "AI协作":
+    ja: "AI協働"
+    en: "AI Collaboration"
+  "ASCII字符画":
+    ja: "ASCIIアート"
+    en: "ASCII Art"
+  "better-auth":
+    ja: "better-auth"
+    en: "better-auth"
+  "CDN":
+    ja: "CDN"
+    en: "CDN"
+  "ChatGPT":
+    ja: "ChatGPT"
+    en: "ChatGPT"
+  "CLAUDE.md":
+    ja: "CLAUDE.md"
+    en: "CLAUDE.md"
+  "CSV":
+    ja: "CSV"
+    en: "CSV"
+  "Cursor":
+    ja: "Cursor"
+    en: "Cursor"
+  "Drizzle":
+    ja: "Drizzle"
+    en: "Drizzle"
+  "ffmpeg":
+    ja: "ffmpeg"
+    en: "ffmpeg"
+  "ImageMagick":
+    ja: "ImageMagick"
+    en: "ImageMagick"
+  "Live2D":
+    ja: "Live2D"
+    en: "Live2D"
+  "macOS":
+    ja: "macOS"
+    en: "macOS"
+  "maimaiDX":
+    ja: "maimaiDX"
+    en: "maimaiDX"
+  "Meting":
+    ja: "Meting"
+    en: "Meting"
+  "Minecraft":
+    ja: "Minecraft"
+    en: "Minecraft"
+  "Monitorian":
+    ja: "Monitorian"
+    en: "Monitorian"
+  "Niconico":
+    ja: "Niconico"
+    en: "Niconico"
+  "Podman":
+    ja: "Podman"
+    en: "Podman"
+  "Prisma":
+    ja: "Prisma"
+    en: "Prisma"
+  "PWA":
+    ja: "PWA"
+    en: "PWA"
+  "React Router":
+    ja: "React Router"
+    en: "React Router"
+  "reflector":
+    ja: "reflector"
+    en: "reflector"
+  "rsync":
+    ja: "rsync"
+    en: "rsync"
+  "Service Worker":
+    ja: "Service Worker"
+    en: "Service Worker"
+  "SQL优化":
+    ja: "SQL最適化"
+    en: "SQL Optimization"
+  "SSD":
+    ja: "SSD"
+    en: "SSD"
+  "Swap":
+    ja: "スワップ"
+    en: "Swap"
+  "Twikoo":
+    ja: "Twikoo"
+    en: "Twikoo"
+  "URL编码":
+    ja: "URLエンコード"
+    en: "URL Encoding"
+  "VScode":
+    ja: "VScode"
+    en: "VS Code"
+  "不蒜子":
+    ja: "不蒜子"
+    en: "Busuanzi"
+  "亚丝娜":
+    ja: "アスナ"
+    en: "Asuna"
+  "动漫":
+    ja: "アニメ"
+    en: "Anime"
+  "千恋万花":
+    ja: "千恋＊万花"
+    en: "Senren Banka"
+  "博客运营":
+    ja: "ブログ運営"
+    en: "Blog Operations"
+  "原创小说":
+    ja: "オリジナル小説"
+    en: "Original Fiction"
+  "反向代理":
+    ja: "リバースプロキシ"
+    en: "Reverse Proxy"
+  "多邻国":
+    ja: "Duolingo"
+    en: "Duolingo"
+  "多项目":
+    ja: "マルチプロジェクト"
+    en: "Multi-project"
+  "密钥":
+    ja: "鍵"
+    en: "Keys"
+  "工作流":
+    ja: "ワークフロー"
+    en: "Workflow"
+  "广告归因":
+    ja: "広告アトリビューション"
+    en: "Ad Attribution"
+  "提问":
+    ja: "質問"
+    en: "Q&A"
+  "时间处理":
+    ja: "時間処理"
+    en: "Time Handling"
+  "校园网":
+    ja: "学内ネットワーク"
+    en: "Campus Network"
+  "模组":
+    ja: "MOD"
+    en: "Mods"
+  "流浪地球":
+    ja: "流浪地球"
+    en: "The Wandering Earth"
+  "清醒梦":
+    ja: "明晰夢"
+    en: "Lucid Dream"
+  "绝区零":
+    ja: "ゼンレスゾーンゼロ"
+    en: "Zenless Zone Zero"
+  "规范":
+    ja: "規範"
+    en: "Standards"
+  "软件资源":
+    ja: "ソフトウェアリソース"
+    en: "Software Resources"
+  "逆向工程":
+    ja: "リバースエンジニアリング"
+    en: "Reverse Engineering"
+  "配置管理":
+    ja: "構成管理"
+    en: "Configuration Management"
+  "锁":
+    ja: "ロック"
+    en: "Locking"
+  "阅读时间":
+    ja: "読了時間"
+    en: "Reading Time"
+  "限流":
+    ja: "レート制限"
+    en: "Rate Limiting"
+  "飞行":
+    ja: "飛行"
+    en: "Flying"

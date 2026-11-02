@@ -11,7 +11,7 @@ categories:
 tags:
   - Podman
   - 命令
-keywords: 部署与运维, Podman, 命令
+keywords: 技术开发, 部署与运维, Podman, 命令
 date: 2025-12-24 03:13:00
 updated: 2025-12-24 03:13:00
 ---

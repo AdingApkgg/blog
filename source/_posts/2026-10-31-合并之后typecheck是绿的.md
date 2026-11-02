@@ -4,7 +4,7 @@ description: 一次没冲突、没报错的 merge 把 292 行广告归因运行�
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
-keywords: 开发流程, Git, 代码审查, 广告归因
+keywords: 技术开发, 开发流程, Git, 代码审查, 广告归因
 abbrlink: 28388
 categories:
   - 技术开发

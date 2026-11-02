@@ -7,6 +7,11 @@ const fs = require('hexo-fs')
 hexo.extend.filter.register('before_post_render', async (data) => {
   if (!data.source || !data.source.startsWith('_posts/')) return data
 
+  // 译文（source/_posts/ja/、source/_posts/en/）由 i18n 流程维护：
+  // 它们的 categories/tags 与中文一致且 keywords 是译文，这里绝不能按分类标签回写，
+  // 否则会把中文关键词写到 ja/en 文章上，并让译文文件在构建时被改写。
+  if (data.source.startsWith('_posts/ja/') || data.source.startsWith('_posts/en/')) return data
+
   // 读取源文件（可能已被 llm-tagging 更新）
   const raw = await fs.readFile(data.full_source)
   const parsed = front.parse(raw)

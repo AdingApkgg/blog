@@ -11,7 +11,7 @@ categories:
 tags:
   - reflector
   - Pacman
-keywords: 命令行, reflector, Pacman
+keywords: 工具与系统, 命令行, reflector, Pacman
 date: 2025-05-24 19:00:00
 updated: 2025-05-24 19:00:00
 ---

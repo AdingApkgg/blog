@@ -2,9 +2,22 @@
 
 const fs = require('fs')
 const frontMatter = require('hexo-front-matter')
+// i18n 工具链在 tools/i18n/ 下（scripts/ 会被 Hexo 递归加载，不能放 .md / CLI 脚本）
+const langs = require('../tools/i18n/lib/langs')
 
 // 构建时生成 /llms.txt —— 给 AI / LLM 一份站点主要内容的结构化索引（llms.txt 提案格式）
-// https://llmstxt.org/  按分类分组，每篇一行：- [标题](绝对URL): 摘要
+// https://llmstxt.org/  先按语言分组、再按分类分组，每篇一行：- [标题](绝对URL): 摘要
+// 语言分组是硬要求：zh / ja / en 混在一起时，模型分不清每条链接属于哪种语言
+// （见 i18n/README.md 验收标准 5「产物按语言分流」）。
+
+// 判定文章语言：front-matter 的 lang 优先，缺失时回退到 source 路径前缀，最后落到默认语言 zh。
+function postLang (post) {
+  if (post.lang) return langs.normalize(post.lang)
+  const source = post.source || ''
+  if (source.startsWith('_posts/ja/')) return 'ja'
+  if (source.startsWith('_posts/en/')) return 'en'
+  return langs.DEFAULT_LANG
+}
 
 function stripText (s) {
   return String(s || '')
@@ -53,9 +66,12 @@ hexo.extend.generator.register('llms-txt', function (locals) {
     .sort('-date')
     .toArray()
 
-  // 按首个分类分组，保持「分类首次出现」的顺序
-  const groups = new Map()
+  // 语言 -> 分类两层分组，两层都保持「首次出现」的顺序（posts 已按 -date 排序）
+  const byLang = new Map()
   for (const post of posts) {
+    const code = postLang(post)
+    if (!byLang.has(code)) byLang.set(code, new Map())
+    const groups = byLang.get(code)
     const cats = post.categories && post.categories.length
       ? post.categories.map(c => c.name)
       : ['其他']
@@ -69,11 +85,17 @@ hexo.extend.generator.register('llms-txt', function (locals) {
   if (desc) lines.push('', `> ${stripText(desc)}`)
   lines.push('', `本文件为 AI / LLM 提供站点主要内容的结构化索引（llms.txt 提案格式）。站点：${config.url}`)
 
-  for (const [cat, list] of groups) {
-    lines.push('', `## ${cat}`, '')
-    for (const post of list) {
-      const s = summarize(post)
-      lines.push(`- [${post.title}](${post.permalink})${s ? ': ' + s : ''}`)
+  // 语言用 ## 标题、分类降为 ###；没有文章的语言不输出空章节
+  for (const code of langs.ALL_LANGS) {
+    const groups = byLang.get(code)
+    if (!groups || groups.size === 0) continue
+    lines.push('', `## ${langs.label(code)}`)
+    for (const [cat, list] of groups) {
+      lines.push('', `### ${cat}`, '')
+      for (const post of list) {
+        const s = summarize(post)
+        lines.push(`- [${post.title}](${post.permalink})${s ? ': ' + s : ''}`)
+      }
     }
   }
 

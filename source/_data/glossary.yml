@@ -1,0 +1,47 @@
+# 翻译术语表：锁死专有名词在各语言里的固定写法。
+# 每条会在翻译时作为强制要求注入提示词，防止模型自由发挥（例如把「原神」译成「ゴッド」）。
+# 键 = 中文原文；值 = 该语言里必须使用的写法。按语言分组。
+
+ja:
+  # 作品与角色
+  原神: 原神
+  亚丝娜: アスナ
+  桐人: キリト
+  刀剑神域: ソードアート・オンライン
+  缘之空: ヨスガノソラ
+  春日野穹: 春日野穹
+  流浪地球: 流転の地球
+  千恋万花: 千恋＊万花
+  三体: 三体
+  # 技术名词（日文技术写作里通常保留英文原词）
+  Hexo: Hexo
+  Butterfly: Butterfly
+  WordPress: WordPress
+  GitHub: GitHub
+  Live2D: Live2D
+  Twikoo: Twikoo
+  Aplayer: APlayer
+  Markdown: Markdown
+  VSCode: VS Code
+
+en:
+  # 作品与角色
+  原神: Genshin Impact
+  亚丝娜: Asuna
+  桐人: Kirito
+  刀剑神域: Sword Art Online
+  缘之空: Yosuga no Sora
+  春日野穹: Kasugano Sora
+  流浪地球: The Wandering Earth
+  千恋万花: Senren * Banka
+  三体: The Three-Body Problem
+  # 技术名词
+  Hexo: Hexo
+  Butterfly: Butterfly
+  WordPress: WordPress
+  GitHub: GitHub
+  Live2D: Live2D
+  Twikoo: Twikoo
+  Aplayer: APlayer
+  Markdown: Markdown
+  VSCode: VS Code

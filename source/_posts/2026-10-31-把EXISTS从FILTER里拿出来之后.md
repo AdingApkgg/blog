@@ -4,7 +4,7 @@ description: 一条统计 SQL 从 1.5 秒降到 0.64 秒，代价是发现 Postg
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
-keywords: 后端与数据, Postgres, SQL优化
+keywords: 技术开发, 后端与数据, Postgres, SQL优化
 abbrlink: 23192
 categories:
   - 技术开发

@@ -15,7 +15,7 @@ categories:
 tags:
   - ImageMagick
   - Windows
-keywords: 部署与运维, ImageMagick, Windows
+keywords: 技术开发, 部署与运维, ImageMagick, Windows
 date: 2023-01-31 04:00:00
 updated: 2023-01-31 04:00:00
 cover:

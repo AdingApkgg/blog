@@ -305,3 +305,26 @@ llm_tagging:
   model: "deepseek-v4-flash"
   endpoint: "https://api.deepseek.com/v1"
   max_tokens: 512
+
+# 多语言（中日英三语）
+# 中文是唯一人工维护的源，日英由 AI 依据中文生成后入库；详见 scripts/i18n/README.md
+# 译文以文件形式提交进仓库，构建时不会调用任何 API。
+i18n:
+  langs: [zh, ja, en]
+  # api_key 移至 _config.local.yml，可与 llm_tagging 共用同一个 key：
+  #   i18n:
+  #     api_key: "sk-..."
+  model: "deepseek-v4-flash"
+  endpoint: "https://api.deepseek.com/v1"
+  # 并发请求数，遇到限流就调小
+  concurrency: 3
+  # 正文分块阈值（字符），超长文章会被切开翻译
+  chunk_chars: 2000
+  # 注意：本端点的 deepseek-flash 是**推理模型**，会先产出 reasoning_content 再产出正文，
+  # max_tokens 要同时容纳推理和译文。设小了（例如 8192）长文会出现「正文为空」，
+  # 然后被当成失败反复重试，表现为长时间毫无进展。
+  max_tokens: 32768
+  # 正文超过这个长度就跳过（字符）。全文转载的三体三部曲正文合计 90 万字符，
+  # 占全部文章正文的 67%，逐块翻译会触发上千次 API 调用；这类受版权保护的作品
+  # 也不适合整篇搬运到别的语言。确需翻译可用 --only 点名，阈值会被绕过。
+  max_source_chars: 100000
