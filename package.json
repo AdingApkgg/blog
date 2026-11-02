@@ -22,7 +22,7 @@
     "hexo": "^8.1.2",
     "hexo-abbrlink": "^2.2.1",
     "hexo-all-minifier": "^0.5.7",
-    "hexo-blog-encrypt": "^4.0.3",
+    "hexo-blog-encrypt": "^4.1.0",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-deployer-git": "^4.0.0",
     "hexo-filter-nofollow": "^2.0.2",
