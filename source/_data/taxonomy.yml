@@ -351,3 +351,42 @@ tags:
   "飞行":
     ja: "飛行"
     en: "Flying"
+  "Backblaze B2":
+    ja: "Backblaze B2"
+    en: "Backblaze B2"
+  "Cloudflare":
+    ja: "Cloudflare"
+    en: "Cloudflare"
+  "DERP":
+    ja: "DERP"
+    en: "DERP"
+  "Playwright":
+    ja: "Playwright"
+    en: "Playwright"
+  "Tailscale":
+    ja: "Tailscale"
+    en: "Tailscale"
+  "对象存储":
+    ja: "オブジェクトストレージ"
+    en: "Object Storage"
+  "故障恢复":
+    ja: "障害復旧"
+    en: "Disaster Recovery"
+  "数据迁移":
+    ja: "データ移行"
+    en: "Data Migration"
+  "测试":
+    ja: "テスト"
+    en: "Testing"
+  "浏览器":
+    ja: "ブラウザ"
+    en: "Browser"
+  "磁盘满":
+    ja: "ディスク満杯"
+    en: "Disk Full"
+  "策略路由":
+    ja: "ポリシールーティング"
+    en: "Policy Routing"
+  "验收":
+    ja: "受け入れ検証"
+    en: "Acceptance Testing"
