@@ -10,7 +10,7 @@ lang: ja
 translation_of: _posts/2026-11-17-补丁打在boot上的时候工具还替它造了个ramdisk.md
 source_hash: 40b091796296
 translator: ai
-reviewed: false
+reviewed: true
 categories:
   - ツールとシステム
   - フラッシュ

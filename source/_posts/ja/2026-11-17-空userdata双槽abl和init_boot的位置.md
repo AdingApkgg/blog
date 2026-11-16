@@ -10,7 +10,7 @@ lang: ja
 translation_of: _posts/2026-11-17-空userdata双槽abl和init_boot的位置.md
 source_hash: 3a7818580d25
 translator: ai
-reviewed: false
+reviewed: true
 categories:
   - ツールとシステム
   - フラッシュ
@@ -26,13 +26,13 @@ date: 2026-11-17 12:55:00
 updated: 2026-11-17 12:55:00
 ---
 
-解锁のステップを終えると、画面にはオレンジ色の警告、5秒の待機、そしてシステムへ。ここまではすべて正常だ。
+アンロックのステップを終えると、画面にはオレンジ色の警告、5秒の待機、そしてシステムへ。ここまではすべて正常だ。
 
 問題はその直後に来る。この記事で記すのは3つの詰まりどころで、それらの共通点は**エラーメッセージが指す方向と本当の原因が違う**ということだ。
 
 ## 「Couldn't mount file system」はシステムの書き込み失敗ではない
 
-解锁は data を消去するので、data パーティションは空で、ファイルシステムもまだ作られていない。初めて recovery に入ったとき、下部に出る赤い文字が `Couldn't mount file system` だ。
+アンロックは data を消去するので、data パーティションは空で、ファイルシステムもまだ作られていない。初めて recovery に入ったとき、下部に出る赤い文字が `Couldn't mount file system` だ。
 
 system の書き込みに失敗したと誤解して、system を焼き直しに戻りがちだ。だが実際は不要で、system は正常、足りないのは data のフォーマットだ。
 
@@ -83,7 +83,7 @@ system の書き込みに失敗したと誤解して、system を焼き直しに
 「良くなったように見える」より信頼できる判断：
 
 ```sh
-adb shell getprop ro.boot.verifiedbootstate   # orange = 已解锁
+adb shell getprop ro.boot.verifiedbootstate   # orange = 已アンロック
 adb shell getprop ro.boot.flash.locked        # 0 = 未锁
 adb shell getprop sys.boot_completed          # 1 = 已正常开机
 ```
@@ -96,4 +96,4 @@ adb shell getprop sys.boot_completed          # 1 = 已正常开机
 
 `Couldn't mount file system` は壊れたシステムに見え、デュアルスロットは「どうせ一緒に書かれる」に見え、`fastboot fetch` は「コマンド1つの話」に見える。3つの錯覚の共通の結末は、5分の操作を1回の焼き直しに変えてしまうことだ。
 
-技術的ではないが同じくらい重要なもう1つ：解锁・書き込みから数日のうちは**システム更新を押すな**。OTA はパッチを上書きし、スロットを切り替え、ようやく把握したスロットをもう一度ひっくり返す。しかもメジャーバージョンは検証済みの方法までかき乱す。
+技術的ではないが同じくらい重要なもう1つ：アンロック・書き込みから数日のうちは**システム更新を押すな**。OTA はパッチを上書きし、スロットを切り替え、ようやく把握したスロットをもう一度ひっくり返す。しかもメジャーバージョンは検証済みの方法までかき乱す。

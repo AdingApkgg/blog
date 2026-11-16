@@ -11,7 +11,7 @@ lang: en
 translation_of: _posts/2026-11-17-空userdata双槽abl和init_boot的位置.md
 source_hash: 3a7818580d25
 translator: ai
-reviewed: false
+reviewed: true
 categories:
   - Tools & Systems
   - Flashing
