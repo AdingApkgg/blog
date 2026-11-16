@@ -64,6 +64,9 @@ categories:
   "成人向":
     ja: "成人向け"
     en: "Adult Content"
+  "刷机":
+    ja: "フラッシュ"
+    en: "Flashing"
 
 tags:
   "原神":
@@ -390,3 +393,51 @@ tags:
   "验收":
     ja: "受け入れ検証"
     en: "Acceptance Testing"
+  "fastboot":
+    ja: "fastboot"
+    en: "fastboot"
+  "init_boot":
+    ja: "init_boot"
+    en: "init_boot"
+  "Caddy":
+    ja: "Caddy"
+    en: "Caddy"
+  "chroot":
+    ja: "chroot"
+    en: "chroot"
+  "Debian":
+    ja: "Debian"
+    en: "Debian"
+  "KDE":
+    ja: "KDE"
+    en: "KDE"
+  "KernelSU":
+    ja: "KernelSU"
+    en: "KernelSU"
+  "PowerShell":
+    ja: "PowerShell"
+    en: "PowerShell"
+  "Root":
+    ja: "Root"
+    en: "Root"
+  "SukiSU":
+    ja: "SukiSU"
+    en: "SukiSU"
+  "Termux":
+    ja: "Termux"
+    en: "Termux"
+  "分区":
+    ja: "パーティション"
+    en: "Partition"
+  "小米":
+    ja: "Xiaomi"
+    en: "Xiaomi"
+  "恢复":
+    ja: "復旧"
+    en: "Recovery"
+  "解锁BL":
+    ja: "BLアンロック"
+    en: "Bootloader Unlock"
+  "退役清理":
+    ja: "退役クリーンアップ"
+    en: "Decommissioning Cleanup"
