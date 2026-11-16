@@ -7,12 +7,13 @@
     "clean": "hexo clean --config _config.yml,_config.local.yml",
     "deploy": "hexo deploy --config _config.yml,_config.local.yml",
     "server": "hexo server --config _config.yml,_config.local.yml",
-    "push": "hexo clean --config _config.yml,_config.local.yml && node link.js && hexo generate --config _config.yml,_config.local.yml && hexo swpp --config _config.yml,_config.local.yml && bash deploy.sh",
+    "push": "hexo clean --config _config.yml,_config.local.yml && node link.js && hexo generate --config _config.yml,_config.local.yml && hexo swpp --config _config.yml,_config.local.yml && bash deploy.sh && node tools/indexnow/submit.js",
     "dev": "hexo clean --config _config.yml,_config.local.yml && hexo server --config _config.yml,_config.local.yml",
     "i18n:plan": "node tools/i18n/translate.js plan",
     "i18n:run": "node tools/i18n/translate.js run",
     "i18n:status": "node tools/i18n/translate.js status",
-    "i18n:taxonomy": "node tools/i18n/taxonomy.js check"
+    "i18n:taxonomy": "node tools/i18n/taxonomy.js check",
+    "indexnow": "node tools/indexnow/submit.js"
   },
   "hexo": {
     "version": "8.1.2"

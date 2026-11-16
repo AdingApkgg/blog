@@ -1,6 +1,6 @@
 ---
-title: 补丁打在 boot 上的时候，工具还替它造了个 ramdisk
-description: 两轮「未安装」之后才承认刷错分区：GKI 设备的 ramdisk 在 init_boot、SukiSU 的 LKM 与 GKI 两条分支，以及每次 OTA 要重做的事
+title: 小米 13 与 Pad 6S Pro 打 root：补丁打在 boot 上的时候，工具还替它造了个 ramdisk
+description: 小米 13 与 Pad 6S Pro（HyperOS 3、GKI 内核 5.15.194）打持久 root：两轮「未安装」之后才承认刷错分区，GKI 设备的 ramdisk 在 init_boot、SukiSU 的 LKM 与 GKI 两条分支，以及每次 OTA 要重做的事
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
@@ -17,6 +17,8 @@ tags:
 date: 2026-11-17 13:30:00
 updated: 2026-11-17 13:30:00
 ---
+
+小米 13 和 Pad 6S Pro 都是 GKI 内核（5.15.194），ramdisk 在 `init_boot` 里，`boot` 只剩内核——这一点决定了补丁该打在哪个分区。
 
 平板先弄。解锁完、306 官方包刷回去、能正常开机，然后装 SukiSU，把原始 `boot.img` 放进 `/sdcard`，在 App 里选「选择并修补文件」。
 
@@ -80,3 +82,28 @@ SukiSU 的安装界面有两个容易混的入口：
 它确实补了，但补错了位置。GKI 设备的 ramdisk 只认 `init_boot` 里那一份，自造的顶不了。
 
 下一次遇到「工具很配合地自动补了个缺的东西」，先问一句：它补的位置，和系统实际去找的位置，是同一个吗。
+
+## 常见问题
+
+**Q：SukiSU 装完显示「未安装」，`su` 也没有，怎么回事？**
+几乎都是打错了分区。GKI 设备的 ramdisk 在 `init_boot`，打在 `boot` 上不会生效，工具只会自己造一个 ramdisk 顶上，装完照样未安装。改打 `init_boot.img`、刷 `init_boot_a/b`。
+
+**Q：补丁到底该打在 `boot` 还是 `init_boot`？**
+有 `init_boot` 分区就修 `init_boot`，只有 `boot` 分区时才修 `boot`。小米 13 和 Pad 6S Pro 都属于前者。
+
+**Q：系统更新之后 root 没了，正常吗？**
+正常。OTA 会覆盖打过补丁的 `init_boot`，恢复成官方镜像。要重做一轮：确定当前槽 → 取该槽的 `init_boot` → 打补丁 → 刷回同一个槽。
+
+## 相关
+
+- [小米 13（fuxi）OS3.0.309 解锁 BL：四条路里只有一条不赌主板](/p/77205/)
+- [小米 13 / Pad 6S Pro 解锁之后：空 userdata、双槽 abl 和 init_boot 的位置](/p/70289/)
+- [Pad 6S Pro 跑 KDE：能，但先把代价认了](/p/86020/)
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"SukiSU 装完显示「未安装」，su 也没有，怎么回事？","acceptedAnswer":{"@type":"Answer","text":"几乎都是打错了分区。GKI 设备的 ramdisk 在 init_boot，打在 boot 上不会生效，工具只会自己造一个 ramdisk 顶上，装完照样未安装。改打 init_boot.img、刷 init_boot_a 或 init_boot_b。"}},
+{"@type":"Question","name":"补丁到底该打在 boot 还是 init_boot？","acceptedAnswer":{"@type":"Answer","text":"有 init_boot 分区就修 init_boot，只有 boot 分区时才修 boot。小米 13 和 Pad 6S Pro 都属于前者。"}},
+{"@type":"Question","name":"系统更新之后 root 没了，正常吗？","acceptedAnswer":{"@type":"Answer","text":"正常。OTA 会覆盖打过补丁的 init_boot，恢复成官方镜像。要重做一轮：确定当前槽，取该槽的 init_boot，打补丁，刷回同一个槽。"}}
+]}
+</script>

@@ -1,6 +1,6 @@
 ---
-title: 空 userdata、双槽 abl 和 init_boot 的位置
-description: 解锁之后的三个卡点，以及「刷哪个分区」这件事到底怎么判断：A/B 槽、boot 与 init_boot、fastboot fetch 不支持的绕法
+title: 小米 13 / Pad 6S Pro 解锁之后：空 userdata、双槽 abl 和 init_boot 的位置
+description: 小米 13 与 Pad 6S Pro（HyperOS 3、309 / 306）解锁之后的三个卡点，以及「刷哪个分区」这件事到底怎么判断：A/B 槽、boot 与 init_boot、fastboot fetch 不支持的绕法
 top_img: false
 copyright_author: DeepSeek V4 Flash
 copyright_author_href: https://deepseek.com
@@ -18,7 +18,7 @@ date: 2026-11-17 12:55:00
 updated: 2026-11-17 12:55:00
 ---
 
-解锁那一步做完，屏幕上是橙色警告，五秒等待，然后进系统。到这儿一切正常。
+两台机器都是 HyperOS 3（小米 13 是 309、Pad 6S Pro 是 306），解锁那一步做完，屏幕上是橙色警告，五秒等待，然后进系统。到这儿一切正常。
 
 问题接着就来。这一篇记的是三个卡点，它们的共同点是：**报错信息指的方向和真正的原因不一样**。
 
@@ -89,3 +89,28 @@ adb shell getprop sys.boot_completed          # 1 = 已正常开机
 `Couldn't mount file system` 长得像坏系统，双槽长得像「反正会一起写」，`fastboot fetch` 长得像「一条命令的事」。三个假象的共同后果都是把一次五分钟的操作变成一次重刷。
 
 还有一条不在技术上但同样重要：解锁、刷完好几天之内**别点系统更新**。OTA 会覆盖补丁、切槽、把刚摸清的槽位再翻一遍，而且大版本还会把已经验证过的方法搅乱。
+
+## 常见问题
+
+**Q：解锁后进 recovery 提示 `Couldn't mount file system`，是系统刷坏了吗？**
+不是。解锁清空了 data，文件系统还没建。用音量键选 `Wipe Data` 格式化 data 再重启就行，system 是好的。
+
+**Q：`abl_a` 和 `abl_b` 都要刷吗？**
+都要。只写一个槽，另一槽还是官方版本，解锁后一旦切槽就会遇到两个槽的引导不一致。
+
+**Q：`fastboot fetch` 不支持，怎么把当前槽的 `init_boot` 取出来？**
+两条路：下完整的 6 GB 官方卡刷包解出来，或者再拿一次临时 root，用 root 权限 `dd` 出当前槽的内容。取出来之后一定要刷回同一个槽。
+
+## 相关
+
+- [小米 13（fuxi）OS3.0.309 解锁 BL：四条路里只有一条不赌主板](/p/77205/)
+- [小米 13 与 Pad 6S Pro 打 root：补丁打在 boot 上的时候，工具还替它造了个 ramdisk](/p/23011/)
+- [Pad 6S Pro 跑 KDE：能，但先把代价认了](/p/86020/)
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"解锁后进 recovery 提示 Couldn't mount file system，是系统刷坏了吗？","acceptedAnswer":{"@type":"Answer","text":"不是。解锁清空了 data，文件系统还没建。用音量键选 Wipe Data 格式化 data 再重启就行，system 是好的。"}},
+{"@type":"Question","name":"abl_a 和 abl_b 都要刷吗？","acceptedAnswer":{"@type":"Answer","text":"都要。只写一个槽，另一槽还是官方版本，解锁后一旦切槽就会遇到两个槽的引导不一致。"}},
+{"@type":"Question","name":"fastboot fetch 不支持，怎么把当前槽的 init_boot 取出来？","acceptedAnswer":{"@type":"Answer","text":"两条路：下完整的 6 GB 官方卡刷包解出来，或者再拿一次临时 root，用 root 权限 dd 出当前槽的内容。取出来之后一定要刷回同一个槽。"}}
+]}
+</script>
