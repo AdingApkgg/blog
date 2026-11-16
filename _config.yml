@@ -302,8 +302,8 @@ image_minifier:
 
 llm_tagging:
   api_key: ## 敏感值移至 _config.local.yml（模板见 _config.local.example.yml），构建时经 --config 合并
-  model: "deepseek-v4-flash"
-  endpoint: "https://api.deepseek.com/v1"
+  model: "deepseek-flash"
+  endpoint: "https://api.choosec.cn/v1"
   max_tokens: 512
 
 # 多语言（中日英三语）
