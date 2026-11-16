@@ -314,8 +314,9 @@ i18n:
   # api_key 移至 _config.local.yml，可与 llm_tagging 共用同一个 key：
   #   i18n:
   #     api_key: "sk-..."
-  model: "deepseek-v4-flash"
-  endpoint: "https://api.deepseek.com/v1"
+  # 走 choosec 的 ESA 加速线路；该线路在国内直连，无需代理
+  model: "deepseek-flash"
+  endpoint: "https://api.choosec.cn/v1"
   # 并发请求数，遇到限流就调小
   concurrency: 3
   # 正文分块阈值（字符），超长文章会被切开翻译
